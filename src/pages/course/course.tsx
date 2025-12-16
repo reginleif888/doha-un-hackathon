@@ -59,7 +59,7 @@ export const CoursePage = () => {
               {course.title}
             </h1>
             <p className="text-xs sm:text-sm text-muted-foreground">
-              {course.topics.length} topics • {course.totalXp} XP total
+              {course.topics.length} topics • {course.totalKt} KT total
             </p>
           </div>
         </div>

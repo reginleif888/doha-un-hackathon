@@ -15,7 +15,7 @@ import type { InfoModule as InfoModuleType } from "@/shared/types";
 interface InfoModuleProps {
   module: InfoModuleType;
   isCompleted: boolean;
-  onComplete: () => { xpEarned: number; totalXp: number };
+  onComplete: () => { ktEarned: number; totalKt: number };
   onContinue: () => void;
   isLastModule: boolean;
 }
@@ -28,7 +28,6 @@ export const InfoModule = ({
   isLastModule,
 }: InfoModuleProps) => {
   const [showCompletion, setShowCompletion] = useState(false);
-  const [xpEarned, setXpEarned] = useState(0);
   const userProfile = userService.getUserProfile();
 
   useEffect(() => {
@@ -36,8 +35,7 @@ export const InfoModule = ({
   }, [module.id]);
 
   const handleMarkComplete = () => {
-    const result = onComplete();
-    setXpEarned(result.xpEarned);
+    onComplete();
     setShowCompletion(true);
   };
 
@@ -161,7 +159,7 @@ export const InfoModule = ({
                 <CheckCircle2Icon className="w-8 h-8 sm:w-10 sm:h-10 text-success" />
               </div>
             </div>
-            <div className="mb-4 sm:mb-6">
+            <div className="mb-6 sm:mb-8">
               <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-foreground mb-2">
                 Module Completed!
               </h2>
@@ -169,16 +167,6 @@ export const InfoModule = ({
                 You have successfully completed this module.
               </p>
             </div>
-            {xpEarned > 0 && (
-              <div className="mb-6 sm:mb-8">
-                <div className="inline-flex items-center justify-center gap-2 py-2.5 sm:py-3 px-4 sm:px-6 bg-warning/10 rounded-lg">
-                  <StarIcon className="w-4 h-4 sm:w-5 sm:h-5 text-warning" />
-                  <span className="text-sm sm:text-base font-semibold text-foreground">
-                    +{xpEarned} XP earned
-                  </span>
-                </div>
-              </div>
-            )}
             <div>
               <Button onClick={onContinue} size="lg" className="h-10 sm:h-11 text-sm sm:text-base">
                 {isLastModule ? "Finish Lesson" : "Continue"}
@@ -202,11 +190,6 @@ export const InfoModule = ({
             {module.description}
           </p>
         )}
-        <div className="flex items-center gap-2 mt-2 sm:mt-3">
-          <span className="text-[10px] sm:text-xs px-2 py-1 bg-brand-50 text-primary rounded">
-            +{module.xp} XP
-          </span>
-        </div>
       </div>
 
       {module.video && (

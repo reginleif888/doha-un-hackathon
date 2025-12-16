@@ -296,7 +296,7 @@ export const CourseSidebar = ({ onClose }: CourseSidebarProps) => {
                           {module.title}
                         </span>
                         <span className="text-[10px] opacity-70 shrink-0">
-                          +{module.xp}
+                          +{module.kt}
                         </span>
                       </Link>
                     </TooltipTrigger>
@@ -309,7 +309,7 @@ export const CourseSidebar = ({ onClose }: CourseSidebarProps) => {
                       ) : (
                         <p className="text-xs text-muted-foreground mt-1">
                           {moduleCompleted ? "Completed" : "Not started"} •{" "}
-                          {module.xp} XP
+                          {module.kt} KT
                         </p>
                       )}
                     </TooltipContent>

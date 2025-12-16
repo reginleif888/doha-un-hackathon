@@ -167,7 +167,7 @@ export const LessonPage = () => {
                         {moduleTypeLabels[module.type]}
                       </span>
                       <span className="text-[10px] sm:text-xs text-primary font-medium">
-                        +{module.xp} XP
+                        +{module.kt} KT
                       </span>
                     </div>
                     <h3 className="text-sm sm:text-base font-semibold text-foreground truncate">

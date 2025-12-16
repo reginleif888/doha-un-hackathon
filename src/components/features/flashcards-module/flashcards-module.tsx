@@ -23,7 +23,7 @@ interface FlashcardsModuleProps {
   topicId: string;
   lessonId: string;
   isCompleted: boolean;
-  onComplete: () => { xpEarned: number; totalXp: number };
+  onComplete: () => { ktEarned: number; totalKt: number };
   onContinue: () => void;
   isLastModule: boolean;
 }
@@ -42,7 +42,6 @@ export const FlashcardsModule = ({
   const [viewedCards, setViewedCards] = useState<Set<string>>(new Set());
   const [savedCards, setSavedCards] = useState<Set<string>>(new Set());
   const [showCompletion, setShowCompletion] = useState(false);
-  const [xpEarned, setXpEarned] = useState(0);
 
   useEffect(() => {
     setShowCompletion(false);
@@ -112,8 +111,7 @@ export const FlashcardsModule = ({
   };
 
   const handleComplete = () => {
-    const result = onComplete();
-    setXpEarned(result.xpEarned);
+    onComplete();
     setShowCompletion(true);
   };
 
@@ -127,7 +125,7 @@ export const FlashcardsModule = ({
                 <CheckCircle2Icon className="w-8 h-8 sm:w-10 sm:h-10 text-success" />
               </div>
             </div>
-            <div className="mb-4 sm:mb-6">
+            <div className="mb-6 sm:mb-8">
               <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-foreground mb-2">
                 Flashcards Completed!
               </h2>
@@ -135,16 +133,6 @@ export const FlashcardsModule = ({
                 You have reviewed all {totalCards} flashcards.
               </p>
             </div>
-            {xpEarned > 0 && (
-              <div className="mb-6 sm:mb-8">
-                <div className="inline-flex items-center justify-center gap-2 py-2.5 sm:py-3 px-4 sm:px-6 bg-warning/10 rounded-lg">
-                  <StarIcon className="w-4 h-4 sm:w-5 sm:h-5 text-warning" />
-                  <span className="text-sm sm:text-base font-semibold text-foreground">
-                    +{xpEarned} XP earned
-                  </span>
-                </div>
-              </div>
-            )}
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button
                 variant="outline"

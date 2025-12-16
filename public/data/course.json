@@ -2,7 +2,7 @@
   "id": "uncac-course",
   "title": "United Nations Convention against Corruption",
   "description": "Comprehensive course on the UN Convention against Corruption - understanding the global framework for preventing and combating corruption through international cooperation.",
-  "totalXp": 1065,
+  "totalKt": 1065,
   "topics": [
     {
       "id": "topic-1",
@@ -25,7 +25,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-1-1-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-1-1-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-1-1-1",
@@ -33,7 +33,7 @@
               "title": "Why the Convention Exists",
               "description": "Understanding the global corruption problem that necessitated this Convention",
               "content": "## The Corruption Problem\n\nThe Preamble to the Convention begins by acknowledging the severe reality of corruption in our world. According to the States Parties, corruption poses serious **problems and threats** to societies in multiple ways.\n\n### Impact on Democracy and Justice\n\nCorruption undermines the very foundations of society. The Convention recognizes that it:\n\n- **Undermines institutions and values of democracy**\n- **Undermines ethical values and justice**\n- **Jeopardizes sustainable development**\n- **Jeopardizes the rule of law**\n\n### Links to Other Crimes\n\nThe Convention acknowledges that corruption doesn't exist in isolation. The Preamble notes concerns about **links between corruption and other forms of crime**, particularly:\n\n- Organized crime\n- Economic crime\n- Money-laundering\n\n### Vast Asset Transfers\n\nOne particularly alarming aspect highlighted in the Preamble is that corruption can involve **vast quantities of assets** which may constitute a substantial proportion of State resources. This threatens the political stability and sustainable development of affected States.\n\n### A Transnational Phenomenon\n\nPerhaps most importantly, the Convention emphasizes that **corruption is no longer a local matter but a transnational phenomenon** that affects all societies and economies. This reality makes international cooperation essential to prevent and control it.\n\n## Why a Comprehensive Approach is Needed\n\nThe States Parties are convinced that fighting corruption requires:\n\n1. **A comprehensive and multidisciplinary approach** - no single strategy is sufficient\n2. **Technical assistance** - helping states build capacity and institutions\n3. **International cooperation** - particularly for asset recovery\n\nThe Preamble emphasizes that **illicit acquisition of personal wealth** can be particularly damaging to democratic institutions, national economies, and the rule of law.\n\n## A Shared Responsibility\n\nThe Convention recognizes that preventing and eradicating corruption is **a responsibility of all States**. Success requires:\n\n- Cooperation among states\n- Support and involvement of civil society\n- Involvement of non-governmental organizations\n- Participation of community-based organizations\n\nThe Convention also calls for proper management of public affairs and public property, fairness, responsibility, equality before the law, and the need to **foster a culture of rejection of corruption**.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-1-1-2",
@@ -41,7 +41,64 @@
               "title": "The Three Purposes of the Convention",
               "description": "Understanding what the Convention aims to accomplish",
               "content": "## Statement of Purpose\n\nArticle 1 of the Convention clearly defines three core purposes that guide everything the Convention seeks to achieve.\n\n### Purpose 1: Promote and Strengthen Anti-Corruption Measures\n\nAccording to Article 1(a), the Convention aims:\n\n> \"To promote and strengthen measures to prevent and combat corruption more efficiently and effectively\"\n\nThis purpose focuses on helping countries develop better tools and strategies to fight corruption. The key words here are \"efficiently\" and \"effectively\" - it's not just about having measures in place, but ensuring they actually work.\n\n### Purpose 2: International Cooperation and Technical Assistance\n\nArticle 1(b) establishes the second purpose:\n\n> \"To promote, facilitate and support international cooperation and technical assistance in the prevention of and fight against corruption, including in asset recovery\"\n\nThis purpose recognizes that:\n\n- Countries need to work together to combat corruption\n- Technical assistance helps build capacity\n- Asset recovery is a critical component requiring cooperation\n- Some countries may need support to implement anti-corruption measures\n\n**Asset recovery** is specifically mentioned, highlighting its importance as a key objective of international cooperation.\n\n### Purpose 3: Integrity and Proper Management\n\nThe third purpose, outlined in Article 1(c), is:\n\n> \"To promote integrity, accountability and proper management of public affairs and public property\"\n\nThis purpose emphasizes fundamental principles of good governance:\n\n- **Integrity** - honesty and ethical conduct in public service\n- **Accountability** - being answerable for decisions and actions\n- **Proper management** - responsible handling of public affairs and property\n\n## How These Purposes Work Together\n\nThese three purposes are interconnected:\n\n1. **Strengthening measures** provides the tools\n2. **International cooperation** enables countries to work together and share resources\n3. **Promoting integrity** addresses the cultural and ethical foundations\n\nTogether, they create a comprehensive framework for addressing corruption at multiple levels - from practical law enforcement to fundamental values and international collaboration.\n\n## The Convention as a Living Framework\n\nThese purposes aren't just aspirational statements. They provide the foundation for all the specific measures, requirements, and mechanisms detailed in the Convention's 71 articles. Every provision in the Convention can be traced back to serving one or more of these core purposes.",
-              "xp": 15
+              "kt": 15
+            },
+            {
+              "id": "module-1-1-flashcards",
+              "type": "flashcards",
+              "title": "Key Concepts Flashcards",
+              "description": "Review and memorize essential concepts from this lesson",
+              "cards": [
+                {
+                  "id": "fc-1-1-1",
+                  "front": "What is corruption's scope according to the Convention?",
+                  "back": "A transnational phenomenon that affects all societies and economies, making international cooperation essential to prevent and control it.",
+                  "emoji": "🌍"
+                },
+                {
+                  "id": "fc-1-1-2",
+                  "front": "What does corruption undermine in society?",
+                  "back": "Institutions and values of democracy, ethical values and justice, sustainable development, and the rule of law.",
+                  "emoji": "⚖️"
+                },
+                {
+                  "id": "fc-1-1-3",
+                  "front": "What is the first purpose of the Convention (Article 1a)?",
+                  "back": "To promote and strengthen measures to prevent and combat corruption more efficiently and effectively.",
+                  "emoji": "🎯"
+                },
+                {
+                  "id": "fc-1-1-4",
+                  "front": "What is the second purpose of the Convention (Article 1b)?",
+                  "back": "To promote, facilitate and support international cooperation and technical assistance in the prevention of and fight against corruption, including asset recovery.",
+                  "emoji": "🤝"
+                },
+                {
+                  "id": "fc-1-1-5",
+                  "front": "What is the third purpose of the Convention (Article 1c)?",
+                  "back": "To promote integrity, accountability and proper management of public affairs and public property.",
+                  "emoji": "💼"
+                },
+                {
+                  "id": "fc-1-1-6",
+                  "front": "What other crimes is corruption linked to?",
+                  "back": "Organized crime, economic crime, and money-laundering.",
+                  "emoji": "🔗"
+                },
+                {
+                  "id": "fc-1-1-7",
+                  "front": "Why is a comprehensive approach needed to fight corruption?",
+                  "back": "Because no single strategy is sufficient - it requires a comprehensive and multidisciplinary approach, technical assistance, and international cooperation.",
+                  "emoji": "📊"
+                },
+                {
+                  "id": "fc-1-1-8",
+                  "front": "Who has responsibility for preventing corruption?",
+                  "back": "All States, along with cooperation from civil society, non-governmental organizations, and community-based organizations.",
+                  "emoji": "👥"
+                }
+              ],
+              "kt": 20
             },
             {
               "id": "module-1-1-quiz",
@@ -134,65 +191,8 @@
                   "explanation": "According to Article 1, the three purposes are: (a) promoting and strengthening anti-corruption measures, (b) promoting international cooperation and technical assistance including asset recovery, and (c) promoting integrity, accountability and proper management of public affairs and property."
                 }
               ],
-              "passingScore": 70,
-              "xp": 25
-            },
-            {
-              "id": "module-1-1-flashcards",
-              "type": "flashcards",
-              "title": "Key Concepts Flashcards",
-              "description": "Review and memorize essential concepts from this lesson",
-              "cards": [
-                {
-                  "id": "fc-1-1-1",
-                  "front": "What is corruption's scope according to the Convention?",
-                  "back": "A transnational phenomenon that affects all societies and economies, making international cooperation essential to prevent and control it.",
-                  "emoji": "🌍"
-                },
-                {
-                  "id": "fc-1-1-2",
-                  "front": "What does corruption undermine in society?",
-                  "back": "Institutions and values of democracy, ethical values and justice, sustainable development, and the rule of law.",
-                  "emoji": "⚖️"
-                },
-                {
-                  "id": "fc-1-1-3",
-                  "front": "What is the first purpose of the Convention (Article 1a)?",
-                  "back": "To promote and strengthen measures to prevent and combat corruption more efficiently and effectively.",
-                  "emoji": "🎯"
-                },
-                {
-                  "id": "fc-1-1-4",
-                  "front": "What is the second purpose of the Convention (Article 1b)?",
-                  "back": "To promote, facilitate and support international cooperation and technical assistance in the prevention of and fight against corruption, including asset recovery.",
-                  "emoji": "🤝"
-                },
-                {
-                  "id": "fc-1-1-5",
-                  "front": "What is the third purpose of the Convention (Article 1c)?",
-                  "back": "To promote integrity, accountability and proper management of public affairs and public property.",
-                  "emoji": "💼"
-                },
-                {
-                  "id": "fc-1-1-6",
-                  "front": "What other crimes is corruption linked to?",
-                  "back": "Organized crime, economic crime, and money-laundering.",
-                  "emoji": "🔗"
-                },
-                {
-                  "id": "fc-1-1-7",
-                  "front": "Why is a comprehensive approach needed to fight corruption?",
-                  "back": "Because no single strategy is sufficient - it requires a comprehensive and multidisciplinary approach, technical assistance, and international cooperation.",
-                  "emoji": "📊"
-                },
-                {
-                  "id": "fc-1-1-8",
-                  "front": "Who has responsibility for preventing corruption?",
-                  "back": "All States, along with cooperation from civil society, non-governmental organizations, and community-based organizations.",
-                  "emoji": "👥"
-                }
-              ],
-              "xp": 20
+              "passingScore": 65,
+              "kt": 25
             }
           ]
         },
@@ -211,7 +211,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-1-2-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-1-2-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-1-2-1",
@@ -219,7 +219,7 @@
               "title": "Defining Public Officials",
               "description": "Understanding who is considered a public official under the Convention",
               "content": "## Public Officials - The Core Definition\n\nArticle 2 provides detailed definitions for the different types of officials covered by the Convention. Understanding these definitions is crucial because many of the Convention's provisions apply specifically to these categories of individuals.\n\n### Public Official\n\nAccording to Article 2(a), a \"public official\" has a broad definition with three components:\n\n#### Component 1: Office Holders\n\nAny person holding a **legislative, executive, administrative or judicial office** of a State Party, with the following characteristics:\n\n- Whether **appointed or elected**\n- Whether **permanent or temporary**\n- Whether **paid or unpaid**\n- **Irrespective of that person's seniority**\n\nThis means even temporary, unpaid, or junior officials are covered.\n\n#### Component 2: Public Function Performers\n\nAny other person who **performs a public function**, including for a public agency or public enterprise, or **provides a public service**, as defined in the domestic law of the State Party.\n\n#### Component 3: Domestic Law Definitions\n\nAny other person defined as a \"public official\" in the domestic law of a State Party.\n\n**Important Note**: For some specific preventive measures in Chapter II, \"public official\" may have a narrower meaning based on domestic law.\n\n### Foreign Public Official\n\nArticle 2(b) defines \"foreign public official\" as:\n\n- Any person holding a **legislative, executive, administrative or judicial office of a foreign country**, whether appointed or elected\n- Any person **exercising a public function for a foreign country**, including for a public agency or public enterprise\n\n### Official of a Public International Organization\n\nAccording to Article 2(c), this means:\n\n- An **international civil servant**\n- Any person **authorized by such an organization to act on behalf of that organization**\n\nThis covers officials from organizations like the United Nations, World Bank, regional development banks, etc.\n\n## Why These Definitions Matter\n\nThe Convention criminalizes various forms of corruption involving these officials. By providing clear, comprehensive definitions, the Convention ensures:\n\n- **Broad coverage** - preventing loopholes based on narrow definitions\n- **Clarity** - states know exactly who is covered\n- **Consistency** - common understanding across different legal systems\n- **Flexibility** - acknowledging domestic law variations while maintaining core standards",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-1-2-2",
@@ -227,7 +227,7 @@
               "title": "Property, Assets, and Proceeds of Crime",
               "description": "Understanding what the Convention means by property and criminal proceeds",
               "content": "## Defining Assets and Property\n\nThe Convention needs clear definitions of what can be subject to freezing, seizure, confiscation, and recovery. Article 2 provides these crucial definitions.\n\n### Property\n\nAccording to Article 2(d), \"property\" means:\n\n> \"Assets of every kind, whether corporeal or incorporeal, movable or immovable, tangible or intangible, and legal documents or instruments evidencing title to or interest in such assets\"\n\nThis is an **extremely broad definition** that includes:\n\n**Physical Assets:**\n- Corporeal (having physical form)\n- Movable (can be moved) or immovable (like real estate)\n- Tangible (can be touched)\n\n**Non-Physical Assets:**\n- Incorporeal (no physical form - like rights, patents, trademarks)\n- Intangible (cannot be touched - like bank accounts, stocks, intellectual property)\n\n**Documentation:**\n- Legal documents\n- Instruments evidencing title or interest\n\nThis comprehensive definition ensures that corrupt officials cannot hide ill-gotten gains in any form of asset.\n\n### Proceeds of Crime\n\nArticle 2(e) defines \"proceeds of crime\" as:\n\n> \"Any property derived from or obtained, directly or indirectly, through the commission of an offence\"\n\nKey aspects:\n\n- **Direct proceeds**: Property obtained immediately from the crime (e.g., a bribe payment)\n- **Indirect proceeds**: Property obtained through subsequent transactions (e.g., real estate bought with bribe money)\n\nThis definition is critical for money-laundering provisions and asset recovery efforts.\n\n### Predicate Offence\n\nAccording to Article 2(h), a \"predicate offence\" is:\n\n> \"Any offence as a result of which proceeds have been generated that may become the subject of an offence as defined in article 23 of this Convention\"\n\nArticle 23 deals with money laundering. A predicate offence is the underlying crime that generated the proceeds that are then laundered. For example:\n\n- If a public official takes a bribe (predicate offence)\n- Then uses a shell company to hide the money (money laundering)\n\nUnderstanding this relationship is essential for comprehending the Convention's anti-money laundering provisions.\n\n## Why Comprehensive Definitions Matter\n\n**Preventing loopholes**: Corrupt actors are creative in hiding assets. Broad definitions prevent them from claiming certain types of property aren't covered.\n\n**Cross-border clarity**: Different countries have different legal systems. These definitions create a common language for international cooperation.\n\n**Effective recovery**: To recover stolen assets, authorities need clear legal authority over all forms of property.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-1-2-3",
@@ -235,7 +235,7 @@
               "title": "Procedural and Enforcement Terms",
               "description": "Understanding the mechanisms for restraining and recovering illicit assets",
               "content": "## Law Enforcement Procedures\n\nThe Convention defines several key procedural terms that are essential for law enforcement and asset recovery efforts.\n\n### Freezing or Seizure\n\nArticle 2(f) defines \"freezing\" or \"seizure\" as:\n\n> \"Temporarily prohibiting the transfer, conversion, disposition or movement of property or temporarily assuming custody or control of property on the basis of an order issued by a court or other competent authority\"\n\n**Key characteristics:**\n\n- **Temporary measure**: Not permanent\n- **Multiple forms**: Can mean prohibiting transactions OR taking custody\n- **Authority required**: Must be based on a court or competent authority order\n- **Preservative purpose**: Prevents property from disappearing while investigation/prosecution proceeds\n\n**What freezing/seizure prevents:**\n- Transfer to another person\n- Conversion to different forms\n- Disposition (sale, gift, etc.)\n- Movement to another location\n\n### Confiscation\n\nAccording to Article 2(g), \"confiscation\" (which includes forfeiture where applicable) means:\n\n> \"The permanent deprivation of property by order of a court or other competent authority\"\n\n**Distinguishing confiscation from freezing/seizure:**\n\n| Freezing/Seizure | Confiscation |\n|-----------------|-------------|\n| Temporary | **Permanent** |\n| Preserves property | **Transfers ownership** |\n| During investigation/prosecution | After conviction/determination |\n| Property may be returned | Property taken permanently |\n\n**Requirements:**\n- Must be by order of a court or other competent authority\n- Results in permanent loss of property rights\n- Includes \"forfeiture\" where that term is used in domestic law\n\n### Controlled Delivery\n\nArticle 2(i) defines \"controlled delivery\" as:\n\n> \"The technique of allowing illicit or suspect consignments to pass out of, through or into the territory of one or more States, with the knowledge and under the supervision of their competent authorities, with a view to the investigation of an offence and the identification of persons involved in the commission of the offence\"\n\nThis is a sophisticated investigative technique where authorities:\n\n- **Allow suspected illegal shipments to continue moving**\n- **Monitor the shipment** throughout its journey\n- **Coordinate across borders** if it crosses multiple territories\n- **Identify the network** of people involved\n- **Gather evidence** for prosecution\n\nThis technique is particularly useful for:\n- Identifying entire criminal networks rather than just one person\n- Gathering evidence of international cooperation in crimes\n- Catching higher-level organizers, not just couriers\n\n## The Progression of Asset Control\n\nThese mechanisms typically work in sequence:\n\n1. **Detection**: Authorities identify suspected proceeds of corruption\n2. **Freezing/Seizure**: Immediate action to prevent asset disposal\n3. **Investigation/Prosecution**: Legal proceedings to establish the offense\n4. **Confiscation**: Permanent deprivation if offense is proven\n5. **Return/Disposal**: Asset returned to victim state or disposed of per Convention\n\nUnderstanding these terms and procedures is essential for comprehending how the Convention enables practical action against corruption.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-1-2-flashcards",
@@ -280,7 +280,7 @@
                   "emoji": "🌍"
                 }
               ],
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-1-2-quiz",
@@ -373,8 +373,8 @@
                   "explanation": "According to Article 2(e), proceeds of crime means any property derived from or obtained, directly or indirectly, through the commission of an offence. This broad definition includes both direct and indirect proceeds."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         },
@@ -393,7 +393,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-1-3-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-1-3-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-1-3-1",
@@ -401,7 +401,7 @@
               "title": "Scope of Application",
               "description": "Understanding what the Convention covers",
               "content": "## What Does the Convention Apply To?\n\nArticle 3 defines the scope of application for the entire Convention. Understanding this scope is crucial for knowing when and how the Convention's provisions are triggered.\n\n### The Four Key Areas of Application\n\nAccording to Article 3, paragraph 1, the Convention applies to:\n\n1. **Prevention** of corruption\n2. **Investigation** of corruption\n3. **Prosecution** of corruption\n4. **Freezing, seizure, confiscation and return** of the proceeds of offences established in accordance with the Convention\n\nThis creates a complete cycle from prevention through enforcement to asset recovery.\n\n### Breaking Down Each Component\n\n#### Prevention\n\nThe Convention applies to measures designed to stop corruption before it happens. This includes:\n\n- Developing anti-corruption policies (which we'll study in Chapter II)\n- Establishing preventive bodies\n- Creating codes of conduct\n- Enhancing transparency\n- Engaging civil society\n\nPrevention is considered a foundational element - it's better to stop corruption from occurring than to prosecute it afterward.\n\n#### Investigation\n\nThe Convention governs how corruption offenses are investigated, including:\n\n- Investigative powers and techniques\n- Specialized anti-corruption authorities\n- Cooperation between domestic agencies\n- International investigative cooperation\n- Special investigative techniques\n\n#### Prosecution\n\nThe Convention applies to the prosecution of corruption offenses, covering:\n\n- Criminal proceedings\n- Standards for prosecution\n- Adjudication procedures\n- Sanctions and penalties\n- Protection of witnesses and victims\n\n#### Asset Recovery Cycle\n\nThe Convention comprehensively addresses the entire asset recovery process:\n\n- **Freezing**: Temporarily restraining assets\n- **Seizure**: Taking custody of assets\n- **Confiscation**: Permanently depriving offenders of assets\n- **Return**: Restoring assets to their rightful owners or victim countries\n\n### An Important Clarification\n\nArticle 3, paragraph 2, provides an important practical note:\n\n> \"For the purposes of implementing this Convention, it shall not be necessary, except as otherwise stated herein, for the offences set forth in it to result in damage or harm to state property.\"\n\nWhat this means:\n\n- Corruption offenses can be prosecuted even if they don't directly harm state property\n- The focus is on the corrupt act itself, not solely on its impact\n- Some offenses may harm private parties or involve attempted corruption\n- This prevents a loophole where offenders could argue \"no harm, no crime\"\n\n**Example to illustrate**: If a public official solicits a bribe but the deal falls through and no state property is harmed, the solicitation itself is still an offense under the Convention.\n\n## The Convention's Comprehensive Approach\n\nBy covering prevention, investigation, prosecution, and asset recovery, the Convention takes a **complete lifecycle approach** to fighting corruption. It's not just about punishment - it's about:\n\n- Stopping corruption before it starts (prevention)\n- Detecting it when it occurs (investigation)\n- Holding offenders accountable (prosecution)\n- Restoring what was stolen (asset recovery)\n\nThis comprehensive scope makes the Convention a powerful tool in the global fight against corruption.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-1-3-2",
@@ -409,7 +409,40 @@
               "title": "Protection of Sovereignty",
               "description": "How the Convention respects state sovereignty while promoting cooperation",
               "content": "## Balancing Cooperation and Sovereignty\n\nArticle 4 addresses one of the most important and sensitive aspects of the Convention: how to promote international cooperation in fighting corruption while respecting the sovereignty of each State Party.\n\n### The Fundamental Principle\n\nArticle 4, paragraph 1, establishes the governing principle:\n\n> \"States Parties shall carry out their obligations under this Convention in a manner consistent with the principles of sovereign equality and territorial integrity of States and that of non-intervention in the domestic affairs of other States.\"\n\nThis paragraph establishes three core principles:\n\n#### 1. Sovereign Equality\n\n**Meaning**: All States Parties are equal under the Convention regardless of size, wealth, or power.\n\n**Practical implications**:\n- No state has superior authority to dictate how others implement the Convention\n- Each state has an equal voice in the Conference of States Parties\n- Large and small states have the same rights and obligations\n\n#### 2. Territorial Integrity\n\n**Meaning**: The physical boundaries and territorial control of each state must be respected.\n\n**Practical implications**:\n- States cannot take unilateral enforcement action in another state's territory\n- Cross-border operations require consent and cooperation\n- Each state maintains control over its own territory\n\n#### 3. Non-Intervention in Domestic Affairs\n\n**Meaning**: States cannot interfere in the internal matters of other states.\n\n**Practical implications**:\n- Implementation methods are decided by each state according to its domestic law\n- States retain discretion on how to fulfill Convention obligations\n- The Convention doesn't override domestic legal and political systems\n\n### The Bright Line Rule\n\nArticle 4, paragraph 2, establishes a clear prohibition:\n\n> \"Nothing in this Convention shall entitle a State Party to undertake in the territory of another State the exercise of jurisdiction and performance of functions that are reserved exclusively for the authorities of that other State by its domestic law.\"\n\n**What this means in practice**:\n\n❌ **A State Party CANNOT**:\n- Send its police to arrest someone in another state's territory\n- Execute search warrants in another country\n- Seize assets located in another jurisdiction\n- Conduct investigations on foreign soil without permission\n\n✅ **A State Party CAN**:\n- Request mutual legal assistance\n- Seek extradition through proper channels\n- Cooperate with foreign authorities who take action in their territory\n- Share information within established frameworks\n\n### Why This Balance Matters\n\nThe Convention had to strike a careful balance:\n\n**The Challenge**: Corruption is transnational. Corrupt officials hide assets across borders. Criminal networks operate internationally. Effective anti-corruption efforts require crossing borders.\n\n**The Reality**: States are sovereign. No country wants foreign law enforcement operating unilaterally on its soil. Domestic legal systems differ significantly.\n\n**The Solution**: The Convention creates mechanisms for cooperation (extradition, mutual legal assistance, joint investigations) while requiring states to respect each other's sovereignty. Cooperation is mandatory; unilateral action is prohibited.\n\n## Sovereignty in Practice\n\nThroughout the Convention, you'll see this balance reflected:\n\n- Many provisions say \"in accordance with its domestic law\" - giving states flexibility in implementation\n- Cooperation mechanisms are based on requests, not unilateral action\n- States can set conditions on assistance based on their legal systems\n- Implementation is monitored collectively through the Conference of States Parties\n\n### The Convention's Wisdom\n\nBy respecting sovereignty while requiring cooperation, the Convention gained widespread acceptance. As of today, it has been adopted by the vast majority of UN member states. This wouldn't have been possible if the Convention had attempted to override national sovereignty.\n\nThe message is clear: **Fighting corruption requires international cooperation, but that cooperation must be built on mutual respect and consent, not coercion.**",
-              "xp": 15
+              "kt": 15
+            },
+            {
+              "id": "module-1-3-flashcards",
+              "type": "flashcards",
+              "title": "Scope and Sovereignty Review",
+              "description": "Reinforce your understanding of Articles 3 and 4",
+              "cards": [
+                {
+                  "id": "card-1-3-1",
+                  "front": "What are the four areas the Convention applies to according to Article 3?",
+                  "back": "Prevention, investigation, and prosecution of corruption, and the freezing, seizure, confiscation and return of proceeds of offences established in accordance with the Convention.",
+                  "emoji": "🎯"
+                },
+                {
+                  "id": "card-1-3-2",
+                  "front": "What three principles must States follow when carrying out Convention obligations (Article 4)?",
+                  "back": "Sovereign equality of States, territorial integrity of States, and non-intervention in the domestic affairs of other States.",
+                  "emoji": "⚖️"
+                },
+                {
+                  "id": "card-1-3-3",
+                  "front": "Can States unilaterally exercise jurisdiction in another State's territory under the Convention?",
+                  "back": "No. Article 4, paragraph 2 states that nothing in the Convention entitles a State to undertake in another State's territory functions reserved exclusively for that State's authorities by its domestic law.",
+                  "emoji": "🚫"
+                },
+                {
+                  "id": "card-1-3-4",
+                  "front": "Must corruption offences harm state property to be prosecuted (Article 3)?",
+                  "back": "No. Article 3, paragraph 2 states that except as otherwise stated, it is not necessary for offences to result in damage or harm to state property for purposes of implementing the Convention.",
+                  "emoji": "📋"
+                }
+              ],
+              "kt": 15
             },
             {
               "id": "module-1-3-quiz",
@@ -530,41 +563,8 @@
                   "explanation": "According to Article 4, paragraph 2, nothing in the Convention entitles a State Party to undertake in another State's territory the exercise of jurisdiction and performance of functions reserved exclusively for that State's authorities by its domestic law."
                 }
               ],
-              "passingScore": 70,
-              "xp": 25
-            },
-            {
-              "id": "module-1-3-flashcards",
-              "type": "flashcards",
-              "title": "Scope and Sovereignty Review",
-              "description": "Reinforce your understanding of Articles 3 and 4",
-              "cards": [
-                {
-                  "id": "card-1-3-1",
-                  "front": "What are the four areas the Convention applies to according to Article 3?",
-                  "back": "Prevention, investigation, and prosecution of corruption, and the freezing, seizure, confiscation and return of proceeds of offences established in accordance with the Convention.",
-                  "emoji": "🎯"
-                },
-                {
-                  "id": "card-1-3-2",
-                  "front": "What three principles must States follow when carrying out Convention obligations (Article 4)?",
-                  "back": "Sovereign equality of States, territorial integrity of States, and non-intervention in the domestic affairs of other States.",
-                  "emoji": "⚖️"
-                },
-                {
-                  "id": "card-1-3-3",
-                  "front": "Can States unilaterally exercise jurisdiction in another State's territory under the Convention?",
-                  "back": "No. Article 4, paragraph 2 states that nothing in the Convention entitles a State to undertake in another State's territory functions reserved exclusively for that State's authorities by its domestic law.",
-                  "emoji": "🚫"
-                },
-                {
-                  "id": "card-1-3-4",
-                  "front": "Must corruption offences harm state property to be prosecuted (Article 3)?",
-                  "back": "No. Article 3, paragraph 2 states that except as otherwise stated, it is not necessary for offences to result in damage or harm to state property for purposes of implementing the Convention.",
-                  "emoji": "📋"
-                }
-              ],
-              "xp": 15
+              "passingScore": 65,
+              "kt": 25
             }
           ]
         }
@@ -591,7 +591,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-1-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-1-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-2-1-1",
@@ -599,7 +599,7 @@
               "title": "Preventive Anti-Corruption Policies",
               "description": "Understanding Article 5 requirements for anti-corruption policies",
               "content": "## The Foundation: Effective Policies\n\nArticle 5 establishes the Convention's approach to prevention - it starts with comprehensive policies. This article requires States to develop strategic frameworks that prevent corruption before it occurs.\n\n### Core Policy Requirements\n\nAccording to Article 5, paragraph 1, each State Party **shall** develop and implement or maintain effective, coordinated anti-corruption policies that must:\n\n**Promote the participation of society**: Anti-corruption efforts can't succeed with government alone. Policies must enable involvement from:\n- Civil society organizations\n- Private sector entities\n- Community groups\n- Individual citizens\n\n**Reflect core principles**:\n- **Rule of law**: Legal frameworks that apply equally to all\n- **Proper management of public affairs and public property**: Responsible stewardship\n- **Integrity**: Ethical conduct and honesty\n- **Transparency**: Openness in decision-making and operations\n- **Accountability**: Answerability for actions and decisions\n\n### Establishing Effective Practices\n\nArticle 5, paragraph 2, requires that each State Party **shall endeavour** to establish and promote effective practices aimed at the prevention of corruption.\n\nNote the language: \"shall endeavour\" means States should make serious efforts to develop these practices, adapting them to their specific circumstances.\n\n### Periodic Evaluation\n\nAccording to Article 5, paragraph 3, States **shall endeavour** to periodically evaluate:\n\n- Relevant legal instruments\n- Administrative measures\n\n**Purpose**: To determine their adequacy to prevent and fight corruption.\n\nThis creates a cycle of continuous improvement - policies aren't static but evolve based on evaluation and experience.\n\n### International Collaboration\n\nArticle 5, paragraph 4, promotes cooperation among States. States Parties shall, as appropriate:\n\n- **Collaborate with each other** on developing preventive measures\n- **Collaborate with international and regional organizations**\n- **Participate in international programmes and projects** aimed at prevention\n\nThis recognizes that corruption is transnational, and countries can learn from each other's experiences.\n\n## Why Policies Matter\n\n**Strategic Direction**: Policies provide a roadmap for all anti-corruption efforts.\n\n**Coordination**: Without coordinated policies, different agencies may work at cross-purposes.\n\n**Sustainability**: Policies embedded in law and practice outlast changes in government.\n\n**Measurability**: Well-designed policies include metrics for evaluation and improvement.\n\n**Legitimacy**: Policies developed with societal participation have greater public support.\n\n## Key Characteristics of Effective Policies\n\nBased on Article 5, effective anti-corruption policies should be:\n\n1. **Comprehensive**: Covering all aspects of corruption risk\n2. **Coordinated**: Aligning efforts across agencies and sectors\n3. **Participatory**: Involving society in their development and implementation\n4. **Principled**: Reflecting rule of law, integrity, transparency, and accountability\n5. **Dynamic**: Subject to periodic evaluation and improvement\n6. **Collaborative**: Open to international cooperation and learning",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-1-2",
@@ -607,7 +607,7 @@
               "title": "Preventive Anti-Corruption Bodies",
               "description": "Understanding the institutional framework required by Article 6",
               "content": "## Specialized Institutions for Prevention\n\nArticle 6 recognizes that effective policies need dedicated institutions to implement them. This article requires States to establish specialized anti-corruption bodies.\n\n### The Core Requirement\n\nAccording to Article 6, paragraph 1, each State Party **shall** ensure the existence of a body or bodies that prevent corruption by such means as:\n\n#### Function 1: Policy Implementation and Coordination\n\nArticle 6(1)(a): Implementing the policies referred to in Article 5 and, where appropriate, **overseeing and coordinating** the implementation of those policies.\n\nThese bodies serve as the institutional engine for anti-corruption efforts:\n- **Implementation**: Putting policies into practice\n- **Oversight**: Monitoring how policies are being executed\n- **Coordination**: Ensuring different government entities work together\n\nCoordination is crucial because corruption risks exist across all government functions - a central body ensures comprehensive coverage.\n\n#### Function 2: Knowledge and Awareness\n\nArticle 6(1)(b): **Increasing and disseminating knowledge** about the prevention of corruption.\n\nPrevention requires understanding. These bodies:\n- Conduct research on corruption risks and trends\n- Develop educational materials\n- Train public officials\n- Raise public awareness\n- Share best practices\n\n### Independence: A Critical Requirement\n\nArticle 6, paragraph 2, establishes a fundamental principle: these bodies must have **necessary independence**.\n\nAccording to this provision, each State Party shall grant the preventive body or bodies:\n\n**Independence to function effectively and free from undue influence**:\n- Must be able to operate without political interference\n- Protected from pressure that could compromise their work\n- Able to make impartial decisions\n\nThe provision acknowledges this must be \"in accordance with the fundamental principles of its legal system\" - recognizing different constitutional arrangements while insisting on the core principle of independence.\n\n### Resources and Capacity\n\nArticle 6, paragraph 2, also requires providing:\n\n**Material Resources**:\n- Adequate budget\n- Office facilities\n- Equipment and technology\n- Operational funds\n\n**Specialized Staff**:\n- Sufficient personnel\n- Appropriate expertise (legal, financial, investigative)\n- Diverse skill sets\n\n**Training**:\n- Ongoing professional development\n- Specialized training for staff\n- Capacity to carry out functions effectively\n\n**Why this matters**: Without resources, independence is meaningless. A body might be formally independent but unable to function if it lacks funding or staff.\n\n### International Information Sharing\n\nArticle 6, paragraph 3, requires each State Party to inform the UN Secretary-General of:\n\n- The name and address of the authority or authorities\n- That may assist other States Parties in developing and implementing prevention measures\n\nThis creates a global network where States can:\n- Learn from each other\n- Request assistance\n- Share expertise\n- Build capacity\n\n## Models of Preventive Bodies\n\nThe Convention doesn't prescribe a single model. Different countries have established various types of bodies:\n\n**Anti-Corruption Agencies**: Dedicated agencies focused solely on corruption prevention and enforcement.\n\n**Ombudsman Offices**: Independent institutions that investigate complaints and promote good governance.\n\n**Audit Institutions**: Bodies that examine government finances and identify corruption risks.\n\n**Ethics Commissions**: Institutions focused on standards of conduct for public officials.\n\nWhat matters is not the specific model but that the body:\n- Has the mandated functions (policy implementation, coordination, knowledge dissemination)\n- Possesses genuine independence\n- Has adequate resources and capacity\n\n## Why Independence Matters\n\nCorruption often involves powerful individuals. A preventive body that:\n- Reports directly to politicians it might need to investigate\n- Can have its budget slashed for unpopular decisions\n- Sees staff dismissed for political reasons\n\n...cannot effectively prevent corruption.\n\nIndependence ensures the body can:\n- Act impartially\n- Resist political pressure\n- Maintain public trust\n- Function over the long term regardless of political changes",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-1-quiz",
@@ -700,8 +700,8 @@
                   "explanation": "According to Article 6, paragraph 2, States must grant preventive bodies the necessary independence to enable them to carry out their functions effectively and free from any undue influence."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         },
@@ -720,7 +720,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-2-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-2-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-2-2-1",
@@ -728,7 +728,7 @@
               "title": "Building a Merit-Based Public Sector",
               "description": "Understanding Article 7 requirements for the public sector",
               "content": "## Creating Corruption-Resistant Systems\n\nArticle 7 addresses the public sector - the government workforce that implements policies and delivers services. A well-managed public sector with proper systems is less vulnerable to corruption.\n\n### Civil Service Management Systems\n\nAccording to Article 7, paragraph 1, States shall **endeavour** to adopt, maintain and strengthen systems for the recruitment, hiring, retention, promotion and retirement of civil servants and other non-elected public officials.\n\n#### Principle 1: Merit-Based Selection\n\nArticle 7(1)(a) requires systems based on:\n\n**Efficiency**: Selecting people who can do the job well\n**Transparency**: Open processes where criteria and decisions are visible\n**Objective criteria** including:\n- **Merit**: Qualifications and ability\n- **Equity**: Fair treatment\n- **Aptitude**: Fitness for the role\n\n**Why this matters**: When positions are filled based on connections rather than merit, it breeds corruption. The unqualified official may accept bribes to compensate for inability to perform, or may have been appointed precisely to facilitate corruption.\n\n#### Principle 2: Special Protection for Vulnerable Positions\n\nArticle 7(1)(b) requires adequate procedures for:\n\n**Selection and training** of individuals for public positions considered especially vulnerable to corruption\n\n**Rotation**, where appropriate, of such individuals to other positions\n\n**Vulnerable positions** might include:\n- Procurement officers handling large contracts\n- Customs officials processing imports/exports\n- Police officers with enforcement discretion\n- Tax collectors with assessment authority\n- Licensing officials with approval powers\n\n**Why rotation helps**: Long tenure in a sensitive position can lead to corrupt relationships. Rotation disrupts these networks.\n\n#### Principle 3: Adequate Remuneration\n\nArticle 7(1)(c) requires systems that promote:\n\n**Adequate remuneration and equitable pay scales**, taking into account the level of economic development\n\n**The corruption link**: When public officials cannot meet basic needs on their salary, they become vulnerable to bribery. While fair pay doesn't eliminate corruption, inadequate pay creates powerful incentives for it.\n\n#### Principle 4: Training and Education\n\nArticle 7(1)(d) requires education and training programmes that:\n\n- Enable officials to meet requirements for **correct, honourable and proper performance** of public functions\n- Provide **specialized and appropriate training** to enhance awareness of corruption risks\n- May make reference to codes or standards of conduct\n\n**Prevention through education**: When officials understand:\n- Their ethical obligations\n- Corruption risks in their work\n- Consequences of misconduct\n- How to resist pressure\n\n...they are better equipped to maintain integrity.\n\n### Political Office and Political Financing\n\nArticle 7 extends beyond civil servants to elected officials.\n\n#### Candidacy Criteria\n\nArticle 7, paragraph 2: States shall **consider** adopting measures to prescribe **criteria concerning candidature for and election to public office**.\n\nThis might include:\n- Background checks\n- Asset disclosures\n- Conflict of interest rules\n- Disqualifications for certain convictions\n\n#### Political Finance Transparency\n\nArticle 7, paragraph 3: States shall **consider** taking measures to enhance **transparency in the funding of candidatures** for elected public office and, where applicable, **the funding of political parties**.\n\n**Why this matters**: Hidden political financing can lead to:\n- Undue influence by wealthy donors\n- Quid pro quo corruption\n- Policy capture by special interests\n- Public loss of confidence in democratic processes\n\nTransparency allows voters to understand who supports candidates and parties, enabling informed choices.\n\n### Conflict of Interest Prevention\n\nArticle 7, paragraph 4: States shall **endeavour** to adopt, maintain and strengthen systems that:\n\n**Promote transparency** and **prevent conflicts of interest**\n\n**Conflict of interest**: A situation where an official's personal interests could improperly influence their official decisions.\n\nSystems might include:\n- Disclosure requirements\n- Recusal procedures\n- Restrictions on certain outside activities\n- Post-employment limitations\n\n## The Comprehensive Approach\n\nArticle 7 takes a lifecycle approach to public sector integrity:\n\n1. **Entry**: Merit-based recruitment\n2. **Service**: Training, fair compensation, conflict prevention\n3. **Sensitive roles**: Special selection, training, and rotation\n4. **Political sphere**: Transparency in candidacy and financing\n5. **Throughout**: Systems that promote transparency and prevent conflicts\n\nTogether, these measures create an environment where integrity is the norm and corruption is more difficult.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-2-2",
@@ -736,7 +736,7 @@
               "title": "Codes of Conduct and Accountability",
               "description": "Understanding Article 8 on codes of conduct for public officials",
               "content": "## Establishing Ethical Standards\n\nArticle 8 focuses on codes of conduct - written standards that define expected behavior for public officials. These codes make ethical expectations explicit and create accountability.\n\n### The Foundation: Promoting Core Values\n\nAccording to Article 8, paragraph 1, each State Party **shall promote**:\n\n- **Integrity**: Adherence to moral and ethical principles\n- **Honesty**: Truthfulness and straightforwardness\n- **Responsibility**: Accountability for one's actions\n\nThese values are promoted \"in accordance with the fundamental principles of its legal system\" - recognizing different cultural and legal traditions while insisting on core ethical standards.\n\n### Applying Codes or Standards of Conduct\n\nArticle 8, paragraph 2: States **shall endeavour** to apply codes or standards of conduct for the **correct, honourable and proper performance of public functions**.\n\n**What codes typically cover**:\n\n**Professional conduct**:\n- How to interact with the public\n- Standards of service delivery\n- Professionalism requirements\n\n**Ethical obligations**:\n- Impartiality in decision-making\n- Confidentiality of information\n- Proper use of position and resources\n\n**Prohibited conduct**:\n- Accepting bribes or improper gifts\n- Using position for personal gain\n- Nepotism and favoritism\n- Conflicts of interest\n\n### International Standards as Reference\n\nArticle 8, paragraph 3: States shall **take note of relevant initiatives** of regional, interregional and multilateral organizations.\n\nThe article specifically mentions the **International Code of Conduct for Public Officials** (UN General Assembly resolution 51/59 of 12 December 1996).\n\n**Why reference international standards**:\n- Learn from best practices\n- Ensure codes meet international norms\n- Facilitate international cooperation\n- Demonstrate commitment to global standards\n\n### Whistleblowing: Facilitating Internal Reporting\n\nArticle 8, paragraph 4: States shall **consider** establishing measures and systems to **facilitate the reporting by public officials of acts of corruption** to appropriate authorities when such acts come to their notice.\n\n**Why whistleblowing matters**:\n\nPublic officials are often the first to witness corruption. They may:\n- Process suspicious transactions\n- Observe colleagues accepting bribes\n- Notice irregularities in procedures\n- Discover fraudulent documentation\n\nFor officials to report, they need:\n- **Clear channels**: Knowing where to report\n- **Protection**: Freedom from retaliation\n- **Confidence**: Trust that reports will be taken seriously\n- **Guidance**: Understanding their obligation to report\n\n### Asset and Interest Declarations\n\nArticle 8, paragraph 5: States **shall endeavour** to establish measures requiring public officials to make **declarations** to appropriate authorities regarding:\n\n- Outside activities\n- Employment\n- Investments\n- Assets\n- Substantial gifts or benefits\n\n**Purpose**: From which a **conflict of interest** may result with respect to their functions as public officials.\n\n**How declarations prevent corruption**:\n\n1. **Deterrence**: Officials know their assets are monitored\n2. **Detection**: Unexplained wealth becomes visible\n3. **Conflict identification**: Potential conflicts can be identified and managed\n4. **Accountability**: Creates a record for comparison over time\n\n**What gets declared**:\n- Real estate holdings\n- Business interests\n- Stocks and investments\n- Outside employment\n- Gifts exceeding certain thresholds\n- Liabilities and debts\n\nSome systems also require declarations from family members to prevent officials from hiding assets through relatives.\n\n### Enforcement: Disciplinary Measures\n\nArticle 8, paragraph 6: States **shall consider** taking disciplinary or other measures against public officials who **violate the codes or standards**.\n\n**Why enforcement is essential**:\n\nCodes without consequences are merely aspirational. Enforcement:\n- Demonstrates seriousness\n- Deters violations\n- Maintains public confidence\n- Protects ethical officials from unfair competition\n\n**Types of measures**:\n- Warnings or reprimands\n- Fines or salary reductions\n- Suspension\n- Demotion\n- Dismissal\n- Criminal prosecution (for serious violations)\n\n## The Complete System\n\nArticle 8 creates a comprehensive ethical framework:\n\n1. **Values**: Promote integrity, honesty, responsibility\n2. **Standards**: Apply codes of conduct\n3. **Guidance**: Reference international standards\n4. **Transparency**: Require asset declarations\n5. **Reporting**: Facilitate whistleblowing\n6. **Accountability**: Enforce through disciplinary measures\n\nTogether, these elements create an environment where ethical behavior is expected, monitored, and enforced.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-2-quiz",
@@ -829,8 +829,8 @@
                   "explanation": "According to Article 7, paragraph 1(b), rotation of individuals in positions vulnerable to corruption helps disrupt corrupt networks and relationships that can develop over extended tenure in sensitive positions."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         },
@@ -849,7 +849,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-3-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-3-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-2-3-1",
@@ -857,7 +857,7 @@
               "title": "Public Procurement Systems",
               "description": "Understanding Article 9 requirements for corruption-resistant procurement",
               "content": "## The High-Risk Area of Procurement\n\nPublic procurement - how governments buy goods and services - represents one of the highest corruption risks. Large contracts, discretionary decisions, and direct contact between officials and bidders create numerous opportunities for corruption. Article 9 addresses this comprehensively.\n\n### Foundational Requirements\n\nAccording to Article 9, paragraph 1, States **shall** take necessary steps to establish **appropriate systems of procurement** based on:\n\n- **Transparency**: Open, visible processes\n- **Competition**: Multiple bidders competing fairly\n- **Objective criteria**: Clear, predetermined standards for decisions\n\nThese systems must be **effective in preventing corruption**.\n\n### Five Key Elements of Procurement Systems\n\n#### Element 1: Public Distribution of Information\n\nArticle 9(1)(a) requires:\n\n**Public distribution of information** relating to procurement procedures and contracts, including:\n- Information on invitations to tender\n- Relevant information on the award of contracts\n- Allowing potential tenderers **sufficient time** to prepare and submit tenders\n\n**How this prevents corruption**:\n- More potential bidders learn about opportunities\n- Decisions are visible and can be scrutinized\n- Rushed processes that favor insiders are prevented\n\n#### Element 2: Pre-Established Conditions\n\nArticle 9(1)(b) requires:\n\n**Establishment, in advance, of conditions** for participation, including:\n- Selection criteria\n- Award criteria\n- Tendering rules\n- **Publication** of these conditions\n\n**Prevention mechanism**: When criteria are set in advance and published, officials can't adjust rules to favor particular bidders.\n\n#### Element 3: Objective and Predetermined Criteria\n\nArticle 9(1)(c) requires:\n\n**Use of objective and predetermined criteria** for procurement decisions, in order to facilitate **subsequent verification** of the correct application of rules or procedures.\n\n**Creating accountability**: Objective criteria allow:\n- Auditors to verify decisions were proper\n- Losing bidders to understand why they didn't win\n- Public to assess whether process was fair\n\n#### Element 4: Review and Appeal Systems\n\nArticle 9(1)(d) requires:\n\n**An effective system of domestic review**, including an effective system of appeal, to ensure **legal recourse and remedies** if rules or procedures are not followed.\n\n**Types of review**:\n- Administrative review by a higher authority\n- Independent review boards\n- Judicial review by courts\n\n**Why this matters**: The possibility of challenge deters corrupt decisions and provides remedy when they occur.\n\n#### Element 5: Personnel Regulation\n\nArticle 9(1)(e) requires, where appropriate:\n\n**Measures to regulate matters regarding personnel** responsible for procurement, such as:\n- Declaration of interest in particular procurements\n- Screening procedures\n- Training requirements\n\n**Addressing the human element**: Even good systems fail if the people implementing them are compromised or untrained.\n\n### Management of Public Finances\n\nArticle 9, paragraph 2, addresses the broader financial management context. States **shall** take measures to promote **transparency and accountability** in managing public finances.\n\n#### Five Required Measures\n\nArticle 9(2) lists measures that shall encompass:\n\n**(a) Procedures for adoption of the national budget**: How the budget is developed, debated, and approved.\n\n**(b) Timely reporting on revenue and expenditure**: Regular, prompt disclosure of financial information.\n\n**(c) A system of accounting and auditing standards and related oversight**: Proper accounting rules and independent audit.\n\n**(d) Effective and efficient systems of risk management and internal control**: Mechanisms to identify and prevent financial irregularities.\n\n**(e) Corrective action in case of failure to comply**: Consequences when requirements aren't met.\n\n**The comprehensive approach**: These measures create a complete cycle of budget transparency, monitoring, and accountability.\n\n### Protecting Financial Records\n\nArticle 9, paragraph 3: States **shall** take civil and administrative measures to:\n\n**Preserve the integrity** of:\n- Accounting books\n- Records\n- Financial statements\n- Other documents related to public expenditure and revenue\n\n**Prevent the falsification** of such documents\n\n**Why records matter**: Falsified financial records are often essential to hiding corruption. Protecting record integrity makes corruption harder to conceal and easier to detect.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-3-2",
@@ -865,7 +865,7 @@
               "title": "Public Reporting and Access to Information",
               "description": "Understanding Article 10 on transparency in public administration",
               "content": "## Transparency as an Anti-Corruption Tool\n\nArticle 10 recognizes that transparency in public administration helps combat corruption. When government operations are visible, corrupt acts are easier to detect and officials are more accountable.\n\n### The Core Requirement\n\nAccording to Article 10, taking into account the need to combat corruption, States **shall** take measures **to enhance transparency** in public administration, including regarding its:\n\n- Organization\n- Functioning\n- Decision-making processes\n\n### Three Illustrative Measures\n\nThe article provides examples of transparency measures (\"such measures may include, inter alia\"):\n\n#### Measure 1: Public Access to Information\n\nArticle 10(a): Adopting procedures or regulations allowing members of the general public to obtain information on:\n\n**About the administration**:\n- Organization structure\n- Functioning of government\n- Decision-making processes\n\n**About specific decisions**:\n- Decisions that concern members of the public\n- Legal acts that affect the public\n\n**Important caveat**: \"With due regard for the protection of privacy and personal data\"\n\n**Balancing act**: Transparency doesn't mean violating individual privacy rights. The challenge is making government operations transparent while protecting personal information.\n\n**How this prevents corruption**:\n- Citizens can monitor government actions\n- Journalists can investigate suspicious activities\n- Civil society can hold officials accountable\n- Corrupt officials know their actions may be discovered\n\n#### Measure 2: Simplifying Administrative Procedures\n\nArticle 10(b): Simplifying administrative procedures, where appropriate, to **facilitate public access** to competent decision-making authorities.\n\n**The corruption link**:\n\nComplex, opaque procedures:\n- Create opportunities for officials to demand bribes to \"help\" navigate the system\n- Allow arbitrary decision-making\n- Discourage oversight\n- Frustrate citizens seeking services\n\nSimplified procedures:\n- Reduce opportunities for corruption\n- Make it clearer when officials act improperly\n- Empower citizens\n- Improve service delivery\n\n**Examples of simplification**:\n- Clear, published procedures\n- One-stop shops for services\n- Online portals for applications\n- Defined timelines for decisions\n- Elimination of unnecessary requirements\n\n#### Measure 3: Publishing Information on Corruption Risks\n\nArticle 10(c): Publishing information, which may include **periodic reports on the risks of corruption** in its public administration.\n\n**Transparency about corruption itself**:\n\nThis forward-thinking provision encourages governments to:\n- Assess corruption risks in different sectors\n- Publicly acknowledge vulnerabilities\n- Report on anti-corruption efforts\n- Share information on corruption trends\n\n**Benefits**:\n- **Prevention**: Identifying risks helps target prevention efforts\n- **Awareness**: Officials and public understand where vigilance is needed\n- **Accountability**: Public reporting creates pressure for action\n- **Learning**: Sharing information helps develop better strategies\n\n## The Philosophy of Transparency\n\nArticle 10 embodies a fundamental anti-corruption principle: **corruption thrives in darkness and wilts in light**.\n\nWhen government operations are:\n- **Visible**: Actions can be observed\n- **Understandable**: Public can comprehend what's happening\n- **Accessible**: Information is available to those who seek it\n\n...corruption becomes:\n- **Riskier**: Greater chance of detection\n- **More difficult**: Harder to justify improper actions\n- **Costlier**: Reputational and legal consequences increase\n\n### Limitations and Balances\n\nThe article recognizes that transparency has limits:\n\n**\"Where appropriate\"**: Not all information should be public (national security, privacy, commercial confidentiality)\n\n**\"Protection of privacy and personal data\"**: Individual rights must be respected\n\nThe challenge for States is finding the right balance - maximum transparency consistent with legitimate protections.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-3-flashcards",
@@ -898,7 +898,7 @@
                   "emoji": "💰"
                 }
               ],
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-3-quiz",
@@ -963,8 +963,8 @@
                   "explanation": "According to Article 10(c), measures to enhance transparency may include publishing information, which may include periodic reports on the risks of corruption in public administration."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         },
@@ -983,7 +983,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-4-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-4-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-2-4-1",
@@ -991,7 +991,7 @@
               "title": "Judiciary and Prosecution Services",
               "description": "Understanding Article 11 measures for judicial integrity",
               "content": "## The Crucial Role of an Independent Judiciary\n\nArticle 11 addresses one of the most sensitive areas: the judiciary. Courts that decide corruption cases must themselves be free from corruption, yet judicial independence must be respected.\n\n### The Foundational Principle\n\nArticle 11, paragraph 1, begins by **bearing in mind**:\n- **The independence of the judiciary**\n- **Its crucial role in combating corruption**\n\n**The delicate balance**: The judiciary needs to be independent to function properly, yet it must also maintain integrity and resist corruption. Article 11 navigates this carefully.\n\n### Measures for Judicial Integrity\n\nAccording to Article 11, paragraph 1, States **shall** take measures to:\n\n- **Strengthen integrity** among members of the judiciary\n- **Prevent opportunities for corruption** among members of the judiciary\n\n**Critical limitations**:\n- Must be \"in accordance with the fundamental principles of its legal system\"\n- Must be \"without prejudice to judicial independence\"\n\nThis means anti-corruption measures cannot undermine the independence that makes an effective judiciary possible.\n\n**Illustrative measure**: Such measures **may include rules with respect to the conduct** of members of the judiciary.\n\n**Codes of judicial conduct** might address:\n\n**Impartiality**:\n- Deciding cases based on law and facts, not external influence\n- Avoiding ex parte communications\n- Disclosure of potential conflicts\n\n**Integrity**:\n- Not accepting bribes or improper benefits\n- Maintaining high ethical standards\n- Proper use of judicial position\n\n**Independence**:\n- Resisting pressure from any source\n- Maintaining distance from political activities\n- Avoiding situations that compromise independence\n\n**Propriety**:\n- Conduct that maintains public confidence\n- Avoiding improper appearances\n- Responsible financial management\n\n### Extension to Prosecution Services\n\nArticle 11, paragraph 2, addresses prosecution services:\n\n**Measures to the same effect** as those for the judiciary **may be introduced and applied** within the prosecution service in States Parties where:\n\n- The prosecution service does **not form part of the judiciary**\n- But **enjoys independence similar to that of the judicial service**\n\nIn many legal systems, prosecutors are separate from judges but have similar independence to ensure impartial enforcement of the law.\n\n**Rationale**: Prosecutors often:\n- Decide whether to investigate corruption allegations\n- Determine which cases to prosecute\n- Have significant discretion in their work\n\nIf prosecutors are corrupt, corruption cases won't be properly pursued.\n\n## Why Judicial Integrity Matters So Much\n\nThe judiciary is the ultimate arbiter in corruption cases. If courts are corrupt:\n\n- **Corruption crimes go unpunished**: Corrupt officials escape justice\n- **Innocent persons may be convicted**: False charges can be used against anti-corruption advocates\n- **Asset recovery fails**: Courts may refuse to confiscate proceeds of corruption\n- **Public trust collapses**: Citizens lose faith in the justice system\n- **International cooperation breaks down**: Other countries won't cooperate if they distrust the courts\n\n**The Convention's approach**: Strengthen integrity without undermining independence - because both are essential to combating corruption effectively.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-4-2",
@@ -999,7 +999,7 @@
               "title": "Private Sector Measures",
               "description": "Understanding Article 12 requirements for the private sector",
               "content": "## Corruption Beyond Government\n\nArticle 12 recognizes that corruption isn't limited to the public sector. Private sector corruption - including bribery between businesses, fraud, and accounting manipulations - undermines fair competition and facilitates public sector corruption.\n\n### Core Requirements for States\n\nAccording to Article 12, paragraph 1, States **shall** take measures to:\n\n1. **Prevent corruption involving the private sector**\n2. **Enhance accounting and auditing standards** in the private sector\n3. **Provide effective, proportionate and dissuasive** civil, administrative or criminal **penalties** for failure to comply\n\n**The three-pronged approach**: Prevention, transparency through accounting standards, and enforcement through penalties.\n\n### Eight Illustrative Measures\n\nArticle 12, paragraph 2, lists measures that may achieve these ends:\n\n#### (a) Cooperation with Law Enforcement\n\n**Promoting cooperation** between law enforcement agencies and relevant private entities.\n\n**Why this matters**: Private entities often witness or are victims of corruption but may not report it without encouragement.\n\n#### (b) Standards and Codes of Conduct\n\n**Promoting the development of standards and procedures** designed to safeguard integrity of private entities, including:\n- Codes of conduct for businesses and professions\n- Prevention of conflicts of interest\n- Promotion of good commercial practices\n\n**Creating a culture of integrity**: Just as public officials need codes of conduct, private sector actors benefit from clear ethical standards.\n\n#### (c) Transparency in Corporate Ownership\n\n**Promoting transparency** among private entities, including measures regarding the **identity of legal and natural persons** involved in establishing and managing corporate entities.\n\n**Preventing shell companies**: Anonymous ownership facilitates corruption by hiding beneficial owners and making accountability impossible.\n\n#### (d) Preventing Misuse of Procedures\n\n**Preventing the misuse** of procedures regulating private entities, including procedures regarding **subsidies and licenses** granted by public authorities.\n\n**The corruption link**: Corrupt officials may:\n- Grant subsidies to companies that bribe them\n- Issue licenses based on bribes rather than qualifications\n- Create unnecessary licensing requirements to generate bribe opportunities\n\n#### (e) Post-Employment Restrictions\n\n**Preventing conflicts of interest** by imposing restrictions, as appropriate and for a reasonable period, on:\n\n- **Professional activities of former public officials**, or\n- **Employment of public officials by the private sector** after resignation/retirement\n\nWhere such activities or employment relate directly to functions held or supervised by those officials during their tenure.\n\n**The \"revolving door\" problem**: Public officials may:\n- Make favorable decisions for companies expecting post-government employment\n- Use confidential information for private gain\n- Leverage relationships developed in office\n\n**Reasonable restrictions** might include:\n- Cooling-off periods before former officials can work in related industries\n- Prohibitions on representing private parties before former agencies\n- Disclosure requirements\n\n#### (f) Internal Auditing Controls\n\n**Ensuring that private enterprises** have:\n- **Sufficient internal auditing controls** to assist in preventing and detecting corruption\n- Accounts and financial statements subject to **appropriate auditing and certification** procedures\n\nTaking into account enterprise structure and size.\n\n**Detection through auditing**: Proper auditing makes corruption harder to hide and more likely to be discovered.\n\n### Prohibited Accounting Practices\n\nArticle 12, paragraph 3, addresses the accounting techniques often used to facilitate corruption. States **shall** take measures to **prohibit** the following acts when carried out for the purpose of committing offences:\n\n**(a) The establishment of off-the-books accounts**: Hidden accounts not recorded in official books.\n\n**(b) Off-the-books or inadequately identified transactions**: Payments that aren't properly recorded.\n\n**(c) The recording of non-existent expenditure**: Fake expenses used to generate illicit funds.\n\n**(d) The entry of liabilities with incorrect identification of their objects**: Disguising the true purpose of payments.\n\n**(e) The use of false documents**: Fraudulent invoices, contracts, or receipts.\n\n**(f) The intentional destruction of bookkeeping documents earlier than foreseen by law**: Eliminating evidence of corruption.\n\n**Why these prohibitions matter**: These accounting manipulations are standard techniques for hiding bribes and corrupt payments. Prohibiting them removes tools that facilitate corruption.\n\n### Tax Treatment of Bribes\n\nArticle 12, paragraph 4: States **shall disallow the tax deductibility** of expenses that constitute bribes (being a constituent element of offences under Articles 15 and 16) and, where appropriate, other expenses incurred in furtherance of corrupt conduct.\n\n**The principle**: Governments shouldn't subsidize corruption through tax deductions.\n\n**Without this provision**: A company paying a bribe could:\n- Deduct it as a \"business expense\"\n- Reduce its tax burden\n- Effectively have taxpayers subsidize the bribe\n\n**With this provision**: Bribes carry their full cost with no tax benefit.\n\n## The Comprehensive Private Sector Framework\n\nArticle 12 creates a complete private sector anti-corruption system:\n\n1. **Prevention**: Standards, codes, controls\n2. **Transparency**: Accounting and auditing requirements, ownership disclosure\n3. **Prohibition**: Specific corrupt accounting practices banned\n4. **Enforcement**: Civil, administrative, and criminal penalties\n5. **Economic disincentives**: No tax deductions for bribes\n\nTogether, these measures make private sector corruption more difficult, more detectable, and less profitable.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-4-quiz",
@@ -1092,8 +1092,8 @@
                   "explanation": "According to Article 12, paragraph 4, each State Party shall disallow the tax deductibility of expenses that constitute bribes, preventing governments from effectively subsidizing corruption through tax deductions."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         },
@@ -1112,7 +1112,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-5-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-2-5-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-2-5-1",
@@ -1120,7 +1120,7 @@
               "title": "Participation of Society",
               "description": "Understanding Article 13 on engaging civil society",
               "content": "## Beyond Government: The Role of Society\n\nArticle 13 recognizes a fundamental truth: governments alone cannot defeat corruption. Success requires active participation from individuals and groups outside the public sector.\n\n### The Core Requirement\n\nAccording to Article 13, paragraph 1, States **shall** take appropriate measures to:\n\n**Promote the active participation** of individuals and groups outside the public sector, such as:\n- Civil society\n- Non-governmental organizations  \n- Community-based organizations\n\n**In both**:\n- The **prevention** of corruption\n- The **fight against** corruption\n\n**And to**:\n- **Raise public awareness** regarding the existence, causes, and gravity of corruption\n- **Raise public awareness** of the threat posed by corruption\n\n### Four Measures to Strengthen Participation\n\nArticle 13(1) identifies measures that should strengthen this participation:\n\n#### Measure (a): Transparency and Public Contribution\n\n**Enhancing the transparency of** and **promoting the contribution of the public** to decision-making processes.\n\n**How this works**:\n- Public consultations on proposed policies\n- Citizen participation in budget processes\n- Involvement in planning and implementation\n- Feedback mechanisms\n\n**Prevention link**: When citizens participate in decisions:\n- Corrupt deals are harder to hide\n- Decision-makers know they're being watched\n- Public interests are better represented\n\n#### Measure (b): Effective Access to Information\n\n**Ensuring that the public has effective access to information.**\n\n**Beyond passive disclosure**: \"Effective access\" means:\n- Information is actually available\n- In forms the public can understand\n- Through accessible means\n- At reasonable or no cost\n- In timely manner\n\n**Empowerment through information**: Citizens, journalists, and civil society need information to:\n- Monitor government performance\n- Identify corruption\n- Hold officials accountable\n- Participate meaningfully in governance\n\n#### Measure (c): Public Information and Education\n\n**Undertaking public information activities** that contribute to **non-tolerance of corruption**, as well as **public education programmes**, including school and university curricula.\n\n**Building a culture of rejection**:\n\n**Public information** campaigns might:\n- Explain corruption's harm\n- Promote reporting mechanisms\n- Highlight consequences\n- Celebrate integrity\n\n**Educational programs** should:\n- Teach ethics and civic responsibility\n- Explain corruption and its impacts\n- Develop critical thinking about governance\n- Foster values of integrity and accountability\n\n**Long-term investment**: Educating young people creates future generations that reject corruption as unacceptable.\n\n#### Measure (d): Freedom of Information on Corruption\n\n**Respecting, promoting and protecting the freedom** to seek, receive, publish and disseminate **information concerning corruption**.\n\n**A qualified right**: This freedom may be subject to **certain restrictions**, but these shall **only** be such as are:\n- **Provided for by law**, and\n- **Necessary** for:\n  - **(i) Respect of the rights or reputations of others**\n  - **(ii) Protection of national security or ordre public or of public health or morals**\n\n**Why freedom of information matters**:\n- **Investigative journalism**: Exposing corruption cases\n- **Whistleblower disclosures**: Revealing internal wrongdoing\n- **Civil society reporting**: Documenting corruption patterns\n- **Academic research**: Analyzing corruption and solutions\n\nWithout freedom to share information about corruption, it remains hidden.\n\n**Balancing act**: The restrictions must be:\n- Defined by law (not arbitrary)\n- Necessary (not merely convenient)\n- For legitimate purposes (protecting rights, security, public order, health, or morals)\n\n### Access to Anti-Corruption Bodies\n\nArticle 13, paragraph 2: States **shall** take appropriate measures to ensure that:\n\n**The relevant anti-corruption bodies** referred to in this Convention are **known to the public**\n\nAnd shall **provide access** to such bodies, where appropriate, for **the reporting** (including **anonymously**) of any incidents that may be considered to constitute an offence.\n\n**Making reporting possible**:\n\n**Bodies must be known**: People can't report to institutions they don't know exist.\n\n**Access must be provided**: Through:\n- Hotlines\n- Online reporting systems\n- Physical offices\n- Mail\n- Third-party intermediaries\n\n**Anonymous reporting**: Crucial because:\n- Many fear retaliation\n- Jobs may be at risk\n- Safety may be threatened\n- Social consequences may deter reporting\n\n**Balancing anonymity with credibility**: While anonymous reports may be harder to verify, they shouldn't be automatically dismissed.\n\n## Why Civil Society Participation Matters\n\n**Government has limited capacity**: Civil society multiplies monitoring and oversight.\n\n**Trust deficit**: In corrupt environments, citizens may trust NGOs more than government.\n\n**Local knowledge**: Communities often know where corruption occurs.\n\n**Sustained pressure**: Civil society can maintain focus on reform when political will wanes.\n\n**International connections**: Civil society organizations often network globally, sharing strategies and applying international pressure.\n\n## The Convention's Vision\n\nArticle 13 envisions a **whole-of-society approach** where:\n- **Government** creates frameworks and takes action\n- **Civil society** monitors, advocates, and educates  \n- **Media** investigates and informs\n- **Citizens** participate, report, and demand accountability\n- **Academia** researches and develops solutions\n\nTogether, these actors create an environment where corruption is difficult, risky, and socially unacceptable.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-2-5-2",
@@ -1128,7 +1128,40 @@
               "title": "Measures to Prevent Money-Laundering",
               "description": "Understanding Article 14 on anti-money laundering",
               "content": "## The Connection: Corruption and Money-Laundering\n\nArticle 14 addresses money-laundering - the process of making illicitly obtained money appear legitimate. Corrupt officials must launder their proceeds to use them without detection. Preventing money-laundering makes corruption less profitable and easier to detect.\n\n### The Comprehensive Regulatory Regime\n\nAccording to Article 14, paragraph 1(a), each State Party **shall** institute a **comprehensive domestic regulatory and supervisory regime** for:\n\n- Banks and non-bank financial institutions\n- Natural or legal persons providing formal or informal money transmission services\n- Where appropriate, other bodies particularly susceptible to money-laundering\n\n**Purpose**: To **deter and detect all forms of money-laundering**.\n\n**The regime shall emphasize requirements for**:\n\n#### Customer and Beneficial Owner Identification\n\n**Know Your Customer (KYC)**:\n- Financial institutions must identify who they're doing business with\n- Not just the person opening the account, but the **beneficial owner** (who actually controls/benefits)\n\n**Why this matters**: Corrupt officials often use:\n- Shell companies\n- Nominees\n- Family members\n- Associates\n\nTo hide their identity. Identifying beneficial owners pierces these veils.\n\n#### Record-Keeping\n\n**Maintaining records** of:\n- Customer identities\n- Transactions\n- Account activities\n\nFor sufficient periods to:\n- Allow investigation of suspicious activity\n- Provide evidence in prosecutions\n- Enable asset tracing\n\n#### Reporting of Suspicious Transactions\n\n**Financial institutions must report** transactions that:\n- Appear unusual\n- Don't fit customer's profile\n- Involve large or structured amounts\n- Suggest money-laundering\n\n**To authorities** for investigation.\n\n**The detection mechanism**: Financial professionals can recognize patterns suggesting money-laundering, serving as early warning system.\n\n### Cooperation and Financial Intelligence Units\n\nArticle 14, paragraph 1(b) requires States to ensure that authorities dedicated to combating money-laundering (including where appropriate judicial authorities) have the **ability to cooperate and exchange information** at national and international levels.\n\nStates **shall consider** the establishment of a **financial intelligence unit (FIU)** to serve as a **national centre** for:\n\n- **Collection** of information regarding potential money-laundering\n- **Analysis** of that information\n- **Dissemination** to relevant authorities\n\n**Why FIUs are important**:\n- Central point for suspicious transaction reports\n- Specialized expertise in analyzing financial crimes\n- Hub for domestic and international information sharing\n- Can identify patterns across multiple institutions\n\n### Cross-Border Movement Detection\n\nArticle 14, paragraph 2: States Parties **shall consider implementing feasible measures** to detect and monitor the **movement of cash and appropriate negotiable instruments across their borders**.\n\n**Safeguards**: Measures must:\n- Ensure proper use of information\n- Not impede the movement of **legitimate capital**\n\n**Such measures may include**: Requiring individuals and businesses to report cross-border transfer of **substantial quantities** of cash and negotiable instruments.\n\n**The balance**: Detect illicit funds without disrupting legitimate international commerce and finance.\n\n**Why monitor cross-border movements**: Corrupt officials often:\n- Move proceeds to other jurisdictions\n- Use foreign banks to hide assets\n- Transfer funds to safe havens\n- Purchase property abroad\n\n### Electronic Funds Transfer Information\n\nArticle 14, paragraph 3: States Parties **shall consider implementing** appropriate and feasible measures to require financial institutions, including money remitters, to:\n\n**(a)** Include **accurate and meaningful information on the originator** on forms for electronic transfer of funds\n\n**(b)** **Maintain such information throughout the payment chain**\n\n**(c)** Apply **enhanced scrutiny** to transfers that **do not contain complete information** on the originator\n\n**Why this matters**: Wire transfers can move money instantly across the globe. Without information on who sent the funds:\n- Tracking becomes impossible\n- Criminals exploit anonymity\n- Asset recovery efforts fail\n\n**The payment chain**: Information must travel with the funds through intermediary banks to the final recipient institution.\n\n### International Standards and Cooperation\n\nArticle 14, paragraph 4: States establishing domestic regulatory regimes are **called upon to use as a guideline** the relevant initiatives of regional, interregional and multilateral organizations against money-laundering.\n\n**Building on existing frameworks**: Organizations like the Financial Action Task Force (FATF) have developed comprehensive anti-money laundering standards. States should align with these.\n\nArticle 14, paragraph 5: States Parties **shall endeavour to develop and promote** global, regional, subregional and bilateral **cooperation** among:\n- Judicial authorities\n- Law enforcement authorities\n- Financial regulatory authorities\n\n**To combat money-laundering**.\n\n**Why international cooperation is essential**: Money-laundering is inherently transnational. Effective prevention and prosecution require jurisdictions working together.\n\n## The Prevention Logic\n\nArticle 14 creates a system where:\n\n1. **Financial institutions** identify customers and monitor transactions\n2. **Suspicious activity** is reported to FIUs\n3. **FIUs** analyze and disseminate intelligence\n4. **Authorities** investigate and prosecute\n5. **International cooperation** enables tracking funds across borders\n\nResult: Money-laundering becomes more difficult, more likely to be detected, and more likely to result in prosecution. This makes corruption less attractive by reducing the ability to enjoy its proceeds.",
-              "xp": 15
+              "kt": 15
+            },
+            {
+              "id": "module-2-5-flashcards",
+              "type": "flashcards",
+              "title": "Prevention Chapter Review",
+              "description": "Key concepts from the entire Prevention topic",
+              "cards": [
+                {
+                  "id": "card-2-5-1",
+                  "front": "What are the four measures Article 13(1) identifies to strengthen civil society participation?",
+                  "back": "(a) Enhancing transparency and promoting public contribution to decision-making; (b) Ensuring effective access to information; (c) Public information and education programs; (d) Protecting freedom to share information on corruption.",
+                  "emoji": "👥"
+                },
+                {
+                  "id": "card-2-5-2",
+                  "front": "Why must anti-corruption bodies be accessible for anonymous reporting according to Article 13(2)?",
+                  "back": "Anonymous reporting is crucial because many people fear retaliation for reporting corruption. Jobs, safety, or social standing may be at risk. Allowing anonymous reports enables more people to come forward.",
+                  "emoji": "📞"
+                },
+                {
+                  "id": "card-2-5-3",
+                  "front": "What is the purpose of requiring beneficial owner identification in Article 14?",
+                  "back": "Beneficial owner identification pierces through shell companies, nominees, and other structures corrupt officials use to hide their identity. It reveals who actually controls and benefits from accounts and transactions.",
+                  "emoji": "🔍"
+                },
+                {
+                  "id": "card-2-5-4",
+                  "front": "How does preventing money-laundering help combat corruption?",
+                  "back": "Money-laundering prevention makes corruption less profitable and easier to detect. Corrupt officials must launder proceeds to use them. Strong anti-money laundering controls create a financial trail and increase detection risk.",
+                  "emoji": "💸"
+                }
+              ],
+              "kt": 15
             },
             {
               "id": "module-2-5-quiz",
@@ -1221,41 +1254,8 @@
                   "explanation": "According to Article 14, paragraph 1(b), a financial intelligence unit serves as a national centre for the collection, analysis and dissemination of information regarding potential money-laundering."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
-            },
-            {
-              "id": "module-2-5-flashcards",
-              "type": "flashcards",
-              "title": "Prevention Chapter Review",
-              "description": "Key concepts from the entire Prevention topic",
-              "cards": [
-                {
-                  "id": "card-2-5-1",
-                  "front": "What are the four measures Article 13(1) identifies to strengthen civil society participation?",
-                  "back": "(a) Enhancing transparency and promoting public contribution to decision-making; (b) Ensuring effective access to information; (c) Public information and education programs; (d) Protecting freedom to share information on corruption.",
-                  "emoji": "👥"
-                },
-                {
-                  "id": "card-2-5-2",
-                  "front": "Why must anti-corruption bodies be accessible for anonymous reporting according to Article 13(2)?",
-                  "back": "Anonymous reporting is crucial because many people fear retaliation for reporting corruption. Jobs, safety, or social standing may be at risk. Allowing anonymous reports enables more people to come forward.",
-                  "emoji": "📞"
-                },
-                {
-                  "id": "card-2-5-3",
-                  "front": "What is the purpose of requiring beneficial owner identification in Article 14?",
-                  "back": "Beneficial owner identification pierces through shell companies, nominees, and other structures corrupt officials use to hide their identity. It reveals who actually controls and benefits from accounts and transactions.",
-                  "emoji": "🔍"
-                },
-                {
-                  "id": "card-2-5-4",
-                  "front": "How does preventing money-laundering help combat corruption?",
-                  "back": "Money-laundering prevention makes corruption less profitable and easier to detect. Corrupt officials must launder proceeds to use them. Strong anti-money laundering controls create a financial trail and increase detection risk.",
-                  "emoji": "💸"
-                }
-              ],
-              "xp": 15
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         }
@@ -1282,7 +1282,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-3-1-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-3-1-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-3-1-1",
@@ -1290,7 +1290,7 @@
               "title": "Bribery Offenses",
               "description": "Understanding Articles 15-16 on bribery",
               "content": "## Bribery: The Archetypal Corruption Crime\n\nArticles 15 and 16 address bribery - the quintessential corruption offense. The Convention requires States to criminalize both giving and receiving bribes.\n\n### Article 15: Bribery of National Public Officials\n\nAccording to Article 15, each State Party **shall adopt** legislative and other measures to establish as **criminal offences**, when committed intentionally:\n\n#### (a) Active Bribery (Giving)\n\nThe **promise, offering or giving**, to a public official, **directly or indirectly**, of an **undue advantage**, for the official himself or herself or another person or entity, in order that the official **act or refrain from acting** in the exercise of his or her official duties.\n\n**Breaking this down**:\n\n**\"Promise, offering or giving\"**: All three acts are criminalized\n- Promise: Agreeing to provide a bribe in the future\n- Offering: Proposing a bribe\n- Giving: Actually delivering the bribe\n\n**\"Directly or indirectly\"**: Through any means\n- Direct: Handing cash to the official\n- Indirect: Through intermediaries, family members, shell companies\n\n**\"Undue advantage\"**: Any benefit not legitimately due\n- Money, gifts, favors, jobs, contracts, services\n- Anything of value\n\n**\"Act or refrain from acting\"**: Both action and inaction\n- Doing something (awarding a contract, issuing a license)\n- Not doing something (not enforcing rules, not prosecuting)\n\n#### (b) Passive Bribery (Receiving)\n\nThe **solicitation or acceptance** by a public official, directly or indirectly, of an undue advantage, for the official himself or herself or another person or entity, in order that the official act or refrain from acting.\n\n**\"Solicitation or acceptance\"**: Both criminalized\n- Solicitation: Official asks for or demands a bribe\n- Acceptance: Official receives a bribe\n\n**Key point**: Both sides of bribery are crimes. The bribe-giver and bribe-taker are both liable.\n\n### Article 16: Bribery of Foreign Officials\n\nArticle 16 extends criminalization to **transnational bribery** - bribing officials of other countries or international organizations.\n\n#### Paragraph 1: Active Bribery (Mandatory)\n\nStates **shall adopt** measures to criminalize: The promise, offering or giving to a **foreign public official or an official of a public international organization**, directly or indirectly, of an undue advantage, in order that the official act or refrain from acting, **in order to obtain or retain business or other undue advantage** in relation to the **conduct of international business**.\n\n**Why this matters**:\n- Companies competing for international contracts may bribe foreign officials\n- This distorts competition and harms economic development\n- Creates unfair advantages for corrupt companies\n\n**\"Foreign public official\"**: As defined in Article 2(b)\n\n**\"Official of a public international organization\"**: As defined in Article 2(c)\n\n#### Paragraph 2: Passive Bribery (Encouraged)\n\nStates **shall consider** adopting measures to criminalize: The solicitation or acceptance by foreign officials of bribes.\n\n**Note the language difference**: \"Shall adopt\" vs. \"shall consider\" - States must criminalize paying foreign bribes but are only encouraged to criminalize foreign officials accepting them (recognizing that prosecuting foreign officials may be complex).\n\n## The Intentionality Requirement\n\nAll these offenses require **intentional commission** - the person must knowingly engage in the conduct. Accidental or unknowing behavior is not criminalized.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-3-1-2",
@@ -1298,7 +1298,7 @@
               "title": "Embezzlement and Related Offenses",
               "description": "Understanding Articles 17-19",
               "content": "## Theft by Officials\n\n### Article 17: Embezzlement, Misappropriation or Other Diversion\n\nArticle 17 requires States to criminalize when public officials **steal or misuse resources entrusted to them**.\n\nStates **shall adopt** measures to criminalize, when committed intentionally: The **embezzlement, misappropriation or other diversion** by a public official for his or her benefit or for the benefit of another person or entity, of any **property, public or private funds or securities or any other thing of value** entrusted to the public official **by virtue of his or her position**.\n\n**Key elements**:\n\n**What's covered**: Comprehensive list\n- Property (physical assets)\n- Public or private funds\n- Securities\n- \"Any other thing of value\"\n\n**The betrayal of trust**: \"Entrusted to the public official by virtue of position\"\n- Official has legitimate custody or control\n- Then converts it for personal use or benefit of others\n\n**For whose benefit**: Official or another person/entity\n- Official keeps it\n- Official gives it to family, friends, associates\n- Official diverts it to companies they control\n\n**Examples**:\n- Budget official embezzles public funds\n- Procurement officer diverts supplies to private business\n- Police officer steals seized assets\n- Customs official keeps confiscated goods\n\n### Article 18: Trading in Influence\n\nArticle 18 addresses a more subtle form of corruption - when someone **sells access or influence** over public officials.\n\nStates **shall consider** adopting measures to criminalize, when committed intentionally:\n\n#### (a) Active Trading in Influence\n\nThe promise, offering or giving to **a public official or any other person**, directly or indirectly, of an undue advantage in order that the public official or the person **abuse his or her real or supposed influence** with a view to obtaining from an administration or public authority an undue advantage.\n\n**How this works**:\n1. Person X wants something from government\n2. Person Y claims to have influence over officials\n3. X pays Y to use that influence\n4. Y may or may not actually have the claimed influence\n\n**\"Real or supposed influence\"**: Even if the influence doesn't exist, the crime occurs\n\n#### (b) Passive Trading in Influence\n\nThe solicitation or acceptance by a public official or any other person of an undue advantage for abusing influence.\n\n**Why criminalize this**: Creates shadow markets for government decisions, undermines merit-based decision-making, and often involves officials indirectly.\n\n### Article 19: Abuse of Functions\n\nArticle 19 provides a broad catch-all for corrupt abuse of official position.\n\nStates **shall consider** adopting measures to criminalize: The **abuse of functions or position**, that is, the **performance of or failure to perform an act, in violation of laws**, by a public official in discharge of functions, **for the purpose of obtaining an undue advantage**.\n\n**What's covered**:\n- Doing something the law prohibits (action)\n- Not doing something the law requires (omission)\n- In violation of laws\n- To obtain an undue advantage\n\n**Examples**:\n- Official approves application that doesn't meet requirements (for payment)\n- Official delays processing competitor's application (for payment)\n- Official discloses confidential information (for payment)\n\n**Broader than bribery**: May not involve a clear bribe transaction but still involves misusing position for improper benefit.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-3-1-quiz",
@@ -1391,8 +1391,8 @@
                   "explanation": "According to Article 16, it extends criminalization to bribery of foreign public officials and officials of public international organizations, particularly in international business contexts, while Article 15 addresses national officials."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         },
@@ -1411,7 +1411,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-3-2-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-3-2-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-3-2-1",
@@ -1419,7 +1419,7 @@
               "title": "Illicit Enrichment and Private Sector Corruption",
               "description": "Understanding Articles 20-22",
               "content": "## Beyond Traditional Public Sector Corruption\n\n### Article 20: Illicit Enrichment\n\nArticle 20 addresses a challenging but important offense: when officials become wealthy without legitimate explanation.\n\nStates **shall consider** adopting measures to criminalize: **Illicit enrichment**, that is, a **significant increase in the assets of a public official** that he or she **cannot reasonably explain** in relation to his or her lawful income.\n\n**Important caveat**: \"Subject to its constitution and the fundamental principles of its legal system\"\n\n**How it works**:\n- Official has modest salary\n- Official acquires expensive properties, vehicles, accounts\n- Official cannot explain wealth from legitimate sources\n- The unexplained enrichment itself is the crime\n\n**Why this is controversial but valuable**:\n\n**Challenges**:\n- May shift burden of proof to the accused\n- Could conflict with presumption of innocence in some systems\n- Privacy concerns about financial disclosure\n\n**Benefits**:\n- Addresses cases where corruption occurred but can't be proven\n- Deters officials from accumulating illegal wealth\n- Provides alternative when bribery charges can't be established\n\n**Constitutional accommodation**: The provision explicitly recognizes some legal systems may not allow this offense\n\n### Article 21: Bribery in the Private Sector\n\nArticle 21 extends corruption criminalization beyond government to the **private sector**.\n\nStates **shall consider** adopting measures to criminalize, when committed intentionally **in the course of economic, financial or commercial activities**:\n\n#### (a) Active Private Bribery\n\nThe promise, offering or giving, directly or indirectly, of an undue advantage to **any person who directs or works, in any capacity, for a private sector entity**, for the person himself or herself or for another person, in order that he or she, **in breach of his or her duties**, act or refrain from acting.\n\n#### (b) Passive Private Bribery\n\nThe solicitation or acceptance by such a person of an undue advantage to breach their duties.\n\n**Examples**:\n- Company A bribes Company B's purchasing manager to award contract\n- Corporate executive accepts kickback to approve merger\n- Bank employee takes payment to approve loan that doesn't qualify\n\n**Why criminalize private corruption**:\n- Distorts markets and competition\n- Harms companies and shareholders\n- Often facilitates public sector corruption\n- Undermines fair business practices\n\n### Article 22: Embezzlement in the Private Sector\n\nStates **shall consider** adopting measures to criminalize: **Embezzlement** by a person who directs or works in a private sector entity of any **property, private funds or securities or any other thing of value entrusted to him or her** by virtue of position.\n\n**The private sector equivalent of Article 17**:\n- Corporate officers embezzling company funds\n- Employees stealing from employers\n- Trustees misappropriating trust assets\n\n**Committed intentionally** in the course of economic, financial or commercial activities.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-3-2-2",
@@ -1427,7 +1427,7 @@
               "title": "Money Laundering and Obstruction",
               "description": "Understanding Articles 23-25",
               "content": "## Concealing Corruption and Obstructing Justice\n\n### Article 23: Laundering of Proceeds of Crime\n\nArticle 23 requires criminalizing **money laundering** - making illicit proceeds appear legitimate.\n\nStates **shall adopt** measures to criminalize, when committed intentionally:\n\n#### (a)(i) Conversion or Transfer\n\nThe **conversion or transfer of property**, knowing it's proceeds of crime, for the purpose of:\n- **Concealing or disguising** the illicit origin, OR\n- **Helping any person involved** in the predicate offence to evade legal consequences\n\n**Examples**: Converting cash to property, transferring to foreign accounts, investing in businesses\n\n#### (a)(ii) Concealment or Disguise\n\nThe **concealment or disguise** of the true nature, source, location, disposition, movement or ownership of or rights with respect to property, knowing it's proceeds of crime.\n\n**Examples**: Using shell companies, false documentation, complex financial transactions\n\n#### (b)(i) Acquisition, Possession or Use\n\nThe acquisition, possession or use of property, knowing, at the time of receipt, that it's proceeds of crime.\n\n**Subject to the basic concepts of its legal system** - recognizing different legal traditions\n\n#### (b)(ii) Participation and Related Offenses\n\nParticipation in, association with or conspiracy to commit, attempts to commit and aiding, abetting, facilitating and counselling the commission of money laundering.\n\n**Broad coverage**: Not just the launderer but helpers and facilitators\n\n**Paragraph 2: Implementation Guidance**\n\n**(a)** States shall seek to apply this to the **widest range of predicate offences**\n\n**(b)** Predicate offences shall **at a minimum** include offences established in accordance with this Convention\n\n**(c)** Predicate offences include those **committed both within and outside** the jurisdiction, subject to conditions\n\n### Article 24: Concealment\n\nStates **shall consider** adopting measures to criminalize: The **concealment or continued retention of property** when the person involved knows it's the result of Convention offences, **without having participated** in such offences.\n\n**Different from money laundering**: This addresses persons who:\n- Didn't commit the underlying corruption\n- Didn't launder the proceeds\n- But conceal or keep property knowing it's from corruption\n\n**Example**: Family member who hides corrupt official's assets\n\n### Article 25: Obstruction of Justice\n\nArticle 25 criminalizes **interfering with corruption investigations and prosecutions**.\n\nStates **shall adopt** measures to criminalize, when committed intentionally:\n\n#### (a) Witness Tampering/Evidence Interference\n\nThe use of physical force, threats or intimidation or the promise, offering or giving of an undue advantage to:\n- **Induce false testimony**, OR\n- **Interfere in the giving of testimony or the production of evidence**\n\nIn proceedings relating to Convention offences.\n\n**Examples**:\n- Threatening witnesses not to testify\n- Bribing witnesses to lie\n- Intimidating someone to destroy evidence\n\n#### (b) Interference with Officials\n\nThe use of physical force, threats or intimidation to **interfere with the exercise of official duties** by a justice or law enforcement official in relation to Convention offences.\n\n**Examples**:\n- Threatening a prosecutor\n- Intimidating an investigator\n- Using violence against a judge\n\n**Important note**: Nothing prejudices the right of States to protect other categories of public officials beyond justice and law enforcement.\n\n## The Logic of These Provisions\n\n**Money laundering**: Makes corruption less profitable by targeting the proceeds\n\n**Concealment**: Closes loopholes for those who help hide corruption\n\n**Obstruction**: Protects the justice process itself from corruption",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-3-2-3",
@@ -1435,7 +1435,40 @@
               "title": "Liability and Prosecution Framework",
               "description": "Understanding Articles 26-30",
               "content": "## Ensuring Accountability\n\n### Article 26: Liability of Legal Persons\n\nArticle 26 ensures that **corporations and other legal entities** can be held accountable for corruption.\n\nStates **shall adopt** measures to establish the **liability of legal persons** for participation in Convention offences.\n\n**Key points**:\n\n**Paragraph 2**: Liability may be **criminal, civil or administrative** - States choose based on their legal principles\n\n**Paragraph 3**: Legal person liability is **without prejudice to** the criminal liability of natural persons who committed the offences\n\n**Both can be liable**: The company AND the individuals\n\n**Paragraph 4**: Legal persons held liable shall be subject to **effective, proportionate and dissuasive** sanctions, including monetary sanctions.\n\n**Why this matters**:\n- Corporations may benefit from corruption\n- Corporate culture may encourage or tolerate corruption\n- Corporate resources may be used in corruption\n- Need to deter corporate corruption\n\n### Article 27: Participation and Attempt\n\n**Paragraph 1**: States **shall adopt** measures to criminalize **participation in any capacity** such as an accomplice, assistant or instigator in Convention offences.\n\n**Paragraph 2**: States **may adopt** measures to criminalize any **attempt** to commit Convention offences.\n\n**Paragraph 3**: States **may adopt** measures to criminalize the **preparation** for an offence.\n\n**Expanding liability**: Not just principal offenders but helpers, planners, attempters\n\n### Article 28: Knowledge, Intent and Purpose\n\n**Knowledge, intent or purpose** required as an element of an offence may be **inferred from objective factual circumstances**.\n\n**Practical significance**: Don't need confession or direct proof of intent if circumstances demonstrate it\n\n### Article 29: Statute of Limitations\n\nStates shall, where appropriate, establish under domestic law a **long statute of limitations** period to commence proceedings for Convention offences.\n\nAnd establish a **longer period** or provide for **suspension** of the statute where the alleged offender has **evaded the administration of justice**.\n\n**Why this matters**:\n- Corruption often takes time to detect\n- Offenders may flee jurisdiction\n- Complex investigations take time\n- Short limitations periods allow offenders to escape justice\n\n### Article 30: Prosecution, Adjudication and Sanctions\n\nThis comprehensive article addresses how offences should be prosecuted.\n\n**Paragraph 1**: States shall make Convention offences liable to **sanctions that take into account the gravity** of the offence.\n\n**Paragraph 2**: States shall establish **appropriate balance** between:\n- Immunities or privileges accorded to public officials, AND\n- The possibility of effectively investigating, prosecuting and adjudicating offences\n\n**The immunity challenge**: Many systems grant immunities to officials, but these shouldn't make prosecuting corruption impossible\n\n**Paragraph 3**: States shall endeavour to ensure **discretionary legal powers** relating to prosecution are exercised to **maximize enforcement effectiveness** and **deter** commission of offences.\n\n**Paragraph 4**: For Convention offences, States shall take measures to ensure conditions imposed pending trial or appeal consider the **need to ensure the defendant's presence** at subsequent proceedings.\n\n**Paragraph 5**: States shall **take into account the gravity** of offences when considering **early release or parole**.\n\n**Paragraph 6**: States shall consider establishing procedures through which an accused official may, where appropriate, be **removed, suspended or reassigned**, bearing in mind the **presumption of innocence**.\n\n**Paragraph 7**: Where warranted by gravity, States shall consider procedures for **disqualification** of convicted persons from:\n- Holding public office\n- Holding office in State-owned enterprises\n\n**Paragraph 8**: Disciplinary powers against civil servants are not affected.\n\n**Paragraph 9**: Description of offences and legal defences is **reserved to domestic law**.\n\n**Paragraph 10**: States Parties shall endeavour to promote **reintegration into society** of persons convicted of offences.",
-              "xp": 15
+              "kt": 15
+            },
+            {
+              "id": "module-3-2-flashcards",
+              "type": "flashcards",
+              "title": "Criminalization Review",
+              "description": "Key concepts from the criminalization chapter",
+              "cards": [
+                {
+                  "id": "card-3-2-1",
+                  "front": "What is the difference between active and passive bribery?",
+                  "back": "Active bribery (giving side) is promising, offering or giving a bribe. Passive bribery (receiving side) is soliciting or accepting a bribe. Both are criminalized under Articles 15-16.",
+                  "emoji": "💸"
+                },
+                {
+                  "id": "card-3-2-2",
+                  "front": "What is money laundering according to Article 23?",
+                  "back": "Converting or transferring proceeds of crime to conceal their illicit origin, or concealing/disguising the nature, source, location, ownership or movement of criminal proceeds. Also includes acquiring, possessing or using such property.",
+                  "emoji": "🧺"
+                },
+                {
+                  "id": "card-3-2-3",
+                  "front": "Why does Article 26 establish liability for legal persons?",
+                  "back": "To ensure corporations and other legal entities can be held accountable for corruption. Legal persons can benefit from and facilitate corruption, so they must face effective, proportionate and dissuasive sanctions.",
+                  "emoji": "🏢"
+                },
+                {
+                  "id": "card-3-2-4",
+                  "front": "What does Article 29 require regarding statute of limitations?",
+                  "back": "States shall establish a long statute of limitations period for Convention offences, and a longer period or suspension where the offender has evaded administration of justice, recognizing corruption takes time to detect.",
+                  "emoji": "⏱️"
+                }
+              ],
+              "kt": 15
             },
             {
               "id": "module-3-2-quiz",
@@ -1528,41 +1561,8 @@
                   "explanation": "According to Article 25, States shall criminalize using force, threats, intimidation or bribes to induce false testimony, interfere with testimony/evidence, or interfere with official duties of justice/law enforcement officials."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
-            },
-            {
-              "id": "module-3-2-flashcards",
-              "type": "flashcards",
-              "title": "Criminalization Review",
-              "description": "Key concepts from the criminalization chapter",
-              "cards": [
-                {
-                  "id": "card-3-2-1",
-                  "front": "What is the difference between active and passive bribery?",
-                  "back": "Active bribery (giving side) is promising, offering or giving a bribe. Passive bribery (receiving side) is soliciting or accepting a bribe. Both are criminalized under Articles 15-16.",
-                  "emoji": "💸"
-                },
-                {
-                  "id": "card-3-2-2",
-                  "front": "What is money laundering according to Article 23?",
-                  "back": "Converting or transferring proceeds of crime to conceal their illicit origin, or concealing/disguising the nature, source, location, ownership or movement of criminal proceeds. Also includes acquiring, possessing or using such property.",
-                  "emoji": "🧺"
-                },
-                {
-                  "id": "card-3-2-3",
-                  "front": "Why does Article 26 establish liability for legal persons?",
-                  "back": "To ensure corporations and other legal entities can be held accountable for corruption. Legal persons can benefit from and facilitate corruption, so they must face effective, proportionate and dissuasive sanctions.",
-                  "emoji": "🏢"
-                },
-                {
-                  "id": "card-3-2-4",
-                  "front": "What does Article 29 require regarding statute of limitations?",
-                  "back": "States shall establish a long statute of limitations period for Convention offences, and a longer period or suspension where the offender has evaded administration of justice, recognizing corruption takes time to detect.",
-                  "emoji": "⏱️"
-                }
-              ],
-              "xp": 15
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         }
@@ -1589,7 +1589,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-4-1-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-4-1-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-4-1-1",
@@ -1597,7 +1597,7 @@
               "title": "Freezing, Seizure and Confiscation",
               "description": "Understanding Article 31 on asset management",
               "content": "## Taking the Profit Out of Corruption\n\nArticle 31 provides the legal framework for States to identify, restrain, and permanently deprive offenders of corruption proceeds.\n\n### Paragraph 1: What Can Be Confiscated\n\nStates **shall take** measures to enable confiscation of:\n\n**(a)** **Proceeds of crime** derived from Convention offences OR property the **value of which corresponds** to such proceeds\n\n**(b)** **Property, equipment or other instrumentalities** used in or destined for use in Convention offences\n\n**\"To the greatest extent possible within its domestic legal system\"** - recognizing different legal traditions while requiring strong action.\n\n**Direct and substitute confiscation**:\n- Direct: The actual proceeds themselves\n- Value-based: If proceeds are gone, equivalent value\n\n**Instrumentalities**: Tools used to commit corruption (vehicles, computers, phones, etc.)\n\n### Paragraph 2: Identification and Restraint\n\nStates **shall take** measures to enable the **identification, tracing, freezing or seizure** of items referred to in paragraph 1 for the purpose of **eventual confiscation**.\n\n**The sequence**:\n1. **Identify**: Determine what assets exist\n2. **Trace**: Follow the money trail\n3. **Freeze/Seize**: Restrain assets pending proceedings\n4. **Confiscate**: Permanently deprive after legal determination\n\n### Paragraph 3: Administration of Restrained Property\n\nStates shall adopt measures to **regulate the administration** by competent authorities of frozen, seized or confiscated property.\n\n**Management challenges**:\n- Property may deteriorate\n- Businesses may need to operate\n- Real estate requires maintenance\n- Securities may need management\n\nProper administration preserves value for eventual return or disposal.\n\n### Paragraphs 4-6: Transformed and Commingled Proceeds\n\n**Paragraph 4**: If proceeds have been **transformed or converted** into other property, such property shall be liable to measures instead of the proceeds.\n\n**Example**: Bribe money used to buy real estate - the real estate can be confiscated\n\n**Paragraph 5**: If proceeds have been **intermingled with property from legitimate sources**, property shall be liable to confiscation up to the **assessed value of the intermingled proceeds**.\n\n**Example**: Corrupt official mixes $100,000 in bribes with $50,000 legitimate salary in one account containing $150,000 - up to $100,000 can be confiscated\n\n**Paragraph 6**: **Income or other benefits** derived from proceeds, from transformed property, or from intermingled property shall also be liable to measures, **in the same manner and to the same extent** as proceeds of crime.\n\n**Example**: Rental income from property bought with corruption proceeds - the rental income can also be confiscated\n\n### Paragraph 7: Overcoming Bank Secrecy\n\nStates shall **empower its courts or other competent authorities** to order that **bank, financial or commercial records** be made available or seized.\n\n**A State Party shall not decline to act** under this provision **on the ground of bank secrecy**.\n\n**Critical provision**: Bank secrecy cannot be used to hide corruption.\n\n### Paragraph 8: Burden of Proof\n\nStates **may consider** the possibility of **requiring that an offender demonstrate the lawful origin** of alleged proceeds or other property liable to confiscation.\n\n**To the extent consistent with** fundamental principles of domestic law and the nature of proceedings.\n\n**Reversed burden**: Instead of State proving property is illicit, offender must prove it's legitimate.\n\n**Constitutional accommodation**: Only where domestic law permits.\n\n### Paragraphs 9-10: Protections and Domestic Law\n\n**Paragraph 9**: Provisions shall not prejudice the **rights of bona fide third parties** (innocent parties who legitimately acquired property).\n\n**Paragraph 10**: Nothing affects the principle that measures shall be **defined and implemented** in accordance with **domestic law**.\n\n## The Complete Asset Management Cycle\n\n1. **Detection**: Corruption investigation identifies assets\n2. **Identification & Tracing**: Follow money trails\n3. **Freezing/Seizure**: Immediate restraint\n4. **Management**: Preserve value pending proceedings\n5. **Confiscation**: Permanent deprivation after legal determination\n6. **Disposal/Return**: Return to victims or dispose per law",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-4-1-2",
@@ -1605,7 +1605,7 @@
               "title": "Protecting the Vulnerable",
               "description": "Understanding Articles 32-35 on protection and remedies",
               "content": "## Safeguarding Those Who Fight Corruption\n\n### Article 32: Protection of Witnesses, Experts and Victims\n\nArticle 32 requires protecting those who help prosecute corruption from retaliation.\n\n**Paragraph 1**: States **shall take** appropriate measures to provide **effective protection from potential retaliation or intimidation** for:\n- **Witnesses** who give testimony\n- **Experts** who give testimony\n- As appropriate, their **relatives and other persons close to them**\n\n**Paragraph 2** lists protective measures **may include**:\n\n**(a)** Establishing procedures for **physical protection**, such as:\n- Relocating them where necessary and feasible\n- Permitting non-disclosure or limitations on disclosure of information concerning identity and whereabouts\n\n**(b)** Providing **evidentiary rules** to permit testimony in a manner that ensures safety, such as:\n- Video or other communications technology\n- Other adequate means\n\n**Without prejudice to rights of the defendant**, including right to due process.\n\n**Paragraph 3**: States **shall consider** entering into **agreements or arrangements with other States** for the relocation of protected persons.\n\n**International witness protection**: Sometimes witnesses need to leave the country for safety.\n\n**Paragraph 4**: Provisions also apply to **victims insofar as they are witnesses**.\n\n**Paragraph 5**: States shall enable **views and concerns of victims** to be presented and considered at appropriate stages of criminal proceedings **in a manner not prejudicial to the rights of the defence**.\n\n### Article 33: Protection of Reporting Persons\n\nStates **shall consider** incorporating into domestic legal systems appropriate measures to provide **protection against any unjustified treatment** for any person who **reports in good faith and on reasonable grounds** to competent authorities any facts concerning Convention offences.\n\n**Whistleblower protection**:\n- Protection from retaliation\n- Job security\n- Legal protections\n- Confidentiality where appropriate\n\n**Qualified protection**: \"Good faith and reasonable grounds\" - not for malicious or baseless allegations.\n\n### Article 34: Consequences of Acts of Corruption\n\nWith due regard to the **rights of third parties acquired in good faith**, States **shall take measures** to address **consequences of corruption**.\n\nStates Parties **may consider** corruption a relevant factor in legal proceedings to:\n- **Annul or rescind a contract**\n- **Withdraw a concession** or other similar instrument\n- **Take any other remedial action**\n\n**Civil remedies**: Beyond criminal prosecution, addressing contracts and arrangements tainted by corruption.\n\n### Article 35: Compensation for Damage\n\nStates **shall take** measures to ensure that **entities or persons who have suffered damage** as a result of corruption have the **right to initiate legal proceedings** against those responsible to **obtain compensation**.\n\n**Civil liability**: Victims can sue for damages caused by corruption.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-4-1-3",
@@ -1613,7 +1613,7 @@
               "title": "Institutional Framework and Jurisdiction",
               "description": "Understanding Articles 36-42 on authorities, cooperation and jurisdiction",
               "content": "## Building Effective Institutions\n\n### Article 36: Specialized Authorities\n\nStates **shall** ensure the existence of a **body or bodies or persons specialized in combating corruption through law enforcement**.\n\nSuch body/bodies/persons shall be granted:\n- **Necessary independence** to carry out functions effectively and without undue influence\n- **Appropriate training and resources** to carry out tasks\n\n**Why specialization matters**:\n- Corruption cases are complex\n- Require specific expertise\n- Benefit from dedicated focus\n- Need independence from political pressure\n\n### Article 37: Cooperation with Law Enforcement Authorities\n\nEncouraging cooperation from participants in corruption.\n\n**Paragraph 1**: States **shall take** measures to encourage persons who participated in corruption to:\n- **Supply information** useful for investigative and evidentiary purposes\n- **Provide factual, specific help** that may contribute to depriving offenders of proceeds and recovering such proceeds\n\n**Paragraph 2**: States **shall consider** providing for the possibility of **mitigating punishment** of an accused person who provides **substantial cooperation**.\n\n**Paragraph 3**: States **shall consider** providing for the possibility of **granting immunity from prosecution** to a person who provides substantial cooperation.\n\n**Paragraph 4**: Protection of such persons shall be as provided in Article 32.\n\n**Paragraph 5**: States concerned **may consider** entering into agreements concerning the treatment set forth in paragraphs 2 and 3.\n\n**Incentivizing cooperation**: Reduced sentences or immunity for substantial help.\n\n### Articles 38-39: Domestic Cooperation\n\n**Article 38**: States **shall take** measures to encourage cooperation between:\n- Public authorities and public officials, AND\n- Authorities responsible for investigating and prosecuting\n\nSuch cooperation **may include**:\n- Informing investigating authorities when there are reasonable grounds to believe offences have been committed\n- Providing all necessary information upon request\n\n**Article 39**: States **shall take** measures to encourage cooperation between:\n- National investigating and prosecuting authorities, AND\n- Private sector entities (particularly financial institutions)\n\n**Paragraph 2**: States **shall consider** encouraging nationals and residents to report commission of offences to investigating and prosecuting authorities.\n\n### Article 40: Bank Secrecy\n\nStates **shall ensure** that, in domestic criminal investigations of Convention offences, there are **appropriate mechanisms** to **overcome obstacles that may arise out of the application of bank secrecy laws**.\n\n**Complementing Article 31(7)**: Bank secrecy cannot impede corruption investigations.\n\n### Article 41: Criminal Record\n\nStates **may adopt** measures to **take into consideration** any **previous conviction in another State** of an alleged offender for the purpose of using such information in criminal proceedings relating to Convention offences.\n\n**International criminal history**: Prior convictions abroad can be considered.\n\n### Article 42: Jurisdiction\n\nArticle 42 establishes when States have authority to prosecute Convention offences.\n\n**Paragraph 1**: States **shall adopt** measures to establish jurisdiction when:\n\n**(a)** The offence is **committed in the territory** of that State Party, OR\n\n**(b)** The offence is committed **on board a vessel flying the flag** of that State Party or **an aircraft registered** under its laws\n\n**Mandatory territorial and flag jurisdiction**.\n\n**Paragraph 2**: States **may also** establish jurisdiction when:\n\n**(a)** Offence is committed **against a national** of that State Party\n\n**(b)** Offence is committed **by a national** of that State Party or stateless person with habitual residence in its territory\n\n**(c)** Specific money-laundering circumstances (see Article 23)\n\n**(d)** Offence is committed **against the State** Party\n\n**Optional additional bases for jurisdiction**.\n\n**Paragraph 3**: For extradition purposes (Article 44), States **shall take** measures to establish jurisdiction when the alleged offender is **present in its territory** and it **does not extradite** solely on the ground that he or she is **one of its nationals**.\n\n**\"Aut dedere aut judicare\"**: Extradite or prosecute principle.\n\n**Paragraphs 5-6**: Coordination and cooperation provisions to avoid conflicts when multiple States have jurisdiction.\n\n## The Enforcement Ecosystem\n\nArticles 31-42 create a complete enforcement framework:\n- **Assets**: Freeze, seize, confiscate\n- **People**: Protect witnesses, victims, whistleblowers\n- **Institutions**: Specialized authorities with independence\n- **Cooperation**: Between agencies, with private sector, internationally\n- **Jurisdiction**: Clear rules on who can prosecute",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-4-1-quiz",
@@ -1706,8 +1706,8 @@
                   "explanation": "According to Article 42, paragraph 1, States shall adopt measures to establish jurisdiction when offences are committed in their territory or on board vessels/aircraft under their flag. Additional bases for jurisdiction are optional."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         }
@@ -1734,7 +1734,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-5-1-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-5-1-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-5-1-1",
@@ -1742,7 +1742,7 @@
               "title": "Framework for Cooperation",
               "description": "Understanding Articles 43-46 on cooperation foundations",
               "content": "## Building International Partnerships\n\n### Article 43: International Cooperation\n\nArticle 43 establishes the foundational principle of international cooperation.\n\n**Paragraph 1**: States Parties **shall cooperate** in criminal matters in accordance with Articles 44 to 50. Where appropriate and consistent with domestic legal systems, States shall **consider assisting** each other in investigations and proceedings in **civil and administrative matters** relating to corruption.\n\n**Dual criminality**: When dual criminality is considered a requirement, it shall be deemed fulfilled **irrespective of whether** the laws of the requested State place the offence within the same category or denominate it by the same terminology, **if the conduct underlying the offence** for which assistance is sought **is a criminal offence under the laws of both States Parties**.\n\n**What matters**: The underlying conduct, not the legal classification or name.\n\n### Articles 44-45: Extradition and Transfer\n\n**Article 44** establishes comprehensive extradition provisions. Key points:\n\n- Convention offences are deemed **included as extraditable offences** in extradition treaties\n- States undertake to include such offences in **every extradition treaty** to be concluded\n- States using the Convention as basis for extradition **shall not consider** offences to be political offences\n- If a State makes extradition conditional on treaty existence and receives a request from a State with no treaty, it **may consider** this Convention the legal basis\n- States shall endeavour to **expedite extradition procedures** and **simplify evidentiary requirements**\n- If a State does not extradite solely because the person is its national, it shall **submit the case** to competent authorities for prosecution\n- States shall seek to conclude **bilateral and multilateral agreements** to enhance extradition effectiveness\n\n**Article 45** addresses **transfer of sentenced persons** - States may enter into agreements for transferring persons sentenced to imprisonment to their territory to complete sentences there.\n\n### Article 46: Mutual Legal Assistance\n\nArticle 46 is one of the Convention's longest and most detailed provisions. It establishes comprehensive mutual legal assistance (MLA) mechanisms.\n\n**Paragraph 1**: States Parties shall afford one another the **widest measure** of mutual legal assistance in investigations, prosecutions and judicial proceedings.\n\n**Paragraph 3** lists purposes for which MLA may be requested:\n- Taking evidence or statements\n- Effecting service of judicial documents\n- Executing searches, seizures, and freezing\n- Examining objects and sites\n- Providing information and expert evaluations\n- Providing originals or copies of documents\n- Identifying or tracing proceeds, property, instrumentalities\n- Facilitating voluntary appearance of persons\n- Any other type of assistance not contrary to domestic law\n- Identifying, freezing and tracing proceeds\n- **Asset recovery** per Chapter V\n\n**Paragraphs 13-29** provide detailed procedures:\n- **Central authorities**: Each State designates a central authority to receive and execute or transmit MLA requests\n- **Form of requests**: Written, in acceptable language, under conditions allowing authenticity verification\n- **Contents**: Identity of requesting authority, nature of investigation, summary of facts, description of assistance sought, purpose\n- **Execution**: Per domestic law of requested State, to extent not contrary and where possible per procedures specified in request\n- **Grounds for refusal**: Limited - not based solely on bank secrecy or fiscal matters\n- **Confidentiality**: Requesting State may require requested State keep request confidential\n- **Costs**: Ordinary costs borne by requested State; substantial/extraordinary costs subject to consultation\n\n**Paragraph 8**: **States Parties shall not decline** to render MLA **on the ground of bank secrecy**.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-5-1-2",
@@ -1750,7 +1750,7 @@
               "title": "Advanced Cooperation Tools",
               "description": "Understanding Articles 47-50 on specialized cooperation",
               "content": "## Enhanced Cooperation Mechanisms\n\n### Article 47: Transfer of Criminal Proceedings\n\nStates Parties **shall consider** the possibility of **transferring proceedings** for prosecution to one another in cases where such transfer is considered to be in the interests of the **proper administration of justice**, particularly where **several jurisdictions are involved**, with a view to **concentrating the prosecution**.\n\n**Why transfer proceedings**:\n- Evidence is in another jurisdiction\n- Witnesses are in another jurisdiction\n- Multiple jurisdictions involved - avoid duplication\n- One jurisdiction better positioned to prosecute effectively\n\n### Article 48: Law Enforcement Cooperation\n\nArticle 48 requires States to **cooperate closely** to enhance law enforcement effectiveness.\n\n**Paragraph 1**: States shall take effective measures to:\n\n**(a)** **Enhance and establish channels of communication** between competent authorities for secure and rapid information exchange\n\n**(b)** **Cooperate in conducting inquiries** concerning:\n- Identity, whereabouts and activities of suspects\n- Movement of proceeds or property from offences\n- Movement of property, equipment or instrumentalities used in offences\n\n**(c)** **Provide necessary items or substances** for analytical or investigative purposes\n\n**(d)** **Exchange information** on specific means and methods used (false identities, forged documents, concealment means)\n\n**(e)** **Facilitate coordination** and **promote exchange of personnel** and experts, including posting of liaison officers\n\n**(f)** **Exchange information and coordinate measures** for early identification of offences\n\n**Paragraph 2**: States shall **consider** entering into **bilateral or multilateral agreements** on direct cooperation between law enforcement agencies.\n\n**Paragraph 3**: States shall endeavour to cooperate to respond to offences committed **through the use of modern technology**.\n\n### Article 49: Joint Investigations\n\nStates Parties **shall consider** concluding bilateral or multilateral agreements whereby, in relation to matters under investigation, prosecution or judicial proceedings, competent authorities may **establish joint investigative bodies**.\n\nIn absence of agreements, joint investigations may be undertaken **by agreement on a case-by-case basis**.\n\n**Ensuring sovereignty**: States involved shall ensure that the **sovereignty** of the State Party in whose territory investigation takes place is **fully respected**.\n\n**Benefits of joint investigations**:\n- Pool resources and expertise\n- Coordinate activities across borders\n- Share information in real-time\n- Build international cases more effectively\n\n### Article 50: Special Investigative Techniques\n\nArticle 50 encourages use of advanced investigative methods.\n\n**Paragraph 1**: To combat corruption effectively, States shall, to the extent permitted by domestic legal system principles, take measures to allow **appropriate use** of:\n\n- **Controlled delivery**\n- Where deemed appropriate, other **special investigative techniques** such as:\n  - Electronic or other forms of **surveillance**\n  - **Undercover operations**\n- **Admissibility in court** of evidence derived therefrom\n\n**Paragraph 2**: For investigating Convention offences, States are **encouraged** to conclude, when necessary, appropriate agreements for using special techniques in **international cooperation**.\n\nSuch agreements shall be concluded in **full compliance with sovereign equality** principle and carried out **strictly per agreement terms**.\n\n**Paragraph 3**: In absence of agreements, decisions to use special techniques at international level shall be made **case-by-case** and may take into consideration financial arrangements and jurisdiction exercise understandings.\n\n**Paragraph 4**: Decisions to use **controlled delivery** at international level may include methods such as **intercepting and allowing goods or funds to continue intact** or be **removed or replaced** in whole or in part.\n\n## The Complete Cooperation Framework\n\nArticles 43-50 create a comprehensive system:\n\n**Foundation**: Obligation to cooperate (Article 43)\n\n**Persons**: Extradition and transfer (Articles 44-45)\n\n**Evidence**: Mutual legal assistance (Article 46)\n\n**Proceedings**: Transfer of proceedings (Article 47)\n\n**Operations**: Law enforcement cooperation and joint investigations (Articles 48-49)\n\n**Techniques**: Special investigative techniques (Article 50)\n\nTogether, these enable States to combat corruption that crosses borders effectively.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-5-1-quiz",
@@ -1843,8 +1843,8 @@
                   "explanation": "According to Article 50 (and as defined in Article 2), controlled delivery is the technique of allowing illicit or suspect consignments to pass through territories with knowledge and under supervision of competent authorities to investigate offences and identify persons involved."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         }
@@ -1871,7 +1871,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-6-1-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-6-1-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-6-1-1",
@@ -1879,7 +1879,7 @@
               "title": "The Fundamental Principle and Prevention",
               "description": "Understanding Articles 51-52",
               "content": "## A Revolutionary Principle\n\n### Article 51: General Provision\n\nArticle 51 establishes asset recovery as central to the Convention.\n\nThe **return of assets** pursuant to this chapter is a **fundamental principle** of this Convention, and States Parties shall afford one another the **widest measure of cooperation and assistance** in this regard.\n\n**Why this matters**:\n- First major international convention to make asset recovery a fundamental principle\n- Recognizes that developing countries suffer enormously from asset theft\n- Corruption proceeds often hidden in foreign jurisdictions\n- Return of assets helps victim countries recover and rebuild\n\n### Article 52: Prevention and Detection of Transfers\n\nArticle 52 requires measures to **prevent** illicit transfers before they occur and **detect** them when they do.\n\n**Paragraph 1**: States shall take measures to require **financial institutions** to:\n- **Verify the identity** of customers\n- Take reasonable steps to determine **identity of beneficial owners** of high-value accounts\n- Conduct **enhanced scrutiny** of accounts sought or maintained by or on behalf of:\n  - Individuals who are or have been **entrusted with prominent public functions**\n  - Their **family members**\n  - Their **close associates**\n\nSuch enhanced scrutiny shall be **reasonably designed to detect suspicious transactions** for reporting to competent authorities and should not discourage doing business with legitimate customers.\n\n**Paragraph 2**: States shall:\n\n**(a)** Issue **advisories** regarding:\n- Types of persons to whose accounts enhanced scrutiny should apply\n- Types of accounts and transactions requiring particular attention\n- Appropriate account-opening, maintenance and record-keeping measures\n\n**(b)** Where appropriate, **notify financial institutions**, at request of another State or on own initiative, of identity of particular persons to whose accounts enhanced scrutiny should apply.\n\n**Paragraph 3**: States shall ensure financial institutions **maintain adequate records** over appropriate periods of accounts and transactions involving persons mentioned in paragraph 1.\n\n**Paragraph 4**: States shall implement measures to **prevent establishment of banks** that:\n- Have **no physical presence** (shell banks)\n- Are **not affiliated with a regulated financial group**\n\nStates may consider requiring financial institutions to:\n- **Refuse** to enter into or continue correspondent banking relationships with shell banks\n- **Guard against** establishing relations with foreign institutions permitting their accounts to be used by shell banks\n\n**Paragraph 5**: States **shall consider** establishing **financial disclosure systems** for appropriate public officials and providing sanctions for non-compliance. States shall also consider measures to permit authorities to **share that information** with authorities in other States when necessary to investigate, claim and recover proceeds.\n\n**Paragraph 6**: States **shall consider** requiring appropriate public officials having an interest in or authority over a **financial account in a foreign country** to **report that relationship** to appropriate authorities and maintain appropriate records.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-6-1-2",
@@ -1887,7 +1887,7 @@
               "title": "Recovery Mechanisms and Return",
               "description": "Understanding Articles 53-59",
               "content": "## Getting Assets Back\n\n### Article 53: Direct Recovery\n\nArticle 53 allows victim States to **directly pursue assets** in foreign courts.\n\nStates shall take measures to:\n\n**(a)** Permit another State Party to **initiate civil action** in its courts to establish **title to or ownership** of property acquired through Convention offences\n\n**(b)** Permit its courts to **order those who committed offences** to pay **compensation or damages** to another State Party harmed\n\n**(c)** Permit its courts or authorities, when deciding on confiscation, to **recognize another State Party's claim as legitimate owner** of property acquired through offences\n\n**Empowering victim States**: Direct access to foreign courts, not just government-to-government requests.\n\n### Articles 54-55: International Cooperation in Confiscation\n\n**Article 54** establishes mechanisms for **recovery through international cooperation in confiscation**.\n\n**Paragraph 1**: States shall take measures to:\n- **Give effect** to confiscation order issued by court of another State\n- Order **confiscation** of foreign-origin property by adjudication of money-laundering or other offence\n- Allow **confiscation without criminal conviction** in cases where offender cannot be prosecuted by reason of death, flight, absence or other appropriate cases\n\n**Paragraph 2**: States shall take measures to **freeze or seize property** upon:\n- **Freezing/seizure order** issued by court or authority of requesting State providing reasonable basis\n- **Request** providing reasonable basis\n- Additional measures to **preserve property** such as based on foreign arrest or criminal charge\n\n**Article 55** provides detailed procedures for **international cooperation for confiscation**:\n\n**Paragraph 1**: Requested State shall:\n- Submit request to authorities for obtaining confiscation order, OR\n- Submit confiscation order issued by requesting State to authorities for giving effect\n\n**Paragraph 2**: Following request, requested State shall take measures to identify, trace, freeze or seize proceeds, property, equipment or instrumentalities for eventual confiscation.\n\n**Paragraph 3**: Requests shall contain required information per Article 46, plus specific information about property to be confiscated, facts, or copy of confiscation order.\n\n**Paragraphs 6-9**: \n- State may make measures conditional on treaty existence; Convention can serve as treaty basis\n- Cooperation may be refused or measures lifted if State doesn't receive sufficient evidence or property is de minimis\n- Before lifting measures, requested State shall give requesting State opportunity to present reasons for continuing\n- Provisions don't prejudice bona fide third party rights\n\n### Article 57: Return and Disposal of Assets\n\nArticle 57 addresses how confiscated property is returned or disposed of.\n\n**Paragraph 1**: Property confiscated shall be disposed of, including by **return to prior legitimate owners**, per paragraph 3, by the State in accordance with Convention and domestic law.\n\n**Paragraph 2**: States shall adopt measures to enable authorities to return confiscated property when acting on request from another State, taking into account bona fide third party rights.\n\n**Paragraph 3**: Requested State shall:\n\n**(a)** In case of **embezzlement of public funds or laundering of embezzled public funds** (Articles 17 and 23), when confiscation executed per Article 55 on basis of final judgment in requesting State (requirement that can be waived), **return the confiscated property** to requesting State.\n\n**(b)** In case of proceeds of **any other** Convention offence, when confiscation executed per Article 55 on basis of final judgment (requirement that can be waived), return property to requesting State when:\n- Requesting State reasonably establishes **prior ownership**, OR\n- Requested State recognizes **damage** to requesting State as basis for return\n\n**(c)** In all other cases, give **priority consideration** to:\n- Returning confiscated property to requesting State\n- Returning to prior legitimate owners\n- Compensating victims of crime\n\n**Paragraph 4**: Requested State may deduct **reasonable expenses** incurred in investigations, prosecutions or proceedings.\n\n**Paragraph 5**: States may give special consideration to concluding **agreements or arrangements** for final disposal of confiscated property.\n\n### Articles 58-59: Supporting Mechanisms\n\n**Article 58**: States shall cooperate to prevent and combat transfer of proceeds and promote recovery, and **shall consider establishing a financial intelligence unit** (FIU) responsible for receiving, analysing and disseminating reports of suspicious financial transactions.\n\n**Article 59**: States shall **consider** concluding bilateral or multilateral agreements to **enhance effectiveness** of international cooperation pursuant to this chapter.\n\n## The Asset Recovery Cycle\n\n1. **Prevention**: Financial institutions conduct enhanced scrutiny\n2. **Detection**: Suspicious transactions reported\n3. **Investigation**: Assets identified and traced\n4. **Restraint**: Assets frozen/seized\n5. **Confiscation**: Permanent deprivation ordered\n6. **Return**: Assets returned to victim country or legitimate owners\n7. **Use**: Recovered assets help victim country recover",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-6-1-quiz",
@@ -1980,8 +1980,8 @@
                   "explanation": "According to Article 57, paragraph 3(a), in cases of embezzlement of public funds or laundering of embezzled public funds, when confiscation is executed per Article 55 and based on final judgment, the confiscated property shall be returned to the requesting State."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         }
@@ -2008,7 +2008,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-7-1-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-7-1-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-7-1-1",
@@ -2016,7 +2016,7 @@
               "title": "Technical Assistance and Information Exchange",
               "description": "Understanding Articles 60-62",
               "content": "## Supporting Effective Implementation\n\n### Article 60: Training and Technical Assistance\n\nArticle 60 recognizes that many States need support to implement the Convention effectively.\n\n**Paragraph 1**: States shall, to the extent necessary, **initiate, develop or improve specific training programmes** for personnel responsible for preventing and combating corruption.\n\nSuch programmes could deal with:\n- **Effective measures** to prevent, detect, investigate, punish and control corruption, including evidence-gathering and investigative methods\n- **Building capacity** in development and planning of strategic anti-corruption policy\n- **Training authorities** in preparing mutual legal assistance requests meeting Convention requirements\n- **Evaluation and strengthening** of institutions, public service management, public finances management (including procurement), and private sector\n- **Preventing and combating** transfer of proceeds and recovering them\n- **Detecting and freezing** transfer of proceeds\n- **Surveillance** of proceeds movement and methods used to transfer, conceal or disguise them\n- **Appropriate legal and administrative mechanisms** for facilitating return of proceeds\n- **Methods** for protecting victims and witnesses who cooperate\n- **Training in national and international regulations and languages**\n\n**Paragraph 2**: States shall, according to capacity, consider affording one another the **widest measure of technical assistance**, especially for benefit of developing countries, including **material support and training** and **mutual exchange of relevant experience and specialized knowledge**.\n\n**Paragraph 3**: States shall **strengthen** efforts to maximize operational and training activities in international and regional organizations and relevant bilateral and multilateral agreements.\n\n**Paragraph 4**: States shall consider **assisting one another** in conducting **evaluations, studies and research** relating to types, causes, effects and costs of corruption, with a view to developing strategies and action plans.\n\n**Paragraph 5**: To facilitate **asset recovery**, States may cooperate in providing each other with **names of experts** who could assist.\n\n**Paragraph 6**: States shall consider using **subregional, regional and international conferences and seminars** to promote cooperation and technical assistance.\n\n**Paragraph 7**: States shall consider establishing **voluntary mechanisms** with a view to contributing financially to developing countries' and transition economies' efforts through technical assistance programmes.\n\n**Paragraph 8**: States shall consider making **voluntary contributions** to the **UN Office on Drugs and Crime** for fostering programmes in developing countries to implement the Convention.\n\n### Article 61: Collection, Exchange and Analysis of Information\n\nArticle 61 promotes learning from experience and sharing knowledge.\n\n**Paragraph 1**: States **shall consider analysing**, in consultation with experts, **trends in corruption** in their territory and **circumstances** in which corruption offences are committed.\n\n**Paragraph 2**: States **shall consider developing and sharing** with each other and through international/regional organizations:\n- **Statistics**\n- **Analytical expertise** concerning corruption\n- **Information** with a view to developing common definitions, standards, methodologies\n- **Information on best practices** to prevent and combat corruption\n\n**Paragraph 3**: States **shall consider monitoring** policies and actual measures to combat corruption and **making assessments** of their effectiveness and efficiency.\n\n### Article 62: Implementation Through Economic Development\n\nArticle 62 links implementation to broader development efforts.\n\n**Paragraph 1**: States shall take measures conducive to **optimal implementation** to the extent possible through **international cooperation**, taking into account **negative effects of corruption on society**, particularly on **sustainable development**.\n\n**Paragraph 2**: States shall make concrete efforts, to extent possible and in coordination:\n\n**(a)** To **enhance cooperation** with developing countries to strengthen capacity to prevent and combat corruption\n\n**(b)** To **enhance financial and material assistance** to support developing countries' efforts\n\n**(c)** To provide **technical assistance** to developing countries and transition economies. To that end, States shall endeavour to make adequate and regular **voluntary contributions** to an account in a UN funding mechanism. States may also give special consideration to contributing a **percentage of money or value of proceeds or property confiscated**.\n\n**(d)** To **encourage and persuade** other States and financial institutions to join efforts, particularly by providing training and modern equipment\n\n**Paragraph 3**: Measures shall be without prejudice to existing foreign assistance commitments or other financial cooperation arrangements.\n\n**Paragraph 4**: States may conclude bilateral or multilateral agreements on material and logistical assistance.\n\n## Building Global Capacity\n\nArticles 60-62 recognize that:\n- **Implementation requires capacity**: Not all States have equal resources and expertise\n- **Cooperation benefits all**: Helping others strengthen systems strengthens the global effort\n- **Sharing knowledge is essential**: Learning from each other's experiences improves effectiveness\n- **Sustained support needed**: Technical assistance is ongoing, not one-time",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-7-1-2",
@@ -2024,7 +2024,7 @@
               "title": "Implementation Mechanisms",
               "description": "Understanding Articles 63-64",
               "content": "## Governance and Support Structures\n\n### Article 63: Conference of the States Parties\n\nArticle 63 establishes the **Conference of States Parties** - the Convention's governing body.\n\n**Paragraph 1**: A Conference of States Parties is hereby established to:\n- **Improve capacity** of and cooperation between States Parties\n- **Achieve objectives** set forth in Convention\n- **Promote and review implementation**\n\n**Paragraph 2**: The UN Secretary-General shall convene the Conference **not later than one year following entry into force**. Thereafter, **regular meetings** shall be held per rules adopted by Conference.\n\n**Paragraph 3**: Conference shall adopt:\n- **Rules of procedure**\n- **Rules governing functioning** of activities\n- Including rules concerning **admission and participation of observers**\n- **Payment of expenses**\n\n**Paragraph 4**: Conference shall agree upon **activities, procedures and methods** to achieve objectives in paragraph 1, including:\n\n**(a)** **Facilitating activities** by States under Articles 60 and 62 and Chapters II to V, including encouraging mobilization of voluntary contributions\n\n**(b)** **Facilitating exchange of information** among States on patterns and trends in corruption and successful practices, through publication of relevant information\n\n**(c)** **Cooperating** with relevant international and regional organizations and NGOs\n\n**(d)** Making **appropriate use** of relevant information produced by other mechanisms to avoid unnecessary duplication\n\n**(e)** **Reviewing periodically** implementation by States Parties\n\n**(f)** Making **recommendations** to improve Convention and its implementation\n\n**(g)** Taking note of **technical assistance requirements** and recommending action\n\n**Paragraph 5**: For paragraph 4, Conference shall **acquire necessary knowledge** of measures taken by States and difficulties encountered through:\n- Information provided by them\n- Supplemental **review mechanisms** as may be established by Conference\n\n**Paragraph 6**: States Parties shall provide Conference with **information on programmes, plans and practices** as well as **legislative and administrative measures** to implement Convention, as required by Conference.\n\nConference shall examine most effective way of receiving and acting upon information, including from States, competent international organizations, and relevant NGOs.\n\n**Paragraph 7**: Conference shall establish, if it deems necessary, any **appropriate mechanism or body** to assist in effective implementation.\n\n### Article 64: Secretariat\n\nArticle 64 establishes secretariat support for the Conference.\n\n**Paragraph 1**: The UN Secretary-General shall provide **necessary secretariat services** to Conference of States Parties.\n\n**Paragraph 2**: The secretariat shall:\n\n**(a)** **Assist Conference** in carrying out activities set forth in Article 63 and **make arrangements** and provide services for Conference sessions\n\n**(b)** Upon request, **assist States Parties** in providing information to Conference as envisaged in Article 63\n\n**(c)** Ensure **necessary coordination** with secretariats of relevant international and regional organizations\n\n## Ensuring Ongoing Implementation\n\nArticles 63-64 create structures for:\n- **Collective governance**: Conference brings States together\n- **Peer review**: States share experiences and learn from each other\n- **Monitoring**: Conference reviews implementation\n- **Adaptation**: Conference can make recommendations and establish new mechanisms\n- **Support**: Secretariat provides ongoing assistance\n\nThese mechanisms ensure the Convention remains a **living instrument** that evolves to meet challenges.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-7-1-quiz",
@@ -2117,8 +2117,8 @@
                   "explanation": "According to Article 61, paragraph 1, States shall consider analysing trends in corruption in their territory and the circumstances in which corruption offences are committed, in consultation with experts."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         }
@@ -2145,7 +2145,7 @@
                 "X": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-8-1-overview-old.mp4",
                 "Y": "https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/module-8-1-overview-young.mp4"
               },
-              "xp": 10
+              "kt": 10
             },
             {
               "id": "module-8-1-1",
@@ -2153,7 +2153,7 @@
               "title": "Implementation and Disputes",
               "description": "Understanding Articles 65-66",
               "content": "## Making the Convention Work\n\n### Article 65: Implementation of the Convention\n\nArticle 65 establishes States' obligations to put the Convention into practice.\n\n**Paragraph 1**: Each State Party **shall take** the **necessary measures, including legislative and administrative measures**, in accordance with fundamental principles of its domestic law, to **ensure the implementation of its obligations** under this Convention.\n\n**What this means**:\n- **Legislative measures**: Passing laws to criminalize offences, establish procedures, etc.\n- **Administrative measures**: Creating institutions, issuing regulations, training personnel\n- **In accordance with domestic law**: Respecting constitutional and legal systems\n- **Obligation**: \"Shall take\" - this is mandatory, not optional\n\n**Examples of implementation**:\n- Enacting criminal laws establishing Convention offences\n- Creating or designating anti-corruption agencies\n- Adopting mutual legal assistance procedures\n- Establishing financial disclosure systems\n- Training law enforcement and judges\n\n**Paragraph 2**: Each State Party **may adopt** more strict or severe measures than those provided for by this Convention for preventing and combating corruption.\n\n**The floor, not the ceiling**: The Convention sets minimum standards. States can go further if they choose.\n\n**Examples**:\n- Criminalizing additional conduct\n- Imposing stricter penalties\n- Requiring more extensive disclosures\n- Providing stronger protections\n\n### Article 66: Settlement of Disputes\n\nArticle 66 addresses how to resolve disagreements about the Convention.\n\n**Paragraph 1**: States Parties **shall endeavour to settle disputes** concerning interpretation or application of the Convention **through negotiation**.\n\n**First resort**: Try to work it out directly.\n\n**Paragraph 2**: Any dispute between two or more States Parties that **cannot be settled through negotiation** within a reasonable time shall, at the request of one of those States, be **submitted to arbitration**.\n\nIf, **six months after the date of the request for arbitration**, States Parties are unable to agree on organization of arbitration, any one may refer the dispute to the **International Court of Justice** by request per the Statute of the Court.\n\n**Escalation path**:\n1. Negotiation\n2. If unsuccessful, arbitration\n3. If can't agree on arbitration organization within 6 months, ICJ\n\n**Paragraph 3**: Each State Party may, at time of signature, ratification, acceptance, approval or accession, **declare that it does not consider itself bound** by paragraph 2.\n\nOther States Parties shall not be bound by paragraph 2 with respect to any State Party that has made such a reservation.\n\n**Opt-out available**: States can declare they don't accept compulsory arbitration/ICJ jurisdiction for Convention disputes.\n\n**Paragraph 4**: Any State Party that has made a reservation may **withdraw** that reservation at any time by notification to the UN Secretary-General.\n\n## Why These Provisions Matter\n\n**Article 65 ensures action**: Without implementation measures, the Convention would be meaningless. This article ensures States actually take steps to put it into practice.\n\n**Article 66 manages disagreements**: International cooperation requires interpreting and applying the Convention. Disagreements are inevitable. This article provides a peaceful way to resolve them.\n\n**Respecting sovereignty**: States can opt out of compulsory dispute resolution, recognizing sovereignty concerns, but are encouraged to participate for effective implementation.",
-              "xp": 15
+              "kt": 15
             },
             {
               "id": "module-8-1-2",
@@ -2161,7 +2161,40 @@
               "title": "Adoption, Amendment, and Continuity",
               "description": "Understanding Articles 67-71",
               "content": "## The Convention's Life Cycle\n\n### Article 67: Signature, Ratification, Acceptance, Approval and Accession\n\n**Paragraph 1**: Convention was open to all States for **signature** from 9-11 December 2003 in Merida, Mexico, and thereafter at UN Headquarters in New York until 9 December 2005.\n\n**Paragraph 2**: Convention is also open for signature by **regional economic integration organizations** provided at least one member State signed.\n\n**Paragraph 3**: Convention is subject to **ratification, acceptance or approval**. Instruments shall be deposited with the UN Secretary-General.\n\nRegional economic integration organizations may deposit instruments if at least one member State has done so, and shall declare extent of competence.\n\n**Paragraph 4**: Convention is open for **accession** by any State or regional economic integration organization of which at least one member State is a Party. Instruments deposited with UN Secretary-General, with declaration of extent of competence.\n\n**Process**:\n1. **Signature**: State signs (political commitment, doesn't yet bind)\n2. **Ratification/Acceptance/Approval**: State formally consents to be bound (requires domestic approval per State's procedures)\n3. **Accession**: State becomes party without having signed\n\n### Article 68: Entry into Force\n\n**Paragraph 1**: Convention shall **enter into force** on the **ninetieth day after the date of deposit of the thirtieth instrument** of ratification, acceptance, approval or accession.\n\n**Why 30 States**: Ensures sufficient participation before Convention becomes binding.\n\n**Paragraph 2**: For each State or organization ratifying, accepting, approving or acceding **after deposit of the thirtieth instrument**, Convention shall enter into force on the **thirtieth day after** deposit by such State/organization of relevant instrument OR on date Convention enters into force per paragraph 1, **whichever is later**.\n\n**Historical note**: The Convention entered into force on 14 December 2005.\n\n### Article 69: Amendment\n\n**Paragraph 1**: After **expiry of five years** from entry into force, a State Party may propose an amendment and transmit it to UN Secretary-General, who communicates it to States Parties and Conference of States Parties.\n\nConference shall make **every effort to achieve consensus** on each amendment. If all efforts exhausted and no agreement reached, amendment shall, as **last resort**, require **two-thirds majority vote** of States Parties present and voting.\n\n**Paragraph 2**: Regional economic integration organizations shall exercise right to vote with number of votes equal to number of member States that are Parties. They shall not vote if member States exercise theirs and vice versa.\n\n**Paragraph 3**: Amendment adopted per paragraph 1 is **subject to ratification, acceptance or approval** by States Parties.\n\n**Paragraph 4**: Amendment shall **enter into force** for a State Party **ninety days after deposit** of instrument of ratification, acceptance or approval.\n\n**Paragraph 5**: When amendment enters into force, it is **binding on States Parties which have expressed consent**. Other States Parties remain bound by Convention provisions and any earlier amendments they've ratified.\n\n**Flexibility**: Amendments don't bind States that don't accept them.\n\n### Article 70: Denunciation\n\n**Paragraph 1**: A State Party may **denounce** this Convention by **written notification** to UN Secretary-General.\n\nDenunciation **becomes effective one year after date of receipt** of notification.\n\n**Paragraph 2**: A regional economic integration organization **ceases to be a Party** when all its member States have denounced it.\n\n**Exit option**: States can withdraw from Convention, but with one-year delay to allow orderly transition.\n\n### Article 71: Depositary and Languages\n\n**Paragraph 1**: The UN Secretary-General is designated **depositary** of this Convention.\n\n**Depositary functions**:\n- Receives instruments of ratification, accession, etc.\n- Maintains official records\n- Notifies States of signatures, ratifications, entry into force, etc.\n\n**Paragraph 2**: The original Convention, of which **Arabic, Chinese, English, French, Russian and Spanish texts are equally authentic**, shall be deposited with the UN Secretary-General.\n\n**Six official languages**: All have equal legal status.\n\n## The Convention's Journey\n\n1. **Negotiation**: Ad Hoc Committee negotiated text (2002-2003)\n2. **Adoption**: UN General Assembly adopted Convention (31 October 2003)\n3. **Signature**: States signed at Merida Conference (9-11 December 2003) and thereafter\n4. **Ratification**: States ratified per their domestic procedures\n5. **Entry into Force**: 14 December 2005 (30th ratification + 90 days)\n6. **Implementation**: Ongoing - States take measures to implement obligations\n7. **Review**: Conference of States Parties reviews implementation\n8. **Evolution**: Can be amended as needed\n\n## Your Learning Journey Complete!\n\nYou've now studied all 71 articles across 8 chapters of the UN Convention against Corruption. You understand:\n\n- **Why** the Convention exists\n- **What** it covers\n- **How** States prevent corruption\n- **Which** acts are criminalized\n- **How** law enforcement works\n- **How** States cooperate internationally\n- **How** stolen assets are recovered\n- **How** the Convention is implemented and governed\n\nThe Convention represents the global community's determination to fight corruption. Your knowledge of it empowers you to contribute to this crucial effort!",
-              "xp": 15
+              "kt": 15
+            },
+            {
+              "id": "module-8-1-flashcards",
+              "type": "flashcards",
+              "title": "Convention Completion Review",
+              "description": "Final concepts from the Convention",
+              "cards": [
+                {
+                  "id": "card-8-1-1",
+                  "front": "What is the difference between signature and ratification?",
+                  "back": "Signature indicates a State's intention and political commitment to the Convention but doesn't legally bind the State. Ratification, acceptance, or approval is the formal act by which a State consents to be legally bound by the Convention.",
+                  "emoji": "📝"
+                },
+                {
+                  "id": "card-8-1-2",
+                  "front": "Can States adopt stricter measures than the Convention requires?",
+                  "back": "Yes! According to Article 65, paragraph 2, each State Party may adopt more strict or severe measures than those provided for by the Convention for preventing and combating corruption. The Convention sets a floor, not a ceiling.",
+                  "emoji": "⬆️"
+                },
+                {
+                  "id": "card-8-1-3",
+                  "front": "How can the Convention be amended?",
+                  "back": "According to Article 69, after five years from entry into force, States can propose amendments. The Conference of States Parties tries to reach consensus, but amendments can be adopted by two-thirds majority if needed. Amendments only bind States that ratify them.",
+                  "emoji": "🔄"
+                },
+                {
+                  "id": "card-8-1-4",
+                  "front": "What is the fundamental principle established in Article 51?",
+                  "back": "The return of assets pursuant to Chapter V is a fundamental principle of the Convention, and States Parties shall afford one another the widest measure of cooperation and assistance in asset recovery.",
+                  "emoji": "💰"
+                }
+              ],
+              "kt": 15
             },
             {
               "id": "module-8-1-quiz",
@@ -2254,41 +2287,8 @@
                   "explanation": "According to Article 68, the Convention entered into force on the ninetieth day after the deposit of the thirtieth instrument of ratification, which occurred on 14 December 2005."
                 }
               ],
-              "passingScore": 70,
-              "xp": 20
-            },
-            {
-              "id": "module-8-1-flashcards",
-              "type": "flashcards",
-              "title": "Convention Completion Review",
-              "description": "Final concepts from the Convention",
-              "cards": [
-                {
-                  "id": "card-8-1-1",
-                  "front": "What is the difference between signature and ratification?",
-                  "back": "Signature indicates a State's intention and political commitment to the Convention but doesn't legally bind the State. Ratification, acceptance, or approval is the formal act by which a State consents to be legally bound by the Convention.",
-                  "emoji": "📝"
-                },
-                {
-                  "id": "card-8-1-2",
-                  "front": "Can States adopt stricter measures than the Convention requires?",
-                  "back": "Yes! According to Article 65, paragraph 2, each State Party may adopt more strict or severe measures than those provided for by the Convention for preventing and combating corruption. The Convention sets a floor, not a ceiling.",
-                  "emoji": "⬆️"
-                },
-                {
-                  "id": "card-8-1-3",
-                  "front": "How can the Convention be amended?",
-                  "back": "According to Article 69, after five years from entry into force, States can propose amendments. The Conference of States Parties tries to reach consensus, but amendments can be adopted by two-thirds majority if needed. Amendments only bind States that ratify them.",
-                  "emoji": "🔄"
-                },
-                {
-                  "id": "card-8-1-4",
-                  "front": "What is the fundamental principle established in Article 51?",
-                  "back": "The return of assets pursuant to Chapter V is a fundamental principle of the Convention, and States Parties shall afford one another the widest measure of cooperation and assistance in asset recovery.",
-                  "emoji": "💰"
-                }
-              ],
-              "xp": 15
+              "passingScore": 65,
+              "kt": 20
             }
           ]
         }

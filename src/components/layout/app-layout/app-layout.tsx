@@ -23,7 +23,7 @@ export const AppLayout = ({ children }: AppLayoutProps) => {
   const [isMobileCourseSidebarOpen, setIsMobileCourseSidebarOpen] =
     useState(false);
   const [course, setCourse] = useState<Course | null>(null);
-  const [progress, setProgress] = useState({ totalXp: 0, percentage: 0 });
+  const [progress, setProgress] = useState({ totalKt: 0, percentage: 0 });
 
   const isCoursePage = location.pathname.startsWith("/course");
 
@@ -42,7 +42,7 @@ export const AppLayout = ({ children }: AppLayoutProps) => {
         progressService.calculateCourseProgress(courseData);
 
       setProgress({
-        totalXp: userProgress.totalXpEarned,
+        totalKt: userProgress.totalKtEarned,
         percentage: courseProgress.percentage,
       });
     };
@@ -54,7 +54,7 @@ export const AppLayout = ({ children }: AppLayoutProps) => {
         const userProgress = progressService.getProgress();
         const courseProgress = progressService.calculateCourseProgress(course);
         setProgress({
-          totalXp: userProgress.totalXpEarned,
+          totalKt: userProgress.totalKtEarned,
           percentage: courseProgress.percentage,
         });
       }
@@ -73,7 +73,7 @@ export const AppLayout = ({ children }: AppLayoutProps) => {
           <Sidebar
             isCollapsed={isCollapsed}
             onToggle={() => setIsCollapsed(!isCollapsed)}
-            totalXp={progress.totalXp}
+            totalKt={progress.totalKt}
             progress={progress.percentage}
           />
         </div>
@@ -96,7 +96,7 @@ export const AppLayout = ({ children }: AppLayoutProps) => {
           <Sidebar
             isCollapsed={false}
             onToggle={() => setIsMobileMenuOpen(false)}
-            totalXp={progress.totalXp}
+            totalKt={progress.totalKt}
             progress={progress.percentage}
           />
         </div>

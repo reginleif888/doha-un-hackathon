@@ -26,7 +26,7 @@ const saveProgress = (progress: UserProgress): void => {
 const createEmptyProgress = (): UserProgress => ({
   courseId: COURSE_ID,
   topics: {},
-  totalXpEarned: 0,
+  totalKtEarned: 0,
   lastAccessedAt: new Date().toISOString(),
 });
 
@@ -105,7 +105,7 @@ export const progressService = {
     lessonId: string,
     module: Module,
     score?: number
-  ): { xpEarned: number; totalXp: number } {
+  ): { ktEarned: number; totalKt: number } {
     const progress = this.getProgress();
 
     if (!progress.topics[topicId]) {
@@ -126,39 +126,51 @@ export const progressService = {
 
     const existingModuleProgress =
       progress.topics[topicId].lessons[lessonId].modules[module.id];
-    if (existingModuleProgress?.completed) {
+    
+    // For quizzes, only allow KT earning once
+    const isQuizAlreadyPassed = existingModuleProgress?.completed && module.type === ModuleType.QUIZ;
+    
+    if (existingModuleProgress?.completed && module.type !== ModuleType.QUIZ) {
       return {
-        xpEarned: 0,
-        totalXp: progress.totalXpEarned,
+        ktEarned: 0,
+        totalKt: progress.totalKtEarned,
       };
     }
 
-    const xpEarned = this.calculateXp(module, score);
+    const ktEarned = isQuizAlreadyPassed ? 0 : this.calculateKt(module, score);
 
     progress.topics[topicId].lessons[lessonId].modules[module.id] = {
       moduleId: module.id,
       completed: true,
       score,
-      xpEarned,
-      completedAt: new Date().toISOString(),
+      ktEarned: existingModuleProgress ? existingModuleProgress.ktEarned : ktEarned,
+      completedAt: existingModuleProgress?.completedAt || new Date().toISOString(),
     };
 
-    progress.totalXpEarned += xpEarned;
+    if (!isQuizAlreadyPassed) {
+      progress.totalKtEarned += ktEarned;
+    }
     progress.lastAccessedAt = new Date().toISOString();
 
     saveProgress(progress);
 
     return {
-      xpEarned,
-      totalXp: progress.totalXpEarned,
+      ktEarned,
+      totalKt: progress.totalKtEarned,
     };
   },
 
-  calculateXp(module: Module, score?: number): number {
+  calculateKt(module: Module, score?: number): number {
+    // Only quizzes earn KT
     if (module.type === ModuleType.QUIZ && score !== undefined) {
-      return Math.floor((score / 100) * module.xp);
+      // Check if passed (≥65%)
+      if (score >= 65) {
+        return Math.floor((score / 100) * module.kt);
+      }
+      return 0;
     }
-    return module.xp;
+    // Info and Flashcards modules don't earn KT
+    return 0;
   },
 
   updateLessonCompletion(

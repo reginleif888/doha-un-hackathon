@@ -129,21 +129,21 @@ export const DashboardPage = () => {
         <Card>
           <CardHeader className="pb-2 space-y-1">
             <CardDescription className="text-xs sm:text-sm">
-              XP Earned
+              Knowledge Tokens
             </CardDescription>
             <CardTitle className="flex items-center gap-2">
               <TrophyIcon className="w-5 h-5 sm:w-6 sm:h-6 text-warning" />
               <span className="text-2xl sm:text-3xl">
-                {userProgress.totalXpEarned}
+                {userProgress.totalKtEarned}
               </span>
               <span className="text-xs sm:text-sm font-normal text-muted-foreground">
-                / {course.totalXp} XP
+                / {course.totalKt} KT
               </span>
             </CardTitle>
           </CardHeader>
           <CardContent>
             <Progress
-              value={(userProgress.totalXpEarned / course.totalXp) * 100}
+              value={(userProgress.totalKtEarned / course.totalKt) * 100}
               className="h-2"
               indicatorClassName="bg-warning"
             />

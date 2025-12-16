@@ -20,7 +20,7 @@ interface QuizModuleProps {
   module: QuizModuleType;
   isCompleted: boolean;
   previousScore?: number;
-  onComplete: (score: number) => { xpEarned: number; totalXp: number };
+  onComplete: (score: number) => { ktEarned: number; totalKt: number };
   onContinue: () => void;
   isLastModule: boolean;
 }
@@ -38,7 +38,7 @@ export const QuizModule = ({
   const [submitted, setSubmitted] = useState(false);
   const [showResults, setShowResults] = useState(false);
   const [score, setScore] = useState(0);
-  const [xpEarned, setXpEarned] = useState(0);
+  const [ktEarned, setKtEarned] = useState(0);
 
   useEffect(() => {
     setShowResults(false);
@@ -107,9 +107,14 @@ export const QuizModule = ({
     );
     setScore(calculatedScore);
 
-    if (!isCompleted || calculatedScore > (previousScore || 0)) {
+    // Only earn KT on first completion
+    if (!isCompleted) {
       const result = onComplete(calculatedScore);
-      setXpEarned(result.xpEarned);
+      setKtEarned(result.ktEarned);
+    } else {
+      // Already completed, just mark as complete but no KT
+      onComplete(calculatedScore);
+      setKtEarned(0);
     }
 
     setShowResults(true);
@@ -121,7 +126,7 @@ export const QuizModule = ({
     setSubmitted(false);
     setShowResults(false);
     setScore(0);
-    setXpEarned(0);
+    setKtEarned(0);
   };
 
   const isAnswerCorrect = (optionId: string) => {
@@ -165,14 +170,21 @@ export const QuizModule = ({
             <div className="text-4xl sm:text-5xl font-bold text-foreground mb-4 sm:mb-6">
               {score}%
             </div>
-            {xpEarned > 0 && (
+            {ktEarned > 0 && (
               <div className="mb-6 sm:mb-8">
                 <div className="inline-flex items-center justify-center gap-2 py-2.5 sm:py-3 px-4 sm:px-6 bg-warning/10 rounded-lg">
                   <StarIcon className="w-4 h-4 sm:w-5 sm:h-5 text-warning" />
                   <span className="text-sm sm:text-base font-semibold text-foreground">
-                    +{xpEarned} XP earned
+                    +{ktEarned} KT earned
                   </span>
                 </div>
+              </div>
+            )}
+            {isCompleted && passed && ktEarned === 0 && (
+              <div className="mb-6 sm:mb-8">
+                <p className="text-xs sm:text-sm text-muted-foreground">
+                  Quiz already passed. KT earned only on first attempt.
+                </p>
               </div>
             )}
             <div className="flex flex-col sm:flex-row gap-3 justify-center">

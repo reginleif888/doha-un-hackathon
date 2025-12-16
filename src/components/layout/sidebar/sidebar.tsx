@@ -24,7 +24,7 @@ import {
 interface SidebarProps {
   isCollapsed: boolean;
   onToggle: () => void;
-  totalXp: number;
+  totalKt: number;
   progress: number;
 }
 
@@ -37,7 +37,7 @@ const navItems = [
 export const Sidebar = ({
   isCollapsed,
   onToggle,
-  totalXp,
+  totalKt,
   progress,
 }: SidebarProps) => {
   const location = useLocation();
@@ -128,7 +128,7 @@ export const Sidebar = ({
             </TooltipTrigger>
             <TooltipContent side="right">
               <div className="text-sm">
-                <p className="font-medium">{totalXp} XP</p>
+                <p className="font-medium">{totalKt} KT</p>
                 <p className="text-muted-foreground">{progress}% complete</p>
               </div>
             </TooltipContent>
@@ -138,7 +138,7 @@ export const Sidebar = ({
             <div className="flex items-center gap-2 mb-2">
               <TrophyIcon className="w-5 h-5 text-primary" />
               <span className="text-sm font-medium text-foreground">
-                {totalXp} XP
+                {totalKt} KT
               </span>
             </div>
             <Progress value={progress} className="h-1.5" />

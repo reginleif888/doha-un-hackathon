@@ -21,7 +21,7 @@ export interface InfoModule {
   description?: string;
   content: string;
   video?: VideoContent;
-  xp: number;
+  kt: number;
 }
 
 export interface QuizOption {
@@ -45,7 +45,7 @@ export interface QuizModule {
   description?: string;
   questions: QuizQuestion[];
   passingScore: number;
-  xp: number;
+  kt: number;
 }
 
 export interface Flashcard {
@@ -61,7 +61,7 @@ export interface FlashcardsModule {
   title: string;
   description?: string;
   cards: Flashcard[];
-  xp: number;
+  kt: number;
 }
 
 export type Module = InfoModule | QuizModule | FlashcardsModule;
@@ -86,14 +86,14 @@ export interface Course {
   title: string;
   description: string;
   topics: Topic[];
-  totalXp: number;
+  totalKt: number;
 }
 
 export interface ModuleProgress {
   moduleId: string;
   completed: boolean;
   score?: number;
-  xpEarned: number;
+  ktEarned: number;
   completedAt?: string;
 }
 
@@ -113,7 +113,7 @@ export interface UserProgress {
   principal?: string;
   courseId: string;
   topics: Record<string, TopicProgress>;
-  totalXpEarned: number;
+  totalKtEarned: number;
   lastAccessedAt: string;
 }
 
