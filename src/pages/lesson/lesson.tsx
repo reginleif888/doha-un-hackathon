@@ -17,7 +17,8 @@ import { Spinner } from "@/components/ui/spinner";
 import { courseService } from "@/entities/course";
 import { progressService } from "@/entities/progress";
 
-import type { Course, Topic, Lesson, ModuleType } from "@/shared/types";
+import type { Course, Topic, Lesson } from "@/shared/types";
+import { ModuleType } from "@/shared/types";
 
 const moduleTypeIcons: Record<ModuleType, typeof BookOpenIcon> = {
   info: BookOpenIcon,
@@ -166,9 +167,11 @@ export const LessonPage = () => {
                       <span className="text-[10px] sm:text-xs text-muted-foreground hidden sm:inline">
                         {moduleTypeLabels[module.type]}
                       </span>
-                      <span className="text-[10px] sm:text-xs text-primary font-medium">
-                        +{module.kt} KT
-                      </span>
+                      {module.type === ModuleType.QUIZ && (
+                        <span className="text-[10px] sm:text-xs text-primary font-medium">
+                          +{module.kt} KT
+                        </span>
+                      )}
                     </div>
                     <h3 className="text-sm sm:text-base font-semibold text-foreground truncate">
                       {module.title}

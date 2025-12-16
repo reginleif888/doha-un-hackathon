@@ -24,7 +24,8 @@ import {
 import { courseService } from "@/entities/course";
 import { progressService } from "@/entities/progress";
 
-import type { Course, Topic, Lesson, ModuleType } from "@/shared/types";
+import type { Course, Topic, Lesson } from "@/shared/types";
+import { ModuleType } from "@/shared/types";
 
 const moduleTypeIcons: Record<ModuleType, typeof BookOpenIcon> = {
   info: BookOpenIcon,
@@ -295,9 +296,11 @@ export const CourseSidebar = ({ onClose }: CourseSidebarProps) => {
                         <span className="flex-1 min-w-0 truncate">
                           {module.title}
                         </span>
-                        <span className="text-[10px] opacity-70 shrink-0">
-                          +{module.kt}
-                        </span>
+                        {module.type === ModuleType.QUIZ && (
+                          <span className="text-[10px] opacity-70 shrink-0">
+                            +{module.kt}
+                          </span>
+                        )}
                       </Link>
                     </TooltipTrigger>
                     <TooltipContent side="right" className="max-w-xs">
@@ -308,8 +311,10 @@ export const CourseSidebar = ({ onClose }: CourseSidebarProps) => {
                         </p>
                       ) : (
                         <p className="text-xs text-muted-foreground mt-1">
-                          {moduleCompleted ? "Completed" : "Not started"} •{" "}
-                          {module.kt} KT
+                          {moduleCompleted ? "Completed" : "Not started"}
+                          {module.type === ModuleType.QUIZ && (
+                            <> • {module.kt} KT</>
+                          )}
                         </p>
                       )}
                     </TooltipContent>
