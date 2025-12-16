@@ -81,7 +81,8 @@ export const Sidebar = ({
           {navItems.map((item) => {
             const isActive =
               item.path === "/dashboard"
-                ? location.pathname === "/" || location.pathname === "/dashboard"
+                ? location.pathname === "/" ||
+                  location.pathname === "/dashboard"
                 : location.pathname.startsWith(item.path);
 
             const linkContent = (
@@ -122,9 +123,9 @@ export const Sidebar = ({
           <Tooltip delayDuration={0}>
             <TooltipTrigger asChild>
               <div className="flex items-center justify-center w-full p-2 rounded-lg bg-brand-50">
-                <img 
-                  src="/knowledge-token.png" 
-                  alt="Knowledge Token" 
+                <img
+                  src="/knowledge-token.png"
+                  alt="Knowledge Token"
                   className="w-5 h-5 object-contain"
                 />
               </div>
@@ -139,9 +140,9 @@ export const Sidebar = ({
         ) : (
           <div className="p-3 rounded-lg bg-brand-50">
             <div className="flex items-center gap-2 mb-2">
-              <img 
-                src="/knowledge-token.png" 
-                alt="Knowledge Token" 
+              <img
+                src="/knowledge-token.png"
+                alt="Knowledge Token"
                 className="w-5 h-5 object-contain"
               />
               <span className="text-sm font-medium text-foreground">

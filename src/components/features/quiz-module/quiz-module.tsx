@@ -51,7 +51,10 @@ export const QuizModule = ({
   const [score, setScore] = useState(0);
   const [ktEarned, setKtEarned] = useState(0);
 
-  const successImage = useMemo(() => getRandomSuccessImage(), [showResults, ktEarned]);
+  const successImage = useMemo(
+    () => getRandomSuccessImage(),
+    [showResults, ktEarned]
+  );
 
   useEffect(() => {
     setShowResults(false);
@@ -189,9 +192,9 @@ export const QuizModule = ({
 
                 <div className="mb-8">
                   <div className="inline-flex w-full items-center justify-center gap-3 py-4 px-6 bg-gradient-to-r from-warning/10 to-warning/20 rounded-xl border border-warning/20">
-                    <img 
-                      src="/knowledge-token.png" 
-                      alt="Knowledge Token" 
+                    <img
+                      src="/knowledge-token.png"
+                      alt="Knowledge Token"
                       className="w-6 h-6 object-contain"
                     />
                     <span className="text-lg font-bold text-foreground">
@@ -200,9 +203,9 @@ export const QuizModule = ({
                   </div>
                 </div>
 
-                <Button 
-                  onClick={onContinue} 
-                  size="lg" 
+                <Button
+                  onClick={onContinue}
+                  size="lg"
                   className="w-full h-12 text-base font-semibold"
                 >
                   {isLastModule ? "Finish Lesson" : "Continue Learning"}
@@ -256,7 +259,11 @@ export const QuizModule = ({
             )}
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               {!passed && (
-                <Button variant="outline" onClick={handleRetry} className="h-9 sm:h-10 text-sm">
+                <Button
+                  variant="outline"
+                  onClick={handleRetry}
+                  className="h-9 sm:h-10 text-sm"
+                >
                   <RefreshCwIcon className="w-4 h-4 mr-1" />
                   Retry Quiz
                 </Button>
@@ -324,13 +331,17 @@ export const QuizModule = ({
                   )}
                 >
                   <RadioGroupItem value={option.id} />
-                  <span className="flex-1 text-sm sm:text-base">{option.text}</span>
+                  <span className="flex-1 text-sm sm:text-base">
+                    {option.text}
+                  </span>
                   {submitted && isAnswerCorrect(option.id) && (
                     <CheckCircle2Icon className="w-4 h-4 sm:w-5 sm:h-5 text-success shrink-0" />
                   )}
-                  {submitted && isSelected(option.id) && !isAnswerCorrect(option.id) && (
-                    <XCircleIcon className="w-4 h-4 sm:w-5 sm:h-5 text-error shrink-0" />
-                  )}
+                  {submitted &&
+                    isSelected(option.id) &&
+                    !isAnswerCorrect(option.id) && (
+                      <XCircleIcon className="w-4 h-4 sm:w-5 sm:h-5 text-error shrink-0" />
+                    )}
                 </label>
               ))}
             </RadioGroup>
@@ -343,7 +354,9 @@ export const QuizModule = ({
                     "flex items-center gap-3 p-3 sm:p-4 rounded-lg border cursor-pointer transition-colors",
                     submitted && isAnswerCorrect(option.id)
                       ? "border-success bg-success/5"
-                      : submitted && isSelected(option.id) && !isAnswerCorrect(option.id)
+                      : submitted &&
+                          isSelected(option.id) &&
+                          !isAnswerCorrect(option.id)
                         ? "border-error bg-error/5"
                         : isSelected(option.id)
                           ? "border-primary bg-brand-50"
@@ -357,13 +370,17 @@ export const QuizModule = ({
                     }
                     disabled={submitted}
                   />
-                  <span className="flex-1 text-sm sm:text-base">{option.text}</span>
+                  <span className="flex-1 text-sm sm:text-base">
+                    {option.text}
+                  </span>
                   {submitted && isAnswerCorrect(option.id) && (
                     <CheckCircle2Icon className="w-4 h-4 sm:w-5 sm:h-5 text-success shrink-0" />
                   )}
-                  {submitted && isSelected(option.id) && !isAnswerCorrect(option.id) && (
-                    <XCircleIcon className="w-4 h-4 sm:w-5 sm:h-5 text-error shrink-0" />
-                  )}
+                  {submitted &&
+                    isSelected(option.id) &&
+                    !isAnswerCorrect(option.id) && (
+                      <XCircleIcon className="w-4 h-4 sm:w-5 sm:h-5 text-error shrink-0" />
+                    )}
                 </label>
               ))}
             </div>

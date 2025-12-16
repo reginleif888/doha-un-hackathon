@@ -131,9 +131,9 @@ export const DashboardPage = () => {
               Knowledge Tokens
             </CardDescription>
             <CardTitle className="flex items-center gap-2">
-              <img 
-                src="/knowledge-token.png" 
-                alt="Knowledge Token" 
+              <img
+                src="/knowledge-token.png"
+                alt="Knowledge Token"
                 className="w-5 h-5 sm:w-6 sm:h-6 object-contain"
               />
               <span className="text-2xl sm:text-3xl">
