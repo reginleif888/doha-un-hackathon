@@ -1,9 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import {
   CheckCircle2Icon,
   XCircleIcon,
   ChevronRightIcon,
-  StarIcon,
   RefreshCwIcon,
 } from "lucide-react";
 
@@ -15,6 +14,18 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { cn } from "@/shared/lib/cn";
 
 import type { QuizModule as QuizModuleType, QuizType } from "@/shared/types";
+
+const SUCCESS_IMAGES = [
+  "/success/1765887577838.png",
+  "/success/1765887618495.png",
+  "/success/1765887655744.png",
+  "/success/1765887701345.png",
+  "/success/1765887745502.png",
+];
+
+const getRandomSuccessImage = () => {
+  return SUCCESS_IMAGES[Math.floor(Math.random() * SUCCESS_IMAGES.length)];
+};
 
 interface QuizModuleProps {
   module: QuizModuleType;
@@ -39,6 +50,8 @@ export const QuizModule = ({
   const [showResults, setShowResults] = useState(false);
   const [score, setScore] = useState(0);
   const [ktEarned, setKtEarned] = useState(0);
+
+  const successImage = useMemo(() => getRandomSuccessImage(), [showResults, ktEarned]);
 
   useEffect(() => {
     setShowResults(false);
@@ -138,7 +151,71 @@ export const QuizModule = ({
 
   if (showResults) {
     const passed = score >= module.passingScore;
+    const showEnhancedSuccess = passed && ktEarned > 0;
 
+    // Enhanced success modal with illustration (when KT is earned)
+    if (showEnhancedSuccess) {
+      return (
+        <div className="min-h-screen flex items-center justify-center p-4">
+          <Card className="max-w-4xl w-full overflow-hidden">
+            <div className="grid md:grid-cols-2 min-h-[500px]">
+              {/* Image Side - Full Height */}
+              <div className="relative bg-gradient-to-br from-success/10 to-success/20 hidden md:block">
+                <img
+                  src={successImage}
+                  alt="Success"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* Content Side */}
+              <div className="flex flex-col justify-center p-6 sm:p-8 lg:p-12">
+                <div className="flex items-center justify-center mb-6">
+                  <div className="w-16 h-16 rounded-full bg-success/10 flex items-center justify-center">
+                    <CheckCircle2Icon className="w-8 h-8 text-success" />
+                  </div>
+                </div>
+
+                <h2 className="text-2xl sm:text-3xl font-bold text-foreground text-center mb-3">
+                  Outstanding!
+                </h2>
+                <p className="text-sm sm:text-base text-muted-foreground text-center mb-6">
+                  You've mastered this quiz with flying colors.
+                </p>
+
+                <div className="text-5xl sm:text-6xl font-bold text-foreground text-center mb-8">
+                  {score}%
+                </div>
+
+                <div className="mb-8">
+                  <div className="inline-flex w-full items-center justify-center gap-3 py-4 px-6 bg-gradient-to-r from-warning/10 to-warning/20 rounded-xl border border-warning/20">
+                    <img 
+                      src="/knowledge-token.png" 
+                      alt="Knowledge Token" 
+                      className="w-6 h-6 object-contain"
+                    />
+                    <span className="text-lg font-bold text-foreground">
+                      +{ktEarned} KT earned
+                    </span>
+                  </div>
+                </div>
+
+                <Button 
+                  onClick={onContinue} 
+                  size="lg" 
+                  className="w-full h-12 text-base font-semibold"
+                >
+                  {isLastModule ? "Finish Lesson" : "Continue Learning"}
+                  <ChevronRightIcon className="w-5 h-5 ml-2" />
+                </Button>
+              </div>
+            </div>
+          </Card>
+        </div>
+      );
+    }
+
+    // Standard result modal (for failures or retakes without KT)
     return (
       <div className="p-4 sm:p-6 lg:p-8 max-w-2xl mx-auto">
         <Card className="text-center py-8 sm:py-12">
@@ -170,16 +247,6 @@ export const QuizModule = ({
             <div className="text-4xl sm:text-5xl font-bold text-foreground mb-4 sm:mb-6">
               {score}%
             </div>
-            {ktEarned > 0 && (
-              <div className="mb-6 sm:mb-8">
-                <div className="inline-flex items-center justify-center gap-2 py-2.5 sm:py-3 px-4 sm:px-6 bg-warning/10 rounded-lg">
-                  <StarIcon className="w-4 h-4 sm:w-5 sm:h-5 text-warning" />
-                  <span className="text-sm sm:text-base font-semibold text-foreground">
-                    +{ktEarned} KT earned
-                  </span>
-                </div>
-              </div>
-            )}
             {isCompleted && passed && ktEarned === 0 && (
               <div className="mb-6 sm:mb-8">
                 <p className="text-xs sm:text-sm text-muted-foreground">

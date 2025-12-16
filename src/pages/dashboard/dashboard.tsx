@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "@tanstack/react-router";
 import {
   BookOpenIcon,
-  TrophyIcon,
   ChevronRightIcon,
   CheckCircle2Icon,
   CircleIcon,
@@ -132,7 +131,11 @@ export const DashboardPage = () => {
               Knowledge Tokens
             </CardDescription>
             <CardTitle className="flex items-center gap-2">
-              <TrophyIcon className="w-5 h-5 sm:w-6 sm:h-6 text-warning" />
+              <img 
+                src="/knowledge-token.png" 
+                alt="Knowledge Token" 
+                className="w-5 h-5 sm:w-6 sm:h-6 object-contain"
+              />
               <span className="text-2xl sm:text-3xl">
                 {userProgress.totalKtEarned}
               </span>
