@@ -1,0 +1,65 @@
+/* ============================================
+ * TYPOGRAPHY TOKENS
+ * ============================================ */
+
+:root {
+  /* Font Family */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Font Weights */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  
+  /* Font Sizes */
+  --text-h1: 2.25rem;
+  --text-h2: 1.875rem;
+  --text-h3: 1.5rem;
+  --text-h4: 1.25rem;
+  --text-h5: 1.125rem;
+  --text-h6: 1rem;
+  --text-body-l: 1.125rem;
+  --text-body-m: 1rem;
+  --text-body-s: 0.875rem;
+  --text-caption-l: 0.875rem;
+  --text-caption-m: 0.75rem;
+  --text-caption-s: 0.625rem;
+  
+  /* Line Heights */
+  --leading-h1: 2.5rem;
+  --leading-h2: 2.25rem;
+  --leading-h3: 2rem;
+  --leading-h4: 1.75rem;
+  --leading-h5: 1.625rem;
+  --leading-h6: 1.5rem;
+  --leading-body-l: 1.75rem;
+  --leading-body-m: 1.5rem;
+  --leading-body-s: 1.25rem;
+  --leading-caption-l: 1.25rem;
+  --leading-caption-m: 1rem;
+  --leading-caption-s: 0.875rem;
+  
+  /* Letter Spacing */
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.025em;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  :root {
+    --text-h1: 1.875rem;
+    --text-h2: 1.5rem;
+    --text-h3: 1.25rem;
+    --text-h4: 1.125rem;
+    
+    --leading-h1: 2.25rem;
+    --leading-h2: 2rem;
+    --leading-h3: 1.75rem;
+    --leading-h4: 1.625rem;
+  }
+}
+

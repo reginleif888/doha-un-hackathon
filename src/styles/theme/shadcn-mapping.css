@@ -1,0 +1,79 @@
+/* ============================================
+ * SHADCN UI MAPPING
+ * Maps shadcn tokens to design system
+ * Blue theme
+ * ============================================ */
+
+:root {
+  /* Border radius */
+  --radius: 0.625rem;
+  
+  /* Background & Foreground */
+  --background: var(--color-neutral-0);
+  --foreground: var(--color-neutral-10);
+  
+  /* Card */
+  --card: var(--color-neutral-0);
+  --card-foreground: var(--color-neutral-10);
+  
+  /* Popover */
+  --popover: var(--color-neutral-0);
+  --popover-foreground: var(--color-neutral-10);
+  
+  /* Primary - Blue brand */
+  --primary: var(--color-brand-7);
+  --primary-foreground: var(--color-neutral-0);
+  
+  /* Secondary */
+  --secondary: var(--color-neutral-2);
+  --secondary-foreground: var(--color-neutral-9);
+  
+  /* Muted */
+  --muted: var(--color-neutral-1);
+  --muted-foreground: var(--color-neutral-6);
+  
+  /* Accent */
+  --accent: var(--color-neutral-1);
+  --accent-foreground: var(--color-neutral-10);
+  
+  /* Destructive */
+  --destructive: var(--color-error-6);
+  --destructive-foreground: var(--primitive-white);
+  
+  /* Border & Input */
+  --border: var(--color-neutral-3);
+  --input: var(--color-neutral-0);
+  --ring: var(--color-brand-6);
+  
+  /* Ring offset */
+  --ring-offset-width: 2px;
+  --ring-offset-color: var(--color-neutral-0);
+  
+  /* Charts */
+  --chart-1: var(--color-brand-6);
+  --chart-2: var(--color-success-6);
+  --chart-3: var(--primitive-purple-500);
+  --chart-4: var(--color-warning-6);
+  --chart-5: var(--color-error-6);
+  
+  /* Sidebar */
+  --sidebar: var(--color-neutral-1);
+  --sidebar-foreground: var(--color-neutral-10);
+  --sidebar-primary: var(--color-brand-7);
+  --sidebar-primary-foreground: var(--color-neutral-0);
+  --sidebar-accent: var(--color-neutral-2);
+  --sidebar-accent-foreground: var(--color-neutral-10);
+  --sidebar-border: var(--color-neutral-3);
+  --sidebar-ring: var(--color-brand-6);
+  
+  /* Status colors */
+  --success: var(--color-success-6);
+  --success-foreground: var(--primitive-white);
+  
+  --warning: var(--color-warning-6);
+  --warning-foreground: var(--primitive-white);
+  
+  --info: var(--color-brand-6);
+  --info-foreground: var(--primitive-white);
+}
+

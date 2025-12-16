@@ -1,0 +1,57 @@
+/* Tailwind CSS core */
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark *));
+
+@import "tw-animate-css";
+
+/* Theme tokens */
+@import "./primitives.css";
+@import "./semantic.css";
+@import "./typo.css";
+@import "./utilities.css";
+@import "./shadcn-mapping.css";
+
+/* Tailwind theme */
+@import "../tw-theme.css";
+
+/* Base styles */
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+button,
+[role="button"],
+[type="button"],
+[type="submit"],
+[type="reset"] {
+  cursor: pointer;
+}
+
+/* Sonner toast reset */
+[data-sonner-toaster][data-theme] {
+  --normal-bg: transparent;
+  --normal-border: transparent;
+  --normal-text: inherit;
+}
+
+[data-sonner-toast][data-styled] {
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+[data-sonner-toast] {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+

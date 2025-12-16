@@ -1,0 +1,118 @@
+/* ============================================
+ * SEMANTIC TOKENS
+ * Light theme - blue brand
+ * ============================================ */
+
+:root {
+  /* Neutral */
+  --color-neutral-0: var(--primitive-white);
+  --color-neutral-1: var(--primitive-gray-1);
+  --color-neutral-2: var(--primitive-gray-2);
+  --color-neutral-3: var(--primitive-gray-3);
+  --color-neutral-4: var(--primitive-gray-4);
+  --color-neutral-5: var(--primitive-gray-5);
+  --color-neutral-6: var(--primitive-gray-6);
+  --color-neutral-7: var(--primitive-gray-7);
+  --color-neutral-8: var(--primitive-gray-8);
+  --color-neutral-9: var(--primitive-gray-9);
+  --color-neutral-10: var(--primitive-gray-10);
+  
+  /* Neutral Alpha */
+  --color-neutral-0a: var(--primitive-transparent);
+  --color-neutral-1a: var(--primitive-gray-1a);
+  --color-neutral-2a: var(--primitive-gray-2a);
+  --color-neutral-3a: var(--primitive-gray-3a);
+  --color-neutral-4a: var(--primitive-gray-4a);
+  --color-neutral-5a: var(--primitive-gray-5a);
+  --color-neutral-6a: var(--primitive-gray-6a);
+  --color-neutral-7a: var(--primitive-gray-7a);
+  --color-neutral-8a: var(--primitive-gray-8a);
+  --color-neutral-9a: var(--primitive-gray-9a);
+  --color-neutral-10a: var(--primitive-gray-10a);
+  
+  /* Brand (Blue) */
+  --color-brand-1: var(--primitive-blue-50);
+  --color-brand-2: var(--primitive-blue-100);
+  --color-brand-3: var(--primitive-blue-200);
+  --color-brand-4: var(--primitive-blue-300);
+  --color-brand-5: var(--primitive-blue-400);
+  --color-brand-6: var(--primitive-blue-500);
+  --color-brand-7: var(--primitive-blue-600);
+  --color-brand-8: var(--primitive-blue-700);
+  --color-brand-9: var(--primitive-blue-800);
+  --color-brand-10: var(--primitive-blue-900);
+  --color-brand-11: var(--primitive-blue-950);
+  
+  /* Brand Alpha */
+  --color-brand-1a: var(--primitive-blue-50a);
+  --color-brand-2a: var(--primitive-blue-100a);
+  --color-brand-3a: var(--primitive-blue-200a);
+  --color-brand-4a: var(--primitive-blue-300a);
+  --color-brand-5a: var(--primitive-blue-400a);
+  --color-brand-6a: var(--primitive-blue-500a);
+  --color-brand-7a: var(--primitive-blue-600a);
+  --color-brand-8a: var(--primitive-blue-700a);
+  --color-brand-9a: var(--primitive-blue-800a);
+  --color-brand-10a: var(--primitive-blue-900a);
+  
+  /* Success (Green) */
+  --color-success-1: var(--primitive-green-50);
+  --color-success-2: var(--primitive-green-100);
+  --color-success-3: var(--primitive-green-200);
+  --color-success-4: var(--primitive-green-300);
+  --color-success-5: var(--primitive-green-400);
+  --color-success-6: var(--primitive-green-500);
+  --color-success-7: var(--primitive-green-600);
+  --color-success-8: var(--primitive-green-700);
+  --color-success-9: var(--primitive-green-800);
+  --color-success-10: var(--primitive-green-900);
+  
+  /* Success Alpha */
+  --color-success-1a: var(--primitive-green-50a);
+  --color-success-2a: var(--primitive-green-100a);
+  --color-success-3a: var(--primitive-green-200a);
+  --color-success-4a: var(--primitive-green-300a);
+  --color-success-5a: var(--primitive-green-400a);
+  --color-success-6a: var(--primitive-green-500a);
+  
+  /* Error (Red) */
+  --color-error-1: var(--primitive-red-50);
+  --color-error-2: var(--primitive-red-100);
+  --color-error-3: var(--primitive-red-200);
+  --color-error-4: var(--primitive-red-300);
+  --color-error-5: var(--primitive-red-400);
+  --color-error-6: var(--primitive-red-500);
+  --color-error-7: var(--primitive-red-600);
+  --color-error-8: var(--primitive-red-700);
+  --color-error-9: var(--primitive-red-800);
+  --color-error-10: var(--primitive-red-900);
+  
+  /* Error Alpha */
+  --color-error-1a: var(--primitive-red-50a);
+  --color-error-2a: var(--primitive-red-100a);
+  --color-error-3a: var(--primitive-red-200a);
+  --color-error-4a: var(--primitive-red-300a);
+  --color-error-5a: var(--primitive-red-400a);
+  --color-error-6a: var(--primitive-red-500a);
+  
+  /* Warning (Orange) */
+  --color-warning-1: var(--primitive-orange-50);
+  --color-warning-2: var(--primitive-orange-100);
+  --color-warning-3: var(--primitive-orange-200);
+  --color-warning-4: var(--primitive-orange-300);
+  --color-warning-5: var(--primitive-orange-400);
+  --color-warning-6: var(--primitive-orange-500);
+  --color-warning-7: var(--primitive-orange-600);
+  --color-warning-8: var(--primitive-orange-700);
+  --color-warning-9: var(--primitive-orange-800);
+  --color-warning-10: var(--primitive-orange-900);
+  
+  /* Warning Alpha */
+  --color-warning-1a: var(--primitive-orange-50a);
+  --color-warning-2a: var(--primitive-orange-100a);
+  --color-warning-3a: var(--primitive-orange-200a);
+  --color-warning-4a: var(--primitive-orange-300a);
+  --color-warning-5a: var(--primitive-orange-400a);
+  --color-warning-6a: var(--primitive-orange-500a);
+}
+

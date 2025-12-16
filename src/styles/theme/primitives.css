@@ -1,0 +1,137 @@
+/* ============================================
+ * PRIMITIVES - BASE VALUES
+ * Blue theme for EdTech platform
+ * ============================================ */
+
+:root {
+  /* Base */
+  --primitive-white: #FFFFFF;
+  --primitive-dark-0: #000000;
+  --primitive-dark-1: #0B0C0E;
+  --primitive-transparent: transparent;
+  
+  /* Gray */
+  --primitive-gray-1: #F8FAFC;
+  --primitive-gray-2: #F1F5F9;
+  --primitive-gray-3: #E2E8F0;
+  --primitive-gray-4: #CBD5E1;
+  --primitive-gray-5: #94A3B8;
+  --primitive-gray-6: #64748B;
+  --primitive-gray-7: #475569;
+  --primitive-gray-8: #334155;
+  --primitive-gray-9: #1E293B;
+  --primitive-gray-10: #0F172A;
+  
+  /* Gray Alpha */
+  --primitive-gray-1a: rgb(15 23 42 / 0.02);
+  --primitive-gray-2a: rgb(15 23 42 / 0.04);
+  --primitive-gray-3a: rgb(15 23 42 / 0.08);
+  --primitive-gray-4a: rgb(15 23 42 / 0.12);
+  --primitive-gray-5a: rgb(15 23 42 / 0.24);
+  --primitive-gray-6a: rgb(15 23 42 / 0.40);
+  --primitive-gray-7a: rgb(15 23 42 / 0.56);
+  --primitive-gray-8a: rgb(15 23 42 / 0.68);
+  --primitive-gray-9a: rgb(15 23 42 / 0.80);
+  --primitive-gray-10a: rgb(15 23 42 / 0.92);
+  
+  /* Blue (Primary Brand) */
+  --primitive-blue-50: #EFF6FF;
+  --primitive-blue-100: #DBEAFE;
+  --primitive-blue-200: #BFDBFE;
+  --primitive-blue-300: #93C5FD;
+  --primitive-blue-400: #60A5FA;
+  --primitive-blue-500: #3B82F6;
+  --primitive-blue-600: #2563EB;
+  --primitive-blue-700: #1D4ED8;
+  --primitive-blue-800: #1E40AF;
+  --primitive-blue-900: #1E3A8A;
+  --primitive-blue-950: #172554;
+  
+  /* Blue Alpha */
+  --primitive-blue-50a: rgb(59 130 246 / 0.05);
+  --primitive-blue-100a: rgb(59 130 246 / 0.10);
+  --primitive-blue-200a: rgb(59 130 246 / 0.20);
+  --primitive-blue-300a: rgb(59 130 246 / 0.30);
+  --primitive-blue-400a: rgb(59 130 246 / 0.40);
+  --primitive-blue-500a: rgb(59 130 246 / 0.50);
+  --primitive-blue-600a: rgb(59 130 246 / 0.60);
+  --primitive-blue-700a: rgb(59 130 246 / 0.70);
+  --primitive-blue-800a: rgb(59 130 246 / 0.80);
+  --primitive-blue-900a: rgb(59 130 246 / 0.90);
+  
+  /* Green (Success) */
+  --primitive-green-50: #F0FDF4;
+  --primitive-green-100: #DCFCE7;
+  --primitive-green-200: #BBF7D0;
+  --primitive-green-300: #86EFAC;
+  --primitive-green-400: #4ADE80;
+  --primitive-green-500: #22C55E;
+  --primitive-green-600: #16A34A;
+  --primitive-green-700: #15803D;
+  --primitive-green-800: #166534;
+  --primitive-green-900: #14532D;
+  
+  /* Green Alpha */
+  --primitive-green-50a: rgb(34 197 94 / 0.05);
+  --primitive-green-100a: rgb(34 197 94 / 0.10);
+  --primitive-green-200a: rgb(34 197 94 / 0.20);
+  --primitive-green-300a: rgb(34 197 94 / 0.30);
+  --primitive-green-400a: rgb(34 197 94 / 0.40);
+  --primitive-green-500a: rgb(34 197 94 / 0.50);
+  
+  /* Red (Error) */
+  --primitive-red-50: #FEF2F2;
+  --primitive-red-100: #FEE2E2;
+  --primitive-red-200: #FECACA;
+  --primitive-red-300: #FCA5A5;
+  --primitive-red-400: #F87171;
+  --primitive-red-500: #EF4444;
+  --primitive-red-600: #DC2626;
+  --primitive-red-700: #B91C1C;
+  --primitive-red-800: #991B1B;
+  --primitive-red-900: #7F1D1D;
+  
+  /* Red Alpha */
+  --primitive-red-50a: rgb(239 68 68 / 0.05);
+  --primitive-red-100a: rgb(239 68 68 / 0.10);
+  --primitive-red-200a: rgb(239 68 68 / 0.20);
+  --primitive-red-300a: rgb(239 68 68 / 0.30);
+  --primitive-red-400a: rgb(239 68 68 / 0.40);
+  --primitive-red-500a: rgb(239 68 68 / 0.50);
+  
+  /* Orange (Warning) */
+  --primitive-orange-50: #FFF7ED;
+  --primitive-orange-100: #FFEDD5;
+  --primitive-orange-200: #FED7AA;
+  --primitive-orange-300: #FDBA74;
+  --primitive-orange-400: #FB923C;
+  --primitive-orange-500: #F97316;
+  --primitive-orange-600: #EA580C;
+  --primitive-orange-700: #C2410C;
+  --primitive-orange-800: #9A3412;
+  --primitive-orange-900: #7C2D12;
+  
+  /* Orange Alpha */
+  --primitive-orange-50a: rgb(249 115 22 / 0.05);
+  --primitive-orange-100a: rgb(249 115 22 / 0.10);
+  --primitive-orange-200a: rgb(249 115 22 / 0.20);
+  --primitive-orange-300a: rgb(249 115 22 / 0.30);
+  --primitive-orange-400a: rgb(249 115 22 / 0.40);
+  --primitive-orange-500a: rgb(249 115 22 / 0.50);
+  
+  /* Purple (Accent) */
+  --primitive-purple-50: #FAF5FF;
+  --primitive-purple-100: #F3E8FF;
+  --primitive-purple-200: #E9D5FF;
+  --primitive-purple-300: #D8B4FE;
+  --primitive-purple-400: #C084FC;
+  --primitive-purple-500: #A855F7;
+  --primitive-purple-600: #9333EA;
+  --primitive-purple-700: #7E22CE;
+  --primitive-purple-800: #6B21A8;
+  --primitive-purple-900: #581C87;
+  
+  /* Border base */
+  --primitive-border-base-alpha: var(--primitive-gray-3);
+}
+
