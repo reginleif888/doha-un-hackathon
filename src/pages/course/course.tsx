@@ -88,7 +88,12 @@ export const CoursePage = () => {
           );
 
           return (
-            <Link key={topic.id} to={`/course/${topic.id}`} className="block">
+            <Link
+              key={topic.id}
+              to="/course/$topicId"
+              params={{ topicId: topic.id }}
+              className="block"
+            >
               <Card className="hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <CardHeader className="p-3 sm:p-4 lg:p-6 pb-2 sm:pb-3">
                   <div className="flex items-start gap-3 sm:gap-4">

@@ -64,12 +64,12 @@ export const LessonPage = () => {
     );
   }
 
-  if (!course || !topic || !lesson) {
+  if (!course || !topic || !lesson || !topicId || !lessonId) {
     return (
       <div className="flex flex-col items-center justify-center h-full min-h-[50vh] gap-4 p-4">
         <p className="text-muted-foreground text-center">Lesson not found</p>
         <Button asChild>
-          <Link to={`/course/${topicId}`}>Back to Topic</Link>
+          <Link to="/course">Back to Course</Link>
         </Button>
       </div>
     );
@@ -86,7 +86,10 @@ export const LessonPage = () => {
 
   const handleModuleClick = (moduleId: string) => {
     if (progressService.isModuleAccessible(course, topicId, lessonId, moduleId)) {
-      navigate({ to: `/course/${topicId}/${lessonId}/${moduleId}` });
+      navigate({
+        to: "/course/$topicId/$lessonId/$moduleId",
+        params: { topicId, lessonId, moduleId },
+      });
     }
   };
 
@@ -94,7 +97,11 @@ export const LessonPage = () => {
     <div className="p-4 sm:p-6 lg:p-8 max-w-4xl mx-auto">
       <div className="mb-4 sm:mb-6">
         <Button variant="ghost" asChild className="mb-3 sm:mb-4 -ml-2 h-8 sm:h-9 text-xs sm:text-sm">
-          <Link to={`/course/${topicId}`} className="flex items-center gap-1">
+          <Link
+            to="/course/$topicId"
+            params={{ topicId }}
+            className="flex items-center gap-1"
+          >
             <ChevronLeftIcon className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             <span className="truncate max-w-[150px] sm:max-w-none">Back to {topic.title}</span>
           </Link>

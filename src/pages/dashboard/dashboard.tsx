@@ -90,7 +90,12 @@ export const DashboardPage = () => {
                 </p>
               </div>
             </div>
-            <Button variant="outline" asChild size="sm" className="w-full sm:w-auto shrink-0">
+            <Button
+              variant="outline"
+              asChild
+              size="sm"
+              className="w-full sm:w-auto shrink-0"
+            >
               <Link to="/character">Meet Gracie</Link>
             </Button>
           </div>
@@ -152,7 +157,9 @@ export const DashboardPage = () => {
             </CardDescription>
             <CardTitle className="flex items-center gap-2">
               <BookOpenIcon className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
-              <span className="text-2xl sm:text-3xl">{course.topics.length}</span>
+              <span className="text-2xl sm:text-3xl">
+                {course.topics.length}
+              </span>
               <span className="text-xs sm:text-sm font-normal text-muted-foreground">
                 topics to explore
               </span>
@@ -179,11 +186,17 @@ export const DashboardPage = () => {
                     Your Flashcard Library
                   </h3>
                   <p className="text-xs sm:text-sm text-muted-foreground">
-                    {flashcardStats.total} saved • {flashcardStats.dueNow} ready for practice
+                    {flashcardStats.total} saved • {flashcardStats.dueNow} ready
+                    for practice
                   </p>
                 </div>
               </div>
-              <Button variant="outline" asChild size="sm" className="w-full sm:w-auto shrink-0">
+              <Button
+                variant="outline"
+                asChild
+                size="sm"
+                className="w-full sm:w-auto shrink-0"
+              >
                 <Link to="/flashcards">View Flashcards</Link>
               </Button>
             </div>
@@ -213,7 +226,11 @@ export const DashboardPage = () => {
             const isCompleted = topicProgress.percentage === 100;
 
             return (
-              <Link key={topic.id} to={`/course/${topic.id}`}>
+              <Link
+                key={topic.id}
+                to="/course/$topicId"
+                params={{ topicId: topic.id }}
+              >
                 <Card className="hover:border-primary/50 transition-colors cursor-pointer">
                   <CardContent className="p-3 sm:p-4 flex items-center gap-3 sm:gap-4">
                     <div className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-brand-50 text-xl sm:text-2xl shrink-0">

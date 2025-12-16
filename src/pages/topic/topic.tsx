@@ -52,7 +52,7 @@ export const TopicPage = () => {
     );
   }
 
-  if (!course || !topic) {
+  if (!course || !topic || !topicId) {
     return (
       <div className="flex flex-col items-center justify-center h-full min-h-[50vh] gap-4 p-4">
         <p className="text-muted-foreground text-center">Topic not found</p>
@@ -164,7 +164,10 @@ export const TopicPage = () => {
                   </div>
                   {isAccessible && (
                     <Button asChild size="sm" className="w-full sm:w-auto h-8 sm:h-9 text-xs sm:text-sm">
-                      <Link to={`/course/${topicId}/${lesson.id}`}>
+                      <Link
+                        to="/course/$topicId/$lessonId"
+                        params={{ topicId, lessonId: lesson.id }}
+                      >
                         {isCompleted ? (
                           "Review"
                         ) : completedModules > 0 ? (

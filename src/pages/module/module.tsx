@@ -15,8 +15,11 @@ import type {
   Topic,
   Lesson,
   Module,
-  ModuleType,
+  InfoModule as InfoModuleType,
+  QuizModule as QuizModuleType,
+  FlashcardsModule as FlashcardsModuleType,
 } from "@/shared/types";
+import { ModuleType } from "@/shared/types";
 
 export const ModulePage = () => {
   const params = useParams({ strict: false });
@@ -54,12 +57,12 @@ export const ModulePage = () => {
     );
   }
 
-  if (!course || !topic || !lesson || !module) {
+  if (!course || !topic || !lesson || !module || !topicId || !lessonId || !moduleId) {
     return (
       <div className="flex flex-col items-center justify-center h-full min-h-[50vh] gap-4 p-4">
         <p className="text-muted-foreground text-center">Module not found</p>
         <Button asChild>
-          <Link to={`/course/${topicId}/${lessonId}`}>Back to Lesson</Link>
+          <Link to="/course">Back to Course</Link>
         </Button>
       </div>
     );
@@ -86,15 +89,21 @@ export const ModulePage = () => {
 
   const handleContinue = () => {
     if (nextModule) {
-      navigate({ to: `/course/${topicId}/${lessonId}/${nextModule.id}` });
+      navigate({
+        to: "/course/$topicId/$lessonId/$moduleId",
+        params: { topicId, lessonId, moduleId: nextModule.id },
+      });
     } else {
       const lessonIndex = topic.lessons.findIndex((l) => l.id === lessonId);
       const nextLesson = topic.lessons[lessonIndex + 1];
 
       if (nextLesson) {
-        navigate({ to: `/course/${topicId}/${nextLesson.id}` });
+        navigate({
+          to: "/course/$topicId/$lessonId",
+          params: { topicId, lessonId: nextLesson.id },
+        });
       } else {
-        navigate({ to: `/course/${topicId}` });
+        navigate({ to: "/course/$topicId", params: { topicId } });
       }
     }
   };
@@ -112,7 +121,8 @@ export const ModulePage = () => {
         <div className="flex items-center justify-between max-w-4xl mx-auto gap-2">
           <Button variant="ghost" asChild className="-ml-2 h-8 sm:h-9 text-xs sm:text-sm px-2 sm:px-3">
             <Link
-              to={`/course/${topicId}/${lessonId}`}
+              to="/course/$topicId/$lessonId"
+              params={{ topicId, lessonId }}
               className="flex items-center gap-1"
             >
               <ChevronLeftIcon className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
@@ -140,18 +150,18 @@ export const ModulePage = () => {
       </div>
 
       <div className="flex-1 overflow-auto">
-        {module.type === ("info" as ModuleType) && (
+        {module.type === ModuleType.INFO && (
           <InfoModule
-            module={module}
+            module={module as InfoModuleType}
             isCompleted={isCompleted}
             onComplete={handleComplete}
             onContinue={handleContinue}
             isLastModule={isLastModule}
           />
         )}
-        {module.type === ("quiz" as ModuleType) && (
+        {module.type === ModuleType.QUIZ && (
           <QuizModule
-            module={module}
+            module={module as QuizModuleType}
             isCompleted={isCompleted}
             previousScore={moduleProgress?.score}
             onComplete={handleComplete}
@@ -159,9 +169,9 @@ export const ModulePage = () => {
             isLastModule={isLastModule}
           />
         )}
-        {module.type === ("flashcards" as ModuleType) && (
+        {module.type === ModuleType.FLASHCARDS && (
           <FlashcardsModule
-            module={module}
+            module={module as FlashcardsModuleType}
             topicId={topicId}
             lessonId={lessonId}
             isCompleted={isCompleted}
