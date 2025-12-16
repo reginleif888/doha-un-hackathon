@@ -5,7 +5,6 @@ import {
   SmileIcon,
   MehIcon,
   FrownIcon,
-  TrophyIcon,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -72,43 +71,62 @@ export const FlashcardsRecallPage = () => {
 
   if (showCompletion) {
     return (
-      <div className="min-h-screen bg-background-primary flex items-center justify-center p-4 sm:p-6">
-        <Card className="w-full max-w-2xl">
-          <CardContent className="p-8 sm:p-12 text-center">
-            <div className="flex items-center justify-center mb-6">
-              <div className="w-20 h-20 rounded-full bg-success/10 flex items-center justify-center">
-                <CheckCircle2Icon className="w-10 h-10 text-success" />
-              </div>
-            </div>
-
-            <div className="mb-4 sm:mb-6">
-              <h1 className="text-2xl sm:text-3xl font-bold text-foreground mb-3">
-                Recall Session Complete!
-              </h1>
-              <p className="text-sm sm:text-base text-muted-foreground">
-                Great job! You&apos;ve reviewed {completed} flashcard
-                {completed !== 1 ? "s" : ""}.
-              </p>
-            </div>
-
-            <div className="mb-6 sm:mb-8">
-              <div className="inline-flex items-center justify-center gap-3 bg-warning/10 rounded-lg px-6 py-4">
-                <TrophyIcon className="w-6 h-6 text-warning" />
-                <span className="text-lg font-semibold text-foreground">
-                  Keep up the great work!
-                </span>
-              </div>
-            </div>
-
-            <Button
-              onClick={handleFinish}
-              size="lg"
-              className="w-full sm:w-auto px-8"
+      <div className="min-h-screen bg-background-primary">
+        <div className="h-screen flex flex-col lg:flex-row">
+          {/* Video Side */}
+          <div className="w-full lg:w-1/2 h-48 sm:h-64 lg:h-full bg-black flex items-center justify-center overflow-hidden relative">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
             >
-              Back to Library
-            </Button>
-          </CardContent>
-        </Card>
+              <source
+                src="https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/dancing.MP4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+
+          {/* Content Side */}
+          <div className="flex-1 flex items-center justify-center p-6 sm:p-8 lg:p-12 overflow-y-auto">
+            <div className="w-full max-w-lg space-y-8">
+              {/* Header */}
+              <div className="text-center lg:text-left">
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+                  Recall Session Complete!
+                </h1>
+                <p className="text-base sm:text-lg text-muted-foreground">
+                  Great job! You&apos;ve reviewed {completed} flashcard
+                  {completed !== 1 ? "s" : ""}.
+                </p>
+              </div>
+
+              {/* Message */}
+              <div className="space-y-4">
+                <p className="text-base sm:text-lg text-foreground leading-relaxed">
+                  You&apos;re building strong knowledge foundations through consistent practice. Each review session strengthens your memory and deepens your understanding.
+                </p>
+
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                  Keep up this momentum and continue your learning journey!
+                </p>
+              </div>
+
+              {/* CTA */}
+              <div className="pt-4">
+                <Button
+                  onClick={handleFinish}
+                  size="lg"
+                  className="w-full sm:w-auto sm:min-w-[240px] h-12 text-base font-semibold"
+                >
+                  Back to Library
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
