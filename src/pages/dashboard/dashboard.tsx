@@ -85,7 +85,7 @@ export const DashboardPage = () => {
                   <SparklesIcon className="w-4 h-4 text-warning" />
                 </h3>
                 <p className="text-xs sm:text-sm text-muted-foreground">
-                  I'm here to guide you through anti-corruption education
+                  I&apos;m here to guide you through anti-corruption education
                 </p>
               </div>
             </div>

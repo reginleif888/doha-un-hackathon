@@ -64,62 +64,59 @@ export const Onboarding = () => {
     return (
       <div className="min-h-screen bg-background-primary">
         <div className="h-screen flex flex-col lg:flex-row">
-          <div className="w-full lg:w-1/2 h-48 sm:h-64 lg:h-full bg-gradient-to-br from-brand-100 to-brand-200 flex items-center justify-center overflow-hidden">
-            <img
-              src="/characters/X.png"
-              alt="Gracie"
+          {/* Video Side */}
+          <div className="w-full lg:w-1/2 h-48 sm:h-64 lg:h-full bg-black flex items-center justify-center overflow-hidden relative">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
               className="w-full h-full object-cover"
-            />
+            >
+              <source
+                src="https://wntexajvlhsyexlxqylk.supabase.co/storage/v1/object/public/course_videos/ambient_video.mp4"
+                type="video/mp4"
+              />
+            </video>
           </div>
 
+          {/* Content Side */}
           <div className="flex-1 flex items-center justify-center p-6 sm:p-8 lg:p-12 overflow-y-auto">
-            <div className="w-full max-w-xl">
-              <div className="mb-6 sm:mb-8">
-                <div className="inline-flex items-center justify-center w-14 h-14 bg-success/10 rounded-full mb-4">
-                  <CheckCircle2Icon className="w-7 h-7 text-success" />
-                </div>
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3">
-                  Meet Your Learning Companion!
+            <div className="w-full max-w-lg space-y-8">
+              {/* Header */}
+              <div className="text-center lg:text-left">
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+                  Meet {mentorName}
                 </h1>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  Based on your profile, we've selected {mentorName} to guide you through your anti-corruption education journey.
+                <p className="text-base sm:text-lg text-brand-600 font-medium">
+                  Your AI Learning Companion
                 </p>
               </div>
 
-              <div className="space-y-6 mb-8">
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-bold text-foreground mb-2">
-                    {mentorName}
-                  </h2>
-                  <p className="text-sm sm:text-base text-brand-600 font-medium">
-                    Your AI Learning Companion
-                  </p>
-                </div>
+              {/* Message */}
+              <div className="space-y-6">
+                <p className="text-base sm:text-lg text-foreground leading-relaxed">
+                  {getMentorMessage()}
+                </p>
 
-                <div className="bg-brand-50/50 rounded-xl p-5 sm:p-6 border border-brand-200">
-                  <p className="text-sm sm:text-base text-foreground leading-relaxed">
-                    {getMentorMessage()}
-                  </p>
-                </div>
-
-                <div className="bg-muted/30 rounded-xl p-5 sm:p-6 border border-border-base-neutral">
-                  <p className="text-sm text-muted-foreground">
-                    Together, we'll explore the UN Convention against Corruption and learn how to build a more transparent, accountable world.
-                  </p>
-                </div>
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                  Together, we'll explore the UN Convention against Corruption and learn how to build a more transparent, accountable world.
+                </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-3">
+              {/* CTA */}
+              <div className="pt-4">
                 <Button
                   onClick={handleContinue}
                   size="lg"
-                  className="flex-1 h-12 text-base font-semibold"
+                  className="w-full sm:w-auto sm:min-w-[240px] h-12 text-base font-semibold"
                 >
                   Start Learning Now
                 </Button>
               </div>
 
-              <p className="text-xs text-center text-muted-foreground mt-6">
+              {/* Footer */}
+              <p className="text-xs text-muted-foreground text-center lg:text-left pt-4">
                 Part of the UNODC GRACE Initiative
               </p>
             </div>
