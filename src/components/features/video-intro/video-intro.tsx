@@ -18,13 +18,13 @@ export const VideoIntro = ({ src, className }: VideoIntroProps) => {
   const [isDragging, setIsDragging] = useState(false);
 
   // Size configuration
-  const size = 200;
-  const strokeWidth = 4;
+  const size = 300;
+  const strokeWidth = 6;
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;
 
-  // Button size (w-16 = 64px, so radius is 32px, add 8px padding)
-  const buttonRadius = 40;
+  // Button size (w-20 = 80px, so radius is 40px, add 10px padding)
+  const buttonRadius = 50;
 
   // Calculate angle from click position (returns 0-1 percentage)
   const calculateAnglePercentage = useCallback(
@@ -155,11 +155,22 @@ export const VideoIntro = ({ src, className }: VideoIntroProps) => {
     if (!video) return;
 
     try {
-      video.muted = true;
+      video.muted = false;
       await video.play();
       setIsPlaying(true);
     } catch (err) {
       console.error("Play failed:", err);
+      // If autoplay fails due to browser policy, try muted
+      if (err instanceof Error && err.name === "NotAllowedError") {
+        try {
+          video.muted = true;
+          await video.play();
+          setIsPlaying(true);
+          console.warn("Video started muted due to browser autoplay policy");
+        } catch (mutedErr) {
+          console.error("Muted play also failed:", mutedErr);
+        }
+      }
     }
   }, []);
 
@@ -275,7 +286,6 @@ export const VideoIntro = ({ src, className }: VideoIntroProps) => {
             src={src}
             className="w-full h-full object-cover"
             playsInline
-            muted
             preload="auto"
             onTimeUpdate={handleTimeUpdate}
             onEnded={handleEnded}
@@ -299,7 +309,7 @@ export const VideoIntro = ({ src, className }: VideoIntroProps) => {
         <AnimatePresence>
           {controlsVisible && (
             <motion.button
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-white/90 flex items-center justify-center shadow-xl cursor-pointer z-10"
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full bg-white/90 flex items-center justify-center shadow-xl cursor-pointer z-10"
               style={{ pointerEvents: "auto" }}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -310,9 +320,9 @@ export const VideoIntro = ({ src, className }: VideoIntroProps) => {
               whileTap={{ scale: 0.95 }}
             >
               {isPlaying ? (
-                <PauseIcon className="w-8 h-8 text-primary" />
+                <PauseIcon className="w-10 h-10 text-primary" />
               ) : (
-                <PlayIcon className="w-8 h-8 text-primary ml-1" />
+                <PlayIcon className="w-10 h-10 text-primary ml-1" />
               )}
             </motion.button>
           )}
